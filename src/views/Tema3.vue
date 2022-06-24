@@ -1,15 +1,14 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 3
-      h1 Titulo de primer nivel
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    
+    #t_3_1.pb-5.h2 tema 3.1
 
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Tema3',
   data: () => ({

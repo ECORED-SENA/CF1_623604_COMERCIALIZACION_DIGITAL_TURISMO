@@ -5,11 +5,13 @@
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span
+        span 
           i.fas.fa-info
       h1 Introducción
-    
-</template>
+    p Le damos la bienvenida al componente formativo “Diseño de experiencias gastronómicas”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+    figure.mb-5(data-aos="fade-up")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)</template>
 
 <script>
 export default {

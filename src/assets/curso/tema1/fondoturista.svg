@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="409.906" height="317.371" viewBox="0 0 409.906 317.371">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectángulo_275445" data-name="Rectángulo 275445" d="M17.3,0H382.7A17.3,17.3,0,0,1,400,17.3V253.831a17.3,17.3,0,0,1-17.3,17.3H17.3A17.3,17.3,0,0,1,0,253.832V17.3A17.3,17.3,0,0,1,17.3,0Z" fill="#bbdbfa"/>
+    </clipPath>
+    <filter id="Unión_3" x="0" y="0" width="409.906" height="297.542" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_765817" data-name="Grupo 765817" transform="translate(-386.047 -6430.893)">
+    <g id="Grupo_731747" data-name="Grupo 731747" transform="translate(391 6477.131)">
+      <g id="Grupo_731713" data-name="Grupo 731713" clip-path="url(#clip-path)">
+        <path id="Trazado_496670" data-name="Trazado 496670" d="M0,0H400V271.133H0Z" transform="translate(0 0)" fill="#bbdbfa"/>
+      </g>
+    </g>
+    <text id="_01" data-name="01" transform="translate(406.675 6724.794)" fill="#12263f" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">01</tspan></text>
+    <text id="Turista_" data-name="Turista
+
+
+" transform="translate(551 6705)" fill="#12263f" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="25">Turista</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 386.05, 6430.89)" filter="url(#Unión_3)">
+      <path id="Unión_3-2" data-name="Unión 3" d="M177.621,247.518l-24.477-33.057a5.2,5.2,0,0,1-.462-.748H18a18,18,0,0,1-18-18V18A18,18,0,0,1,18,0H343.905a18,18,0,0,1,18,18V195.713a18,18,0,0,1-18,18H210.6a5.194,5.194,0,0,1-.462.748l-24.478,33.057a5,5,0,0,1-8.037,0Z" transform="translate(24 21)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

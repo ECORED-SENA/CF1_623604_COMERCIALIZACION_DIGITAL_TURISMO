@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="295" height="496.744" viewBox="0 0 295 496.744">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_289610" data-name="Rectángulo 289610" width="169.662" height="52.691" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_765822" data-name="Grupo 765822" transform="translate(-494.92 -8875.506)">
+    <g id="Grupo_746862" data-name="Grupo 746862" transform="translate(557.92 8875.506)">
+      <g id="Grupo_746830" data-name="Grupo 746830" clip-path="url(#clip-path)">
+        <path id="Trazado_512000" data-name="Trazado 512000" d="M120.11,54.231V49.856h-8.727v27.4h8.4V65.386a21.354,21.354,0,0,1,.124-2.325c.16-1.464.624-4.453,3.16-5.651,2.852-1.347,7.507-.2,7.507-.2v-7.59c-7.976-1.6-10.463,4.609-10.463,4.609" transform="translate(-86.14 -38.173)" fill="#0080af"/>
+        <rect id="Rectángulo_289609" data-name="Rectángulo 289609" width="8.446" height="27.401" transform="translate(46.591 11.73)" fill="#0080af"/>
+        <path id="Trazado_512001" data-name="Trazado 512001" d="M213.388,4.317A4.317,4.317,0,1,1,209.072,0a4.317,4.317,0,0,1,4.317,4.317" transform="translate(-158.351)" fill="#0080af"/>
+        <path id="Trazado_512002" data-name="Trazado 512002" d="M18.111,45.258a3.191,3.191,0,0,1-2.614-2.01,5.5,5.5,0,0,1-.53-2.41V30.994h8.211V24.331H14.967V16.355H5.912v7.976H0v6.662H5.912s-.029,13.925,0,14.331c.107,1.5,1.009,5.144,7.108,6.466a17.294,17.294,0,0,0,3.341.371,21.4,21.4,0,0,0,7-.8V44.5s-.938,1.129-5.255.754" transform="translate(0 -12.648)" fill="#0080af"/>
+        <path id="Trazado_512003" data-name="Trazado 512003" d="M247.891,51.6h8.92l6.922,18.58,6.458-18.627,8.346.047L267.956,78.717h-8.981Z" transform="translate(-191.711 -39.868)" fill="#f49000"/>
+        <path id="Trazado_512004" data-name="Trazado 512004" d="M392.948,48.785a14.19,14.19,0,0,0-4.035-.547c-8.352,0-12.762,4.6-12.762,4.6l4.41,4.692a9.44,9.44,0,0,1,7.695-3.378s4.692.343,4.692,4.91c0,0-17.642-1.813-18.3,9.072-.5,8.266,7.228,8.848,10.975,8.65a10.044,10.044,0,0,0,5.108-1.677,7.2,7.2,0,0,0,2.215-2.267v3.27h7.507V58.762a10.343,10.343,0,0,0-7.507-9.977m-.281,18.08s-.563,4.27-6.662,4.27c0,0-3.66-.094-3.66-2.815,0-2.429,2.629-3.671,4.736-3.825,1.859-.135,3.724-.2,5.586-.3Z" transform="translate(-289.725 -37.306)" fill="#f49000"/>
+        <path id="Trazado_512005" data-name="Trazado 512005" d="M640.688,49.067a14.175,14.175,0,1,0,13.794,14.17c0-7.826-5.349-14.17-13.794-14.17m-.047,21.114c-3.343,0-6.053-3.088-6.053-6.9s2.252-6.9,6.053-6.9c3.894,0,6.053,3.088,6.053,6.9s-2.346,6.9-6.053,6.9" transform="translate(-484.821 -37.947)" fill="#ca492c"/>
+        <path id="Trazado_512006" data-name="Trazado 512006" d="M522.957,79.135q.012-.308.01-.617c-.015-2.643,0-5.286,0-7.929V50.516h-7.319v4.151a11.462,11.462,0,0,0-1.267-1.275,12.418,12.418,0,0,0-8.3-2.876c-7.695,0-11.352,6.26-11.352,13.982s2.906,13.982,12.1,13.982a11.092,11.092,0,0,0,7.553-3.055v4.22c0,.478-1.055,4.92-7.1,4.857s-9.138-2.69-9.138-2.69l-3.753,6.006s4.317,3.941,14.451,3.941a17.391,17.391,0,0,0,5.537-.832q.663-.222,1.267-.495a12.719,12.719,0,0,0,7.31-11.3m-13.738-7.88c-3.421,0-6.193-3.141-6.193-7.014s2.773-7.015,6.193-7.015a6.037,6.037,0,0,1,5.161,3.137,7.8,7.8,0,0,1,0,7.755,6.037,6.037,0,0,1-5.161,3.137" transform="translate(-382.349 -39.068)" fill="#ca492c"/>
+      </g>
+    </g>
+    <g id="Rectángulo_289619" data-name="Rectángulo 289619" transform="translate(642.337 8928.197) rotate(45)" fill="#ffb338" stroke="#ffb338" stroke-width="1">
+      <rect width="35.946" height="35.946" stroke="none"/>
+      <rect x="0.5" y="0.5" width="34.946" height="34.946" fill="none"/>
+    </g>
+    <g id="Grupo_746854" data-name="Grupo 746854" transform="translate(602.92 8998.631)">
+      <path id="Trazado_150879" data-name="Trazado 150879" d="M-2970-10240.482v78.942" transform="translate(3010.336 10240.482)" fill="none" stroke="#ffb338" stroke-width="1" stroke-dasharray="5 5"/>
+      <path id="Trazado_150880" data-name="Trazado 150880" d="M-3001.047-10181.678h78.974" transform="translate(3001.047 10260.62)" fill="none" stroke="#ffb338" stroke-width="3"/>
+    </g>
+    <rect id="Rectángulo_289623" data-name="Rectángulo 289623" width="295" height="278" rx="10" transform="translate(494.92 9094.25)" fill="#ffb338" opacity="0.91"/>
+    <g id="Grupo_746853" data-name="Grupo 746853" transform="translate(491.92 9083.274)">
+      <text id="Es_uno_de_los_metabuscadores_hoteleros_por_excelencia_en_España._" data-name="Es uno de los metabuscadores hoteleros por excelencia en España.
+
+" transform="translate(23 31.771)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Es uno de los metabuscadores </tspan><tspan x="0" y="41">hoteleros por excelencia en </tspan><tspan x="0" y="65">España.</tspan><tspan x="0" y="89"></tspan></text>
+    </g>
+  </g>
+</svg>
