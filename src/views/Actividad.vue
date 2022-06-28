@@ -5,18 +5,18 @@
     
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0(data-aos="fade-up-right")
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
+            img(src="@/assets/curso/iconos/falso-verdadero.svg")
+      .col-12.col-md-8.col-lg-9(data-aos="fade-up-left")
         .titulo-segundo
-          h2 Actividad didáctica 1
-        p.mb-4 Relación de conceptos
+          h2 Encuentra la respuesta correcta.
+        p.mb-4 Afianzar conocimientos de la estructuración de la experiencia turística
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Afianzar conocimientos del diseño de experiencias gastronómicas en el proceso de aprehensión de conocimientos.
+              p.fw-bold.mb-0 Falso o verdadero.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

@@ -57,7 +57,7 @@
   background-image: url('../assets/curso/tema1/fondoturista.svg')
   background-size: cover
   background-repeat: no-repeat
-  background-position: center
+  background-position: bottom
 
 .fondo4
   background-color: #F3F9FF !important
@@ -66,7 +66,7 @@
   background-image: url('../assets/curso/tema1/fondoexcursionista.svg')
   background-size: cover
   background-repeat: no-repeat
-  background-position: center
+  background-position: bottom
 
 .fondo6
   background-color: #FFB338 !important
@@ -234,6 +234,43 @@
   background-color: #FFF0CA
   border-radius: 10px
 
+.fondo40
+  background-image: url('../assets/curso/tema1/fondo14.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.fondo41
+  background-color: #E4F1FE
+  padding: 20px
+
+.fondo42
+  background-image: url('../assets/curso/tema2/fondo1.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.fondo43
+  background-color: #FFF7E5
+
+.fondo44
+  background-image: url('../assets/curso/tema2/fondo2.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+
+.fondo45
+  background-color: #C8D2C4
+
+.fondo46
+  background-image: url('../assets/curso/tema2/fondo3.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.sombracajon
+  box-shadow: 3px 3px 3px #7070701a
+
 .otrobloque .bloque-texto-g__texto 
   position: relative
   width: 65%
@@ -247,6 +284,20 @@
     left: 50%
     background-position: top
     background-size: 100% 108%
+
+.otrobloque2 .bloque-texto-g__img
+    width: 50%
+    position: absolute
+    top: 0
+    left: 50%
+    background-position: top
+    background-size: 100% 108%
+
+.otrobloque2 .bloque-texto-g__texto 
+  position: relative
+  width: 65%
+  right: 34%
+  background-color: rgba(255, 255, 255, 0.95)
 
 .subrayar
   text-decoration: underline
@@ -283,6 +334,12 @@
 
 .cajon.puntacajon2:before
   background-color: #3D672F
+
+.cajon.puntacajon3:before
+  background-color: #FCCC7A
+
+.cajon.puntacajon4:before
+  background-color: #98B48F
 
 .ampliarambos
   margin-right: -50px
@@ -427,8 +484,8 @@
 .otroslide .slyder-a__bullets__item 
     background-color: rgba(0,139,210,0.35)
     border: 1px solid rgba(112,112,112,0.35)
-    @media (max-width: 490px)
-      margin: 0 5px
+    @media (max-width: 560px)
+      margin: 0 3px
     @media (max-width: 390px)
       margin: 0 2px
 
@@ -436,7 +493,7 @@
     background-color: rgba(235,111,45,0.35)
     border: 1px solid rgba(112,112,112,0.35)
     @media (max-width: 490px)
-      margin: 0 5px
+      margin: 0 3px
     @media (max-width: 390px)
       margin: 0 2px
 
@@ -444,7 +501,7 @@
     background-color: rgba(0,130,255,0.35)
     border: 1px solid rgba(112,112,112,0.35)
     @media (max-width: 490px)
-      margin: 0 5px
+      margin: 0 3px
     @media (max-width: 390px)
       margin: 0 2px
 
@@ -466,6 +523,10 @@
 .anchoimg
   height: 85%
 
+.anchoimg2
+  width: 120% !important
+  height: 100%
+
 .alinearArriba
   vertical-align: top !important
 
@@ -477,6 +538,8 @@
     justify-content: center
   .alto1
     height: 700px
+  .alto2
+    height: 820px
   .altura
     height: 90% !important
   .fondo31
@@ -489,14 +552,16 @@
   .fondo37
     background-color: #FFECBE
     width: 32%
-
   .fondo38
     background-color: rgba(95, 145, 78,0.46 )
     width: 32%
-
   .fondo39
     background-color: #B6E1FD
     width: 32%
+  .anchocol
+    width: 150px
+  .margin-5
+    margin-left: 40px !important
 
 @media (max-width: 1400px)
   .margenesx
@@ -505,6 +570,8 @@
     justify-content: center
   .alto1
     height: 650px
+  .alto2
+    height: 700px
   .altura
     height: 92% !important
   .alineacion
@@ -519,14 +586,16 @@
   .fondo37
     background-color: #FFECBE
     width: 32%
-
   .fondo38
     background-color: rgba(95, 145, 78,0.46 )
     width: 32%
-
   .fondo39
     background-color: #B6E1FD
     width: 32%
+  .anchocol
+    width: 150px
+  .margin-5
+    margin-left: 40px !important
 
 @media (max-width: 1200px)
   .margenesx
@@ -535,6 +604,8 @@
     justify-content: start
   .alto1
     height: 500px
+  .alto2
+    height: 600px
   .altura
     height: 93% !important
   .margen
@@ -549,6 +620,8 @@
     display: none
   .alto1
     height: 450px
+  .alto2
+    height: 520px
   .fondo26
     margin-left: 0
   .alineacion
@@ -570,6 +643,21 @@
     background-position: top
     background-size: 100% 108%
   .otrobloque .bloque-texto-g__texto 
+    position: relative
+    width: 100%
+    height: 50%
+    left: 0
+    background-color: rgba(255, 255, 255, 0.95)
+  .otrobloque2 .bloque-texto-g__img
+    width: 100%
+    height: 70% !important
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    background-position: top
+    background-size: 100% 108%
+  .otrobloque2 .bloque-texto-g__texto 
     position: relative
     width: 100%
     height: 50%
@@ -597,10 +685,23 @@
   .fondo39
     background-color: #B6E1FD
     width: 100%
+  .anchocol
+    width: 100px
+  .linea-tiempo-d__item__content__title 
+    height: 80px
 
 @media (max-width: 576px)
   .img-infografica-b__modal
     left: 20px
+  .sizeimg
+    width: 40% !important
+    height: 40% !important
+  .tarjeta.otra2
+    height: 700px
+  .margin-5
+    margin-left: 20px !important
+    margin-bottom: 0
+
 
 @keyframes float1
   0%

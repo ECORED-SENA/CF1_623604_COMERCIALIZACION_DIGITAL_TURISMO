@@ -182,52 +182,6 @@ export default {
           },
         ],
       },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
-        ],
-      },
     ],
     subMenu: [
       {
@@ -271,132 +225,143 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Abarca Zaquinaula, M (s.f.). Propuesta de un modelo alternativo de funcionamiento del sistema turístico.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://repositorio.pucesa.edu.ec/bitstream/123456789/2224/1/Sistema%20Tur%C3%ADstico.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Boullón, R. C. (2006). Planificación del Espacio Turístico. Trillas. Cordente Rodríguez, M; Mondéjar Jiménez, J.A; Esteban Talaya, A (s.f.). Motivaciones del turista: cambio de paradigma. Universitat Jaume I.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www2.fue.uji.es/gesfue2/doc_fue/docs/jornadas/15turismo/motivaciones.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Gurría, M. (2004). Introducción al Turismo. Editorial Trillas. Ledhesma, M (2018). Tipos de turismo: nueva clasificación.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://frrq.cvg.utn.edu.ar/pluginfile.php/15091/mod_resource/content/0/Tipos%20de%20turismo%2C%20nueva%20clasificaci%C3%B3n%20-%20Manuel%20Ledhesma.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Martinez Espin, P. (2009). El contrato de viaje combinado. Ediciones la Universidad de Castilla. Marketing de pymes (2021). Fitur 2021 y las nuevas tendencias del Turismo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.marketingdepymes.com/fitur-2021-y-las-nuevas-tendencias-del-turismo/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Mincetur. (2014). Manual para la Planificación de Productos Turísticos de Perú. MINCETUR.',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Navarro, D. (2015). Recursos turísticos y atractivos turísticos: conceptualización, clasificación y valoración. Cuadernos de Turismo, 35, (2015), 335-357.',
+      link: 'https://www.redalyc.org/pdf/398/39838701014.pdf',
+    },
+    {
+      referencia:
+        'Norma Técnica Sectorial Colombiana NTSH 006 del 2009. Clasificación de establecimientos de alojamiento y hospedaje. Categorización por estrellas de hoteles. Requisitos.',
+    },
+    {
+      referencia:
+        'OSTELEA, Tourism Management School (2019). Qué tipos de turismo existen y cuáles triunfarán en 2020.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.ostelea.com/actualidad/blog-turismo/que-tipos-de-turismo-existen-y-cuales-triunfaran-en-2020',
+    },
+    {
+      referencia: 'Procolombia (2021). Cinco tendencias para viajar en 2021',
+      link:
+        'https://procolombia.co/noticias/cinco-tendencias-para-viajar-en-2021 ',
+    },
+    {
+      referencia:
+        'Rolando León, L (2012). Diseño de paquetes turísticos para la fundación duchicela, parroquia cacha, cantón riobamba, provincia de chimborazo. [Tesis de pregrado Ingeniería en ecoturismo].',
+    },
+    {
+      referencia:
+        'Sernatur - Servicio Nacional de Turismo (2017). Manual de diseño experiencias turísticas. Subdirección de Desarrollo-Chile.',
+      link:
+        'https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf',
+    },
+    {
+      referencia:
+        'Subdirección de Productos y Destinos Sustentables SERNATUR (2015). Manual Paso a paso para el Diseño de Productos Turísticos integrados.',
+      link:
+        'https://asesoresenturismoperu.files.wordpress.com/2016/08/244-manual-productos-turc3adsticos-chile.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Experiencia turística',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'sensaciones y emociones, interpretadas por el turista, con base a una serie de estímulos durante todas las fases de contacto con el producto turístico.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Prestadores de servicios turísticos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'empresas que proporcionan, intermedian o contratan directa o indirectamente con el turista, para la prestación de los servicios turísticos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Producto turístico',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'es la combinación de atractivos y servicios, materiales e inmateriales, que posteriormente ofrecerán al mercado los diferentes actores de la cadena (operadores, guías, medios), para satisfacer una demanda turística.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Turismo',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año.',
     },
     {
-      termino: 'Moda',
+      termino: 'Turismo sostenible',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Persigue desarrollar su actividad generando un impacto mínimo sobre el medioambiente.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Evolución del turismo',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Redacción El Tiempo. (16 de octubre 2008). 25 Hitos de la historia del turismo colombiano. EL TIEMPO.',
+      tipo: 'Artículo',
+      link:
+        'file:///D:/SENA/PROGRAMA%20DE%20DISE%C3%91O%20INSTRUCCIONAL/COMERCIALIZACI%C3%93N%20DIGITAL%20PARA%20EL%20TURISMO/COMPONENTES/CF01/ANEXOS%20VIEJOS/Anexo%204-CF1_1.5-%20hitos%20de%20la%20historia%20del%20turismo%20colombiano.pdf',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Producto Turístico',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Nicolau, J. (s.f.). El precio de los productos turísticos. Universidad de Alicante. Facultad de ciencias económicas y empresariales.',
+      tipo: 'Documento de apoyo',
+      link: 'https://rua.ua.es/dspace/bitstream/10045/16114/8/Tema%208.pdf',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Ruta turística',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Ministerio de Comercio y FONTUR. (s.f.). Cinco rutas turísticas para visitar Colombia.',
+      tipo: 'Página oficial',
+      link:
+        'https://fontur.com.co/es/eventos/estas-son-las-5-nuevas-rutas-turisticas-que-mincomercio-y-fontur-tienen-para-ti ',
+    },
+    {
+      tema: 'Sustentabilidad turística',
+      referencia:
+        'Organización de las Naciones Unidas y Organización Mundial del Turismo. (2001). Código de ética Mundial. ',
+      tipo: 'Libro- Documento',
+      link:
+        'https://www.ugto.mx/images/eventos/06-07-16/codigo-etico-mundial-turismo.pdf',
+    },
+    {
+      tema: 'Colombia turística',
+      referencia:
+        'Colombia.co. (s.f.). 12 lugares que no puedes dejar de ver en Colombia.',
+      tipo: 'Página web Colombia.co',
+      link:
+        'https://www.colombia.co/visita-colombia/experiencias-unicas/12-lugares-que-no-puedes-dejar-de-ver-en-colombia/',
+    },
+    {
+      tema: 'Colombia turística',
+      referencia:
+        'Colombia.Travel. (s.f.). Conéctate con la faceta más salvaje de Colombia a través de sus lugares turísticos.',
+      tipo: 'Página web Colombia.travel',
+      link:
+        'https://colombia.travel/es/blog/preparate-con-esta-lista-de-lugares-para-visitar-y-viaja-por-colombia',
     },
   ],
   creditos: {
@@ -414,6 +379,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Luisa Fernanda Posada Hincapié',
+        cargo: 'Experto temático',
+        centro: 'Regional Quindío - Centro de Comercio, Industria y Turismo',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Corrector de estilo ',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -428,41 +414,30 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jorge Enrique Haylock Calderín',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
