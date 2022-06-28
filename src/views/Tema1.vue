@@ -1290,8 +1290,8 @@
         img.mt-4.altura(src="@/assets/curso/tema1/imagen17.jpg")
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
         .cajon.color-primario.p-4.mb-4.mt-4.fondo1
-          p De una manera más simple, se puede decir que un OTA es un sitio web donde los interesados en viajar pueden buscar y comparar los precios de los servicios turísticos que desean adquirir, para posteriormente realizar su reserva sin la necesidad de tener un agente de viajes de manera presencial. Así pues, estos portales cuentan con grandes fortalezas ya que pueden tener un alcance mayor y en menor tiempo que una agencia tradicional o física; por ello, las pequeñas empresas del sector o incluso quienes ofrecen sus servicios de manera independiente, pueden beneficiarse de las OTA por la visibilidad y alcance en línea que ésta les ofrece.
-        p.fondo26 Internet les permite reunir la oferta mundial de viajes en un solo lugar, para que los turistas reserven sus propios viajes online. Son una herramienta de autoservicio que han cambiado la manera en que se buscan y reservan los viajes, porque en vez de tener que recurrir a una agencia en físico, los viajeros tienen mayor facilidad para planear y reservar vuelos, alojamiento y visitas guiadas por su cuenta.
+          p De una manera más simple, se puede decir que un OTA es un sitio <i>web</i> donde los interesados en viajar pueden buscar y comparar los precios de los servicios turísticos que desean adquirir, para posteriormente realizar su reserva sin la necesidad de tener un agente de viajes de manera presencial. Así pues, estos portales cuentan con grandes fortalezas ya que pueden tener un alcance mayor y en menor tiempo que una agencia tradicional o física; por ello, las pequeñas empresas del sector o incluso quienes ofrecen sus servicios de manera independiente, pueden beneficiarse de las OTA por la visibilidad y alcance en línea que ésta les ofrece.
+        p.fondo26 Internet les permite reunir la oferta mundial de viajes en un solo lugar, para que los turistas reserven sus propios viajes <i>online</i>. Son una herramienta de autoservicio que han cambiado la manera en que se buscan y reservan los viajes, porque en vez de tener que recurrir a una agencia en físico, los viajeros tienen mayor facilidad para planear y reservar vuelos, alojamiento y visitas guiadas por su cuenta.
     .row.justify-content-center
       .col-xxl-8.col-xl-8.col-lg-8.col-md-10.col-sm-11.col-11(data-aos="fade-up-left")
         .bloque-texto-b.color-primario.p-4
@@ -1299,7 +1299,7 @@
             i.fas.fa-quote-left
             h4.mb-0 “La primer OTA nació en 1996 en Estados Unidos y es la conocida Expedia; que creó un modelo de negocios revolucionario para la época y al cabo de tres años se estableció como una de las diez agencias de viajes con más ventas en aquel país.”
             i.fas.fa-quote-right
-    p.my-5(data-aos="fade-up-left") Este tipo de sitios se basan en comentarios y críticas sobre los servicios que ofrecen puntualmente, por ejemplo: TripAdvisor muestra las opiniones sobre destinos turísticos, hoteles y restaurantes; Despegar.com muestra vuelos y hoteles; y Airbnb ofrece información sobre el alquiler de casas o apartamentos a precios realmente económicos.
+    p.my-5(data-aos="fade-up-left") Este tipo de sitios se basan en comentarios y críticas sobre los servicios que ofrecen puntualmente, por ejemplo: <i>TripAdvisor</i> muestra las opiniones sobre destinos turísticos, hoteles y restaurantes; Despegar.com muestra vuelos y hoteles; y <i>Airbnb</i> ofrece información sobre el alquiler de casas o apartamentos a precios realmente económicos.
     .row.justify-content-center.alineacion
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         p La mayoría de las OTA funcionan como una red social que se nutre a partir de los comentarios, fotografías y opiniones de los turistas que desean compartir su opinión al respecto y las imágenes de lo vivido durante su recorrido en el destino elegido. Lo diferencial en estos tipos de agencias de viaje, es que los turistas son quienes realizan la búsqueda de los servicios que desean contratar y tienen el poder de comparar y seleccionar el que más les convenga según su presupuesto; por ello, en este tipo de OTA el principal canal de reservas y/o compras es el internet y no un empleado. 
@@ -1319,7 +1319,7 @@
                 figure
                   img(src='@/assets/curso/tema1/agoda.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
-                p.mt-5 Fundada en el año 1998 y adquirida por <i>Priceline Group</i> (ahora conocido como <i>Booking Holdings</i>) en 2007. El sitio web de se encuentra disponible en 38 idiomas y su fuerte son los anuncios de todo tipo de propiedades. Es una de las mayores agencias de viaje <i>online</i> en el mercado asiático, pero continúa expandiéndose en los mercados de Estados Unidos, la India y Europa.
+                p.mt-5 Fundada en el año 1998 y adquirida por <i>Priceline Group</i> (ahora conocido como <i>Booking Holdings</i>) en 2007. El sitio <i>web</i> de se encuentra disponible en 38 idiomas y su fuerte son los anuncios de todo tipo de propiedades. Es una de las mayores agencias de viaje <i>online</i> en el mercado asiático, pero continúa expandiéndose en los mercados de Estados Unidos, la India y Europa.
                 p Es ideal para: todas las categorías de alojamiento.
 
             .row.justify-content-center
@@ -1327,7 +1327,7 @@
                 figure
                   img(src='@/assets/curso/tema1/airbnb.svg')
               .col-lg-12.col-md-12.mb-md-0.px-4
-                p.mt-4 Se conoce por brindar acceso a alojamientos únicos en el mundo entero. La mayoría de propiedades que usan Airbnb no hacen parte de los principales segmentos de hotelería, sino que están más orientadas a la cultura y vida local.
+                p.mt-4 Se conoce por brindar acceso a alojamientos únicos en el mundo entero. La mayoría de propiedades que usan <i>Airbnb</i> no hacen parte de los principales segmentos de hotelería, sino que están más orientadas a la cultura y vida local.
                 p Ideal para: alquileres vacacionales, <i>bed and breakfasts</i>, alojamientos compartidos, hoteles <i>boutique</i>, hostales y propiedades independiente.
 
             .row.justify-content-center
@@ -1335,7 +1335,7 @@
                 figure
                   img(src='@/assets/curso/tema1/booking.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
-                p.mt-5 Es uno de los sitios <i>web</i> de viajes más grandes y conocidos en el mundo entero. Su sitio web y aplicaciones móviles son accesibles en 43 idiomas y reúnen más de 50 millones de comentarios de huéspedes verificados en más de 200 países. sus tasas de comisión son generalmente más bajas que las de otras OTA.
+                p.mt-5 Es uno de los sitios <i>web</i> de viajes más grandes y conocidos en el mundo entero. Su sitio <i>web</i> y aplicaciones móviles son accesibles en 43 idiomas y reúnen más de 50 millones de comentarios de huéspedes verificados en más de 200 países. sus tasas de comisión son generalmente más bajas que las de otras OTA.
                 p Ideal para: todo tipo de alojamientos, incluyendo <i>resorts</i>, villas, cabañas, hoteles, apartamentos, hostales, alquileres vacacionales, B&B y más.
 
             .row.justify-content-center
@@ -1343,7 +1343,7 @@
                 figure
                   img(src='@/assets/curso/tema1/expedia.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
-                p.mt-4 Incluye 200 sitios <i>web</i> de reservas de viajes en 75 países y en 35 idiomas. Su sitio web recibe más de 600 millones de visitas por mes. Incluye búsquedas para todo tipo de alojamientos y vuelos, alquiler de automóviles, cruceros y paquetes promocionales. Al habilitar la conexión a Expedia, las propiedades se anuncian en Hotels.com, <i>Wotif</i> y muchos otros canales.
+                p.mt-4 Incluye 200 sitios <i>web</i> de reservas de viajes en 75 países y en 35 idiomas. Su sitio <i>web</i> recibe más de 600 millones de visitas por mes. Incluye búsquedas para todo tipo de alojamientos y vuelos, alquiler de automóviles, cruceros y paquetes promocionales. Al habilitar la conexión a <i>Expedia</i>, las propiedades se anuncian en <i>Hotels.com</i>, <i>Wotif</i> y muchos otros canales.
                 p Ideal para: alojamientos de toda clase y tamaño en el mundo entero.
 
             .row.justify-content-center
@@ -1351,7 +1351,7 @@
                 figure
                   img(src='@/assets/curso/tema1/hotel.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
-                p.mt-5 Es la mayor OTA para alojamientos de hostales en el mundo entero. Cuenta con más de 12 millones de comentarios de usuarios. Su inventario incluye hoteles, B&B y demás alojamientos de distintos presupuestos. Su aplicación y sitio web están en 20 idiomas distintos.
+                p.mt-5 Es la mayor OTA para alojamientos de hostales en el mundo entero. Cuenta con más de 12 millones de comentarios de usuarios. Su inventario incluye hoteles, B&B y demás alojamientos de distintos presupuestos. Su aplicación y sitio <i>web</i> están en 20 idiomas distintos.
                 p Ideal para: hostales, hoteles, bed and breakfast, casas de huéspedes, apartamentos y zonas de <i>camping</i>.
 
             .row.justify-content-center
@@ -1384,7 +1384,7 @@
     .row.justify-content-center.my-5
       .col-xxl-5.col-xl-5.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         .cajon.puntacajon.p-4.mb-4.fondo17.sombracajon
-          p Los metabuscadores son herramientas de búsqueda avanzada que sirven para consultar información y poder obtener de manera rápida los datos recopilados de diferentes fuentes. En turismo, estos metabuscadores hacen uso de la información de otros motores de búsqueda globales como <i>Google</i>, páginas web de hoteles e incluso los mismos sitios web de las OTA, para agrupar y presentarle al cibernauta los precios de muchos hoteles de un solo destino, de manera actualizada y práctica para que el turista compare las tarifas y elija entre las diferentes opciones.
+          p Los metabuscadores son herramientas de búsqueda avanzada que sirven para consultar información y poder obtener de manera rápida los datos recopilados de diferentes fuentes. En turismo, estos metabuscadores hacen uso de la información de otros motores de búsqueda globales como <i>Google</i>, páginas <i>web</i> de hoteles e incluso los mismos sitios <i>web</i> de las OTA, para agrupar y presentarle al cibernauta los precios de muchos hoteles de un solo destino, de manera actualizada y práctica para que el turista compare las tarifas y elija entre las diferentes opciones.
         p Los resultados que se pueden hallar en los metabuscadores se filtran por productos o servicios buscados por el usuario; por ello, este proceso se convierte en algo más sencillo y rápido donde en un solo portal web, se encuentran las opciones de varios establecimientos. Así pues, este tipo de herramientas permiten acceder a unos datos más completos con una sola búsqueda, impidiendo reprocesos y desgaste en el tiempo del viajero.  
       .col-xxl-7.col-xl-7.col-lg-5.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
         p En turismo los dos metabuscadores más usuales son <i>Tripadvisor</i> o <i>Kayak</i>. En la figura 7 se puede ver un ejemplo de búsqueda:
@@ -1395,7 +1395,7 @@
       
     .row.mb-5
       .col-xxl-12.fondonaranja.py-4.px-5(data-aos="fade-up-left")
-        p.mb-0 Como se observa, al ingresar fecha de llegada y de salida y el tipo de habitación, el metabuscador Tripadvisor encuentra diferentes opciones de OTA como Booking, Expedia y Hoteles.com con sus respectivos precios, para que el usuario elija el que más se acomoda a su bolsillo y a su gusto. Acá es importante destacar que el metabuscador busca la información, pero no vende; sin embargo, agiliza el trabajo del usuario ya que éste puede ir directamente al sitio de la OTA a comprar y no tener que detenerse haciendo dos, tres o más búsquedas para comparar precios.   
+        p.mb-0 Como se observa, al ingresar fecha de llegada y de salida y el tipo de habitación, el metabuscador <i>Tripadvisor</i> encuentra diferentes opciones de OTA como <i>Booking</i>, <i>Expedia</i> y Hoteles.com con sus respectivos precios, para que el usuario elija el que más se acomoda a su bolsillo y a su gusto. Acá es importante destacar que el metabuscador busca la información, pero no vende; sin embargo, agiliza el trabajo del usuario ya que éste puede ir directamente al sitio de la OTA a comprar y no tener que detenerse haciendo dos, tres o más búsquedas para comparar precios.   
 
     p.mb-5(data-aos="fade-up-left") Existen diferencias entre un metabuscador y una OTA, tal como se presenta a continuación:
     .row.justify-content-center
@@ -1404,7 +1404,7 @@
     TabsA.color-acento-botones.mb-5(data-aos="fade-up-left")
       .tarjeta.p-4.fondo27(titulo="Reserva")
         h4 Reserva
-        p Una OTA efectúa la reserva desde su propia web; un metabuscador no tiene medios técnicos para confirmar o gestionar reservas de ningún tipo. Lo que hacen, en cambio, es llevar tráfico a los sitios que sí que pueden -web de la OTA o de la empresa proveedora. 
+        p Una OTA efectúa la reserva desde su propia web; un metabuscador no tiene medios técnicos para confirmar o gestionar reservas de ningún tipo. Lo que hacen, en cambio, es llevar tráfico a los sitios que sí que pueden <i>web</i> de la OTA o de la empresa proveedora. 
       
       .tarjeta.fondo27.p-4(titulo="<i>Marketing</i>")
         h4 <i>Marketing</i>
@@ -1764,11 +1764,11 @@
       .col-xxl-6.col-xl-6.col-lg-5.col-md-8.col-sm-11.col-11(data-aos="fade-up-left")
         img(src='@/assets/curso/tema1/imagen24.jpg')
 
-    p.mt-5(data-aos="fade-up-right") Vender de manera online se convirtió en una necesidad para las empresas que desean hacer crecer sus negocios. En turismo, el escenario virtual es un buen lugar para ofrecer los paquetes turísticos; sin embargo, se debe tener una buena estrategia para lograr la venta y poder llegar al nicho de mercado indicado. En este sentido, el mercadeo digital, cumple una función muy importante ya que brinda herramientas para incrementar las ventas de una manera personalizada logrando que el usuario conecte con la experiencia que ofrece la agencia de viajes. 
-    p.mb-5(data-aos="fade-up-right") A continuación, se va pueden ver diferentes consejos para poder dar mayor fuerza a la promoción online de los paquetes turísticos (ver figura 12):
+    p.mt-5(data-aos="fade-up-right") Vender de manera <i>online</i> se convirtió en una necesidad para las empresas que desean hacer crecer sus negocios. En turismo, el escenario virtual es un buen lugar para ofrecer los paquetes turísticos; sin embargo, se debe tener una buena estrategia para lograr la venta y poder llegar al nicho de mercado indicado. En este sentido, el mercadeo digital, cumple una función muy importante ya que brinda herramientas para incrementar las ventas de una manera personalizada logrando que el usuario conecte con la experiencia que ofrece la agencia de viajes. 
+    p.mb-5(data-aos="fade-up-right") A continuación, se va pueden ver diferentes consejos para poder dar mayor fuerza a la promoción <i>online</i> de los paquetes turísticos (ver figura 12):
     .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-up-right")
       span.text-bold.mb-0 Figura 12. 
-      span Tips para la promoción online de los paquetes turísticos
+      span Tips para la promoción <i>online</i> de los paquetes turísticos
     .row.fondo30.ampliarambos
       .col-xxl-12.px-5
         .row.justify-content-center.my-5(data-aos="fade-up-right")
@@ -1776,12 +1776,12 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-circle
-                p El entorno web de la agencia de viajes requiere una optimización SEO del contenido, capaz de situar la página en las primeras posiciones. Cuanto más específico sea el contenido más efectivo y fácil de posicionar.
+                p El entorno <i>web</i> de la agencia de viajes requiere una optimización SEO del contenido, capaz de situar la página en las primeras posiciones. Cuanto más específico sea el contenido más efectivo y fácil de posicionar.
           .col-xxl-4.col-xl-4.col-lg-4.fondo32.pt-4.px-4.mb-4
             ul.lista-ul--color
               li 
                 i.fas.fa-circle
-                p Con el fin de mejorar la relevancia del contenido del sitio web para los usuarios, es bueno incluir palabras clave en el texto relacionadas con las principales cualidades del paquete turístico.
+                p Con el fin de mejorar la relevancia del contenido del sitio <i>web</i> para los usuarios, es bueno incluir palabras clave en el texto relacionadas con las principales cualidades del paquete turístico.
         .row.justify-content-center.mb-5(data-aos="fade-up-right")
           .col-xxl-3.col-xl-3.col-lg-3.fondo33.pt-4.px-4.mx-5.mb-4
             ul.lista-ul--color

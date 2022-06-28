@@ -223,7 +223,7 @@
     .row.justify-content-center.align-items-center
       .col-xxl-7.col-lg-7.col-md-10.col-sm-11.col-11.mb-5.mb-md-0(data-aos="fade")
         LineaTiempoD
-          p.text-small(numero="1" titulo="Haz una lista con los proveedores posibles") Tu primera tarea será hacer una lista con posibles proveedores que puedan ser de tu interés. Sondea el mercado, busca opiniones sobre cada uno de ellos, analiza su página web y haz la selección.
+          p.text-small(numero="1" titulo="Haz una lista con los proveedores posibles") Tu primera tarea será hacer una lista con posibles proveedores que puedan ser de tu interés. Sondea el mercado, busca opiniones sobre cada uno de ellos, analiza su página <i>web</i> y haz la selección.
           
           p.text-small(numero="2" titulo="Busca un proveedor con recorrido") De todos los proveedores incluidos en tu lista elige, para empezar, a aquel que tenga más experiencia en su ámbito. Trabajar con una empresa especializada te dará más seguridad y, probablemente, mejores resultados.<br/><br/> Una vez lo tengas, llámale y concierta una primera reunión.
 
