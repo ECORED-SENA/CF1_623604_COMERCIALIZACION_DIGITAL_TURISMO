@@ -165,7 +165,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Comunicar la experiencia turística en la web y redes sociales',
+              'Comunicar la experiencia turística en la <i>web</i> y redes sociales',
             hash: 't_2_1',
           },
           {

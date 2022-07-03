@@ -84,6 +84,7 @@
           p.text-small(numero="6" titulo="Contribuye en la macroeconomía") Contribuye a la generación del PIB, balanza de pagos y otros indicadores macroeconómicos de diferentes países.
       .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
         img.mt-4(src='@/assets/curso/tema1/imagen2.jpg')
+    p.my-5 En cuanto a sus características, se pueden mencionar:
     .row.justify-content-center.mt-5
       .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         img(src='@/assets/curso/tema1/imagen3.jpg')
@@ -106,14 +107,14 @@
               p Sus motivaciones fundamentales son ejercer el derecho al ocio y hacer uso del tiempo libre e implican recreación, descanso, cultura y salud.
           .row(titulo="Interrelaciones de diferente índole")
             .col-md-11.mb-4.mb-md-0
-              p Genera y se produce a través de interrelaciones de importancia social, económica y cultural: el gasto ejercido por los turistas impacta en la generación de empleos directos e indirectos en todos los sectores relacionados con la actividad.
+              p Genera y se produce a través de interrelaciones de importancia social, económica y cultural. El gasto ejercido por los turistas impacta en la generación de empleos directos e indirectos en todos los sectores relacionados con la actividad.
           .row(titulo="Actividad multidisciplinaria y heterogénea")
             .col-md-11.mb-4.mb-md-0
               p Requiere la participación de diversos sectores económicos, productivos y sociales, a distintos niveles, es decir, gerenciales, técnicos y operativos.
       separador
       #elementos.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
         h2 1.2 Elementos básicos o factores que componen la actividad turística
-
+    p.mb-5 El turismo, más que una simple actividad, consiste en viajar a un lugar diferente al del entorno habitual, se considera que este viaje debe durar mínimo 24 horas y máximo 365 días.  Entre los diferentes elementos o factores que le corresponden se encuentran:
     .row
       .col-xxl-12.col-lg-12.col-12.p-0(data-aos="fade-up-left")
         ImagenInfografica.color-secundario.mb-5
@@ -294,7 +295,7 @@
           th 
             p.text-bold.text-center Fisiológica
           td 
-            p.text-center Relax
+            p.text-center <i>Relax</i>
           td
             ul.lista-ul--color.otralista
               li 
@@ -302,7 +303,7 @@
                 | Escapada
               li
                 i.lista-ul__vineta
-                | Relax
+                | <i>Relax</i>
               li 
                 i.lista-ul__vineta
                 | Alivio de la tensión
@@ -556,7 +557,7 @@
             | Preferencia por destinos turísticos no masificados y viajes de una corta estancia en fechas de baja demanda.
           li
             i.fas.fa-check
-            | Búsqueda de alojamientos de pequeño tamaño y sin espacios compartidos, como viviendas de turismo rural, apartamentos turísticos y bungalow.
+            | Búsqueda de alojamientos de pequeño tamaño y sin espacios compartidos, como viviendas de turismo rural, apartamentos turísticos y <i>bungalow</i>.
           li 
             i.fas.fa-check
             | Interés en destinos de naturaleza, donde sea posible la realización de actividades al aire libre y espacios abiertos.
@@ -686,8 +687,7 @@
         .row.justify-content-center
           .col-lg-4.col-md-10.mb-4.mb-md-0
             h4 Turismo educativo
-            p Es aquel en el que el turista se moviliza con la finalidad de realizar una consulta médica o someterse a un proceso quirúrgico al que no tiene acceso en su lugar de origen. Dentro de este grupo, la cirugía estética es una de las más demandadas, aunque puede tratarse de cualquier procedimiento o consulta.
-        
+            p El turista viaja para aprender dentro de un ámbito académico. Por lo tanto, este tipo de turismo incluye viajes de intercambio, cursos de verano o visitas guiadas a laboratorios o instituciones.
           .col-lg-7.col-md-8
             figure
               img(src='@/assets/curso/tema1/educativo.png') 
@@ -939,7 +939,7 @@
 
 
           td.alinearArriba
-            p.mb-1 Night clubs
+            p.mb-1 <i>Night clubs</i>
             p.mb-1 Discotecas
             p.mb-1 Bares
             p.mb-1 Casinos y otros juegos de azar
@@ -1030,7 +1030,7 @@
         .row.justify-content-start.mb-3
           .col-xxl-5.col-md-4.col-8
             img(src='@/assets/curso/tema1/slider3.png' alt='AvatarTop')
-        h3.text-dark Folklore
+        h3.text-dark <i>Folklore</i>
         p.text-dark Manifestaciones religiosas y creencias populares, ferias y mercados, música y danzas, artesanías y artes populares comidas y bebidas típicas, grupos étnicos arquitectura popular y espontánea.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-left.mb-3
@@ -1073,7 +1073,7 @@
       .py-3.py-md-4(titulo="Patrimonio inmaterial")
         .row
           .col-md-7
-            p Comprende las tradiciones  y expresiones orales, prácticas sociales, rituales y actos festivos, el conocimiento y prácticas sobre la naturaleza y el universo; y expresiones artísticas, entre otras, que continuamente se están recreando en la sociedad y reproduciendo generacionalmente. Es el folklore.
+            p Comprende las tradiciones  y expresiones orales, prácticas sociales, rituales y actos festivos, el conocimiento y prácticas sobre la naturaleza y el universo; y expresiones artísticas, entre otras, que continuamente se están recreando en la sociedad y reproduciendo generacionalmente. Es el <i>folklore</i>.
 
           .col-md-5.mb-4.mb-md-0
             figure
@@ -1113,7 +1113,7 @@
           .col-xxl-4.col-xl-4.col-lg-5.col-md-4.col-sm-3.col-3
             img.mt-3.ms-3(src='@/assets/curso/tema1/nro1.svg')
           .col-xxl-12
-            p.py-3.px-4 Los beneficios funcionales son aquellos que satisfacen necesidades elementales como alojamiento o comida, o aquellos que ofrecen ventajas en términos de comodidad y facilidad (cercanía, transporte cómodo y otros)
+            p.py-3.px-4 Los beneficios funcionales son aquellos que satisfacen necesidades elementales como alojamiento o comida, o aquellos que ofrecen ventajas en términos de comodidad y facilidad (cercanía, transporte cómodo y otros).
       .col-xxl-3.col-xl-3.col-lg-3.col-md-6.fondo22.pt-3(data-aos="fade-up")
         .row
           .col-xxl-4.col-xl-4.col-lg-5.col-md-4.col-sm-3.col-3
@@ -1185,7 +1185,7 @@
 
           .tarjeta.fondo24.p-3(x="38.1%" y="51%" numero="+")
             p.text-bold.mb-0 Costos directos
-            span Pueden ser asignados a cada bien o servicio en particular. Ejemplos: el aumento de harina (que tiene una repercusión directa sobre la producción de pan) o el aumento de tinta (que impacta en la producción de libros)
+            span Pueden ser asignados a cada bien o servicio en particular. Ejemplos: el aumento de harina (que tiene una repercusión directa sobre la producción de pan) o el aumento de tinta (que impacta en la producción de libros).
 
           .tarjeta.fondo24.p-3(x="38.1%" y="58.2%" numero="+")
             p.text-bold.mb-0 Costos indirectos
@@ -1205,7 +1205,7 @@
 
           .tarjeta.fondo24.p-3(x="38.1%" y="97.6%" numero="+")
             p.text-bold.mb-0 Costos tributarios
-            span Relacionados al pago de impuestos 
+            span Relacionados al pago de impuestos.
 
           .tarjeta.fondo24.p-3(x="75.7%" y="47.5%" numero="+")
             p.text-bold.mb-0 Gastos fijos
@@ -1268,16 +1268,16 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/imagen15.jpg')})`}"
       )
       .bloque-texto-g__texto.py-5.px-4
-        p.mb-0 La historia de las agencias de viaje se remonta a mediados del siglo XIX, cuando <i>Thomas Cook</i>, residente de <i>Leicester</i>, Inglaterra, incitó a sus conocidos a participar en un evento académico en la ciudad de <i>Loughborough</i>; para tal fin contrató un tren que los llevaría en el recorrido de ida y regreso; de esta forma evitó el desgaste de todos, en cuanto a la búsqueda de tiquetes de viaje, atender horarios, etc. Una vez estuvo organizado todo, 540 personas “contrataron el servicio”, a pesar de no haber realizado la operación de tal servicio con la intención de generar ganancias, <i>Thomas</i> evidenció el potencial empresarial en dicha actividad y creó la primera agencia de viajes del mundo; por ello se le conoce como uno de los precursores en turismo.
-
+        p.mb-0 La historia de las agencias de viaje se remonta a mediados del siglo XIX, cuando Thomas Cook, residente de <i>Leicester</i>, Inglaterra, incitó a sus conocidos a participar en un evento académico en la ciudad de <i>Loughborough</i>; para tal fin contrató un tren que los llevaría en el recorrido de ida y regreso; de esta forma evitó el desgaste de todos, en cuanto a la búsqueda de tiquetes de viaje, atender horarios, etc. Una vez estuvo organizado todo, 540 personas “contrataron el servicio”, a pesar de no haber realizado la operación de tal servicio con la intención de generar ganancias, Thomas evidenció el potencial empresarial en dicha actividad y creó la primera agencia de viajes del mundo; por ello se le conoce como uno de los precursores en turismo.
+    p.mt-5 En el siguiente recurso se puede observar los diferentes tipos de agencias de viaje y funciones de cada uno de estos: 
     .row.justify-content-center.my-5
         .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11.mt-4(data-aos="fade-up-left")
           LineaTiempoD.color-secundario
-            p.text-small(numero="1" titulo="Agencias de viajes y turismo") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a vender planes turísticos.<br/>Funciones<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Organizar, promover y vender planes turísticos nacionales, para ser operados por las agencias de viajes operadoras establecidas legalmente en el país.</span></li><li><span style="color: #12263F;">Organizar, promover y vender planes turísticos para ser operados fuera del territorio nacional.</span></li><li><span style="color: #12263F;">Reservar y contratar alojamiento y demás servicios turísticos.</span></li><li><span style="color: #12263F;">Promover y vender planes turísticos hacia Colombia, para ser ejecutados por las agencias operadoras establecidas en el país.</span></li><li><span style="color: #12263F;">Operar turismo receptivo, para lo cual deberán contar con un departamento de turismo receptivo y cumplir con las funciones propias de las agencias de viajes operadoras.</span></li></ul>
+            p.text-small(numero="1" titulo="Agencias de viajes y turismo") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a vender planes turísticos.<br/>Funciones:<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Organizar, promover y vender planes turísticos nacionales, para ser operados por las agencias de viajes operadoras establecidas legalmente en el país.</span></li><li><span style="color: #12263F;">Organizar, promover y vender planes turísticos para ser operados fuera del territorio nacional.</span></li><li><span style="color: #12263F;">Reservar y contratar alojamiento y demás servicios turísticos.</span></li><li><span style="color: #12263F;">Reservar cupos y vender pasajes nacionales e internacionales en cualquier medio de transporte.</span></li><li><span style="color: #12263F;">Operar turismo receptivo, para lo cual deberán contar con un departamento de turismo receptivo y cumplir con las funciones propias de las agencias de viajes operadoras.</span></li></ul>
 
-            p.text-small(numero="2" titulo="Agencias de viajes operadoras") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a operar planes turísticos.<br/>Funciones<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Operar dentro del país planes turísticos, programados por agencias de viajes del exterior y del país.</span></li><li><span style="color: #12263F;">Organizar y promover planes turísticos para ser operados por ellas mismas, sus sucursales y agencias si las tuviere, de acuerdo con la ubicación de cada una de ellas dentro del territorio nacional.</span></li><li><span style="color: #12263F;">Prestar los servicios de transporte turístico de acuerdo con las disposiciones que reglamentan la materia.</span></li><li><span style="color: #12263F;">Brindar equipo especializado tal como implementos de caza y pesca, buceo y otros elementos deportivos, cuando la actividad lo requiera.</span></li><li><span style="color: #12263F;">Prestar el servicio de guianza con personas debidamente inscritas en el Registro Nacional de Turismo.</span></li></ul>
+            p.text-small(numero="2" titulo="Agencias de viajes operadoras") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a operar planes turísticos.<br/>Funciones:<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Operar dentro del país planes turísticos, programados por agencias de viajes del exterior y del país.</span></li><li><span style="color: #12263F;">Organizar y promover planes turísticos para ser operados por ellas mismas, sus sucursales y agencias si las tuviere, de acuerdo con la ubicación de cada una de ellas dentro del territorio nacional.</span></li><li><span style="color: #12263F;">Prestar los servicios de transporte turístico de acuerdo con las disposiciones que reglamentan la materia.</span></li><li><span style="color: #12263F;">Brindar equipo especializado tal como implementos de caza y pesca, buceo y otros elementos deportivos, cuando la actividad lo requiera.</span></li><li><span style="color: #12263F;">Prestar el servicio de guianza con personas debidamente inscritas en el Registro Nacional de Turismo.</span></li></ul>
             
-            p.text-small(numero="3" titulo="Agencias de viajes mayoristas") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas, que se dediquen profesionalmente a programar y organizar planes turísticos.<br/>Funciones<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Programar y organizar planes turísticos nacionales e internacionales, para ser ejecutados o por agencias de viajes operadoras y vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;">Programar y organizar planes turísticos para ser operados fuera del territorio nacional por sus corresponsales o agentes y para ser vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;">Promover y vender planes turísticos hacia Colombia, para ser ejecutados por las agencias operadoras establecidas en el país.</span></li><li><span style="color: #12263F;">Reservar y contratar alojamiento y demás servicios turísticos, para ser vendidos por las agencias de viajes y turismo.</span></li></ul>
+            p.text-small(numero="3" titulo="Agencias de viajes mayoristas") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas, que se dediquen profesionalmente a programar y organizar planes turísticos.<br/>Funciones:<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Programar y organizar planes turísticos nacionales e internacionales, para ser ejecutados o por agencias de viajes operadoras y vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;">Programar y organizar planes turísticos para ser operados fuera del territorio nacional por sus corresponsales o agentes y para ser vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;">Promover y vender planes turísticos hacia Colombia, para ser ejecutados por las agencias operadoras establecidas en el país.</span></li><li><span style="color: #12263F;">Reservar y contratar alojamiento y demás servicios turísticos, para ser vendidos por las agencias de viajes y turismo.</span></li></ul>
         .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
           img.mt-4(src="@/assets/curso/tema1/imagen16.jpg")
     .row(data-aos="fade-up-left")
@@ -1375,7 +1375,7 @@
                 figure
                   img(src='@/assets/curso/tema1/tiquetes.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
-                p.mt-5 Se especializa en reservas de hoteles y vuelos, ofreciendo también paquetes y <i>tours</i>. Aparte, esta OTA también ofrece reservas en algunos de los principales destinos de México, Estados Unidos, República Dominicana y el Caribe.
+                p.mt-5 Es propiedad de PriceTravel, y cuenta con sus mismas conexiones. Principalmente, es una OTA de vuelos que también ofrece reservas de hotel, traslados al aeropuerto, alquiler de automóviles, ofertas de paquetes, boletos de autobús, cruceros y excursiones a precios competitivos.
                 p Ideal para: hoteles y aerolíneas.
     .row
       .col-xxl-4.col-xl-5.col-lg-5.col-md-7.col-sm-9.col-9.fondomundo(data-aos="fade-up-left")
@@ -1385,7 +1385,7 @@
       .col-xxl-5.col-xl-5.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         .cajon.puntacajon.p-4.mb-4.fondo17.sombracajon
           p Los metabuscadores son herramientas de búsqueda avanzada que sirven para consultar información y poder obtener de manera rápida los datos recopilados de diferentes fuentes. En turismo, estos metabuscadores hacen uso de la información de otros motores de búsqueda globales como <i>Google</i>, páginas <i>web</i> de hoteles e incluso los mismos sitios <i>web</i> de las OTA, para agrupar y presentarle al cibernauta los precios de muchos hoteles de un solo destino, de manera actualizada y práctica para que el turista compare las tarifas y elija entre las diferentes opciones.
-        p Los resultados que se pueden hallar en los metabuscadores se filtran por productos o servicios buscados por el usuario; por ello, este proceso se convierte en algo más sencillo y rápido donde en un solo portal web, se encuentran las opciones de varios establecimientos. Así pues, este tipo de herramientas permiten acceder a unos datos más completos con una sola búsqueda, impidiendo reprocesos y desgaste en el tiempo del viajero.  
+        p Los resultados que se pueden hallar en los metabuscadores se filtran por productos o servicios buscados por el usuario; por ello, este proceso se convierte en algo más sencillo y rápido donde en un solo portal <i>web</i>, se encuentran las opciones de varios establecimientos. Así pues, este tipo de herramientas permiten acceder a unos datos más completos con una sola búsqueda, impidiendo reprocesos y desgaste en el tiempo del viajero.  
       .col-xxl-7.col-xl-7.col-lg-5.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
         p En turismo los dos metabuscadores más usuales son <i>Tripadvisor</i> o <i>Kayak</i>. En la figura 7 se puede ver un ejemplo de búsqueda:
         .titulo-sexto.color-acento-contenido
@@ -1408,7 +1408,7 @@
       
       .tarjeta.fondo27.p-4(titulo="<i>Marketing</i>")
         h4 <i>Marketing</i>
-        p Las OTA's  son muy necesarias para la distribución de cualquier hotel bien sea grande o pequeño, ya que les ayudan a ampliar y alcanzar nuevos mercados gracias a la inversión cuantiosa que realizan en marketing. <br/>Una OTA vende las habitaciones de los hoteles mostrando sus características, su valor económico y las imágenes llamativas para completar la reserva desde dicho portal web.  
+        p Las OTA's  son muy necesarias para la distribución de cualquier hotel bien sea grande o pequeño, ya que les ayudan a ampliar y alcanzar nuevos mercados gracias a la inversión cuantiosa que realizan en <i>marketing</i>. <br/>Una OTA vende las habitaciones de los hoteles mostrando sus características, su valor económico y las imágenes llamativas para completar la reserva desde dicho portal <i>web</i>.  
       
       .tarjeta.p-4.fondo27(titulo="Factor económico")
         h4 Factor económico
@@ -1416,7 +1416,7 @@
 
       .tarjeta.p-4.fondo27(titulo="Pago de comisión")
         h4 Pago de comisión
-        p Cuando la OTA realiza una venta desde su propia página web, el proveedor a quien le entró esa venta (por ejemplo, un hotel), debe pagar un porcentaje de comisión por utilizar el canal de la agencia de viajes virtual. Acá se puede ver otra diferencia con el metabuscador: los pequeños hoteles pueden aumentar sus ventas directas ya que el usuario solo encontrará su valor, pero no podrá comprar; por tanto, se tendrá que dirigir directamente a la página de la empresa a la que le desea contratar el servicio.
+        p Cuando la OTA realiza una venta desde su propia página <i>web</i>, el proveedor a quien le entró esa venta (por ejemplo, un hotel), debe pagar un porcentaje de comisión por utilizar el canal de la agencia de viajes virtual. Acá se puede ver otra diferencia con el metabuscador: los pequeños hoteles pueden aumentar sus ventas directas ya que el usuario solo encontrará su valor, pero no podrá comprar; por tanto, se tendrá que dirigir directamente a la página de la empresa a la que le desea contratar el servicio.
     .row.justify-content-center.mb-5
       .col-xxl-10.col-xl-10.col-lg-10.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         .cajon.puntacajon.p-4.mb-4.fondo17.sombracajon
@@ -1428,7 +1428,7 @@
         ul.lista-ul
           li.otrocolorcheck
             i.fas.fa-check
-            p El metabuscador es mucho más rápido ya que le permite al cliente buscar a la vez distintas web, posibilitando comparar precios en un solo vistazo, ahorrando tiempo y complejidad.
+            p El metabuscador es mucho más rápido ya que le permite al cliente buscar a la vez distintas <i>web</i>, posibilitando comparar precios en un solo vistazo, ahorrando tiempo y complejidad.
           li.otrocolorcheck
             i.fas.fa-check
             p Un metabuscador permite a los hoteles pequeños competir en igualdad de condiciones con hoteles y cadenas más grandes.
@@ -1463,11 +1463,11 @@
         h4.ps-5.pt-5.ms-5.mt-3 <i>Customer Relationship Management y Enterprise Resoure Planning</i>
     p.my-5(data-aos="fade-up-left") Estas dos herramientas permiten la gestión del servicio y la relación que ejerce con el cliente o los clientes interesados, así como la fidelización de estos, posibilitando perdurabilidad en el tiempo, a continuación, se explica cada una de estas:
     p.subrayar.mb-5(data-aos="fade-up-left") <i>Customer Relationship Management.</i>
-    p.mb-5(data-aos="fade-up-left") Este término se refiere a una herramienta diseñada para gestionar las estrategias y prácticas de negocio que están dirigidas a la relación con el cliente y prospectos. Son <i>software</i> especializados de gran ayuda para los equipos de ventas y marketing. Observar el siguiente video para aprender más al respecto. 
+    p.mb-5(data-aos="fade-up-left") Este término se refiere a una herramienta diseñada para gestionar las estrategias y prácticas de negocio que están dirigidas a la relación con el cliente y prospectos. Son <i>software</i> especializados de gran ayuda para los equipos de ventas y <i>marketing</i>. Observar el siguiente video para aprender más al respecto. 
     figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mb-5(data-aos="fade-up-left") Anteriormente las compañías usaban métodos tradicionales para poder gestionar sus relaciones con clientes; era tradicional encontrar post it, cuadernos, agendas físicas, hojas de cálculo, etc., con la información de sus usuarios y con las tareas a desarrollar para agendar reuniones con ellos, llamarlos e incluso cobrarles. Hoy día, esto se hace de manera mucho más eficiente y tecnológica con la ayuda de un CRM. Hay diferentes recursos en el mercado, sin embargo, la decisión de compra dependerá de los requerimientos de cada empresa. Estas diferencias pueden establecerse como tipos de CRM, tal como se muestra en la siguiente figura 9:
+    p.mb-5(data-aos="fade-up-left") Anteriormente las compañías usaban métodos tradicionales para poder gestionar sus relaciones con clientes; era tradicional encontrar <i>post it</i>, cuadernos, agendas físicas, hojas de cálculo, etc., con la información de sus usuarios y con las tareas a desarrollar para agendar reuniones con ellos, llamarlos e incluso cobrarles. Hoy día, esto se hace de manera mucho más eficiente y tecnológica con la ayuda de un CRM. Hay diferentes recursos en el mercado, sin embargo, la decisión de compra dependerá de los requerimientos de cada empresa. Estas diferencias pueden establecerse como tipos de CRM, tal como se muestra en la siguiente figura 9:
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-left")
       span.text-bold.mb-0 Figura 9 
       span tipos de CRM
@@ -1485,7 +1485,7 @@
     .row.justify-content-center
       .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         p La globalización y los cambios constantes del entorno y los mercados han conllevado a que las empresas tomen consciencia sobre la digitalización de sus procesos estratégicos. Este panorama no ha sido ajeno al sector turístico, por el contrario, hoy por hoy los prestadores de servicios turísticos han ido implementado herramientas digitales con el objetivo de ser más eficientes y competitivos, prestando un mejor servicio a sus clientes.
-        p El término ERP se refiere a Enterprise Resource Planning, que significa “sistema de planificación de recursos empresariales”. Es un <i>software</i> integrado por módulos que administra diferentes procesos internos de la compañía como las compras, la contabilidad, la gerencia de proyectos, la gestión de riesgos y los procedimientos de la cadena de suministros. 
+        p El término ERP se refiere a <i>Enterprise Resource Planning</i>, que significa “sistema de planificación de recursos empresariales”. Es un <i>software</i> integrado por módulos que administra diferentes procesos internos de la compañía como las compras, la contabilidad, la gerencia de proyectos, la gestión de riesgos y los procedimientos de la cadena de suministros. 
         p El objetivo primordial de un ERP es agrupar la información que proviene de las distintas áreas de la empresa, evitando que ésta se duplique y generando así, mayor fluidez de la información y menos reprocesos para quienes la gestionan.
       .col-xxl-6.col-xl-6.col-lg-5.col-md-9.col-sm-11.col-11(data-aos="fade-up-right")
         img(src='@/assets/curso/tema1/imagen21.jpg')
@@ -1689,7 +1689,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Elección de proveedores
-            p Ees necesario conocer la calidad de la oferta que le brindaremos a los turistas, por ello es necesario tener buena relación con los proveedores y escoger siempre los mejores a fin de obtener una buena recomendación y fidelidad de marca por parte del viajero.
+            p Es necesario conocer la calidad de la oferta que le brindaremos a los turistas, por ello es necesario tener buena relación con los proveedores y escoger siempre los mejores a fin de obtener una buena recomendación y fidelidad de marca por parte del viajero.
 
           .col-md-7
             figure
@@ -1726,7 +1726,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Promoción del producto
-            p Debemos elegir el medio por el cual se va promocionar el paquete turístico, bien sea a través de redes sociales, e-mail, llamadas telefónicas, presencial etc. aquí es fundamental contar con una buena base de datos de potenciales clientes (los que siempre nos compran, los que nos compraron alguna vez o los que sólo preguntaron), y para ello contar con un CRM turístico es muy importante, porque sabremos exactamente que quiere cada cliente, y nos permitirá personalizar las ofertas.
+            p Debemos elegir el medio por el cual se va promocionar el paquete turístico, bien sea a través de redes sociales, <i>e-mail</i>, llamadas telefónicas, presencial etc. aquí es fundamental contar con una buena base de datos de potenciales clientes (los que siempre nos compran, los que nos compraron alguna vez o los que sólo preguntaron), y para ello contar con un CRM turístico es muy importante, porque sabremos exactamente que quiere cada cliente, y nos permitirá personalizar las ofertas.
         
           .col-md-7
             figure
@@ -1865,6 +1865,7 @@
         br
         br
         p.mb-0 Es un recorrido que inicia desde un punto emisor o receptor y cuenta con atractivos y facilidades a lo largo de su ruta. Se le conoce como circuito porque siempre se regresa al punto de partida inicial, sin pasar dos veces por un mismo sitio.
+    p Los circuitos se deben organizar teniendo en cuenta las jerarquías de los atractivos, ya que estos son la base primordial para el disfrute y motivación de turistas. Otro aspecto que se debe tener en cuenta al momento de planificar el circuito, es el público objetivo y sus intereses, ya que no será lo mismo ofrecer un circuito exótico y lleno de aventuras a un turista joven y explorador, que a un adulto mayor, que tal vez se interese más por productos clásicos y regionales.
     separador
     #establecimiento.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 1.14 Establecimientos de alojamiento y hospedaje
@@ -1881,6 +1882,7 @@
           p.ms-4 Albergue-refugio-hostal, aparta hotel, apartamentos turísticos, alojamiento rural-<i>lodge</i>, hotel, posadas turísticas y recinto de campamento o <i>camping</i>.  
       .col-xxl-6.col-xl-6.col-lg-5.col-md-11.col-sm-11.col-11.pe-5(data-aos="fade-up-left")
         img(src='@/assets/curso/tema1/imagen28.jpg')
+    p.mt-5 En el siguiente recurso educativo se ofrece una amplia explicación a este respecto:
     //-slider    
     .tarjeta.tarjeta--azul.p-4.my-5.fondo13
       SlyderA.pt-4.otroslide(data-aos="fade-up-right")(tipo="b")
@@ -1931,7 +1933,7 @@
               img(src='@/assets/curso/tema1/hotel.png')
         .row.justify-content-center
           .col-lg-4.col-md-10.mb-4.mb-md-0
-            h4 Resort
+            h4 <i>Resort</i>
             p Hotel orientado hacia la recreación.
             p Cuentan con varios restaurantes, piscinas. 
             p En ocasiones se llega a percibir como destinos “ todo incluido” 
@@ -2000,16 +2002,16 @@
       SlyderA.pt-4.otroslide3(data-aos="fade-up-right")(tipo="b")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h4 Hoteles Spa
-            p Un hotel spa es un tipo de alojamiento que cuenta entre sus instalaciones con servicios de tratamiento de salud con agua. 
-            p Esto se traduce en hoteles con servicios con piscinas especiales y climatizadas, especiales para el relax en familia o con la pareja
+            h4 Hoteles <i>Spa</i>
+            p Un hotel <i>spa</i> es un tipo de alojamiento que cuenta entre sus instalaciones con servicios de tratamiento de salud con agua. 
+            p Esto se traduce en hoteles con servicios con piscinas especiales y climatizadas, especiales para el <i>relax</i> en familia o con la pareja
           .col-md-7
             figure
               img(src='@/assets/curso/tema1/slider31.png')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h4 Hotel Boutique
-            p Estos hoteles cuentan con pocas habitaciones, idealmente menos de 30, y en muchas ocasiones las características de espacio y decoración distinguen claramente a cada una de ellas. Generalmente están ambientados con una temática o estilo particular. Los hoteles boutique van orientados al turismo de esparcimiento; ofrecen un servicio personalizado que en muchas ocasiones incluye servicio de masajes y SPA. La arquitectura, decoración y mobiliario generalmente dan una personalidad distintiva al lugar. 
+            h4 Hotel <i>Boutique</i>
+            p Estos hoteles cuentan con pocas habitaciones, idealmente menos de 30, y en muchas ocasiones las características de espacio y decoración distinguen claramente a cada una de ellas. Generalmente están ambientados con una temática o estilo particular. Los hoteles <i>boutique</i> van orientados al turismo de esparcimiento; ofrecen un servicio personalizado que en muchas ocasiones incluye servicio de masajes y <i>SPA</i>. La arquitectura, decoración y mobiliario generalmente dan una personalidad distintiva al lugar. 
         
           .col-md-7
             figure
@@ -2115,7 +2117,7 @@
     p.mb-5(data-aos="fade-up-right") Colombia tiene un amplio territorio, surcado por 3 cordilleras lo que permite disfrutar de varios pisos térmicos, variedad de cultivos y bosques tropicales, a continuación, se podrá aprender un poco más de las bellezas naturales con que se cuenta:
     figure.mb-5(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/DyHw5c5pHiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mt-5(data-aos="fade-up-right") En Colombia no existen estaciones (invierno, verano, primavera, otoño) como en otros países el mundo, esto debido a su ubicación en la zona ecuatorial que mantiene una igualdad en las horas en las que sale el sol o cae la noche. A cambio de estaciones, en el país se puede hablar de temporadas secas (de diciembre a enero y de julio a agosto) y temporadas de lluvias (de abril a mayo y de octubre a noviembre). Adicional a lo anterior, en Colombia también se puede encontrar una gran variedad de paisajes, biodiversidad y de pisos térmicos debido a la diversidad topográfica del territorio. 
     p.mb-5(data-aos="fade-up-right") El clima en el país varía de acuerdo con los pisos térmicos que hay en cada región, de acuerdo con la explicación que encuentra a continuación:
@@ -2228,7 +2230,7 @@
                 figure
                   img(src='@/assets/curso/tema1/situr.svg')
               .col-lg-12.col-md-12.mb-md-0.px-4
-                p.mt-5 Es un sistema de medición, similar al anterior, pero en este caso es utilizado para cada departamento. En su página web se pueden seleccionar los diferentes departamentos con sus municipios, para encontrar información turística asociada a los atractivos turísticos del lugar, indicadores departamentos, indicadores de sostenibilidad y mapa regional de oportunidades. 
+                p.mt-5 Es un sistema de medición, similar al anterior, pero en este caso es utilizado para cada departamento. En su página <i>web</i> se pueden seleccionar los diferentes departamentos con sus municipios, para encontrar información turística asociada a los atractivos turísticos del lugar, indicadores departamentos, indicadores de sostenibilidad y mapa regional de oportunidades. 
             .row.justify-content-center
               .col-lg-6.col-md-5.col-6.col-sm-6
                 figure

@@ -8,10 +8,10 @@
         span 
           i.fas.fa-info
       h1 Introducción
-    p Le damos la bienvenida al componente formativo “Diseño de experiencias gastronómicas”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+    p Se da la bienvenida al componente formativo “Estructuración de la experiencia turística”. Para comenzar el recorrido por el mismo, visitar el recurso didáctico que se muestra a continuación:
     figure.mb-5(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)</template>
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/YdbvQKFr5I0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)</template>
 
 <script>
 export default {
