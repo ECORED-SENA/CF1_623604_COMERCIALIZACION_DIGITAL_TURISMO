@@ -2076,7 +2076,7 @@
         h4.mb-4 Dimensión ambiental 
         p Gestión óptima de los recursos naturales que están en la base del desarrollo turístico, y a la conservación del medio ambiente y de los ecosistemas, que soportan la vida de distintas especies y la salud del ser humano.
       .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-11.col-11.fondo39.p-5.mb-5
-        h4.mb-4 Mejor opción
+        h4.mb-4 Dimensión económica
         p El turismo sostenible debe ser rentable y debe haber una distribución equitativa de los beneficios socio-económicos como el empleo estable y la obtención de ingresos y servicios sociales para las comunidades anfitrionas.
     .row(data-aos="fade-up-right")
       .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-11.fondomundo2.ps-3
@@ -2108,7 +2108,7 @@
                 .col.mb-3.mb-sm-0
                   p Las Naciones Unidas y la Organización Mundial del Turismo, han formulado el código ético mundial, para llevar a cabo una práctica responsable y sostenible de gobiernos, empresas, comunidades y turistas, con responsabilidad en cada uno de sus territorios, en el siguiente enlace podrá consultarlo:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.ugto.mx/images/eventos/06-07-16/codigo-etico-mundial-turismo.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2019-10/gcetpassportglobalcodees.pdf" target="_blank")
                     span Ingresar
                     i.fas.fa-file-download
     separador
@@ -2284,7 +2284,7 @@
       <tr>
         <th class="fondo6 text-center anchocol"><h4 class="text-bold">Agencias de viaje</h4></th>
         <td style="background-color: #F6F6F6;">
-          <p style="margin-bottom: 0px;">Mide el personal ocupado, ingresos nominales, Índice de agencias de viajes y coeficiente de variación</p>
+          <p style="margin-bottom: 0px;">Mide el personal ocupado, ingresos nominales, Índice de agencias de viajes y coeficiente de variación.</p>
         </td>
       </tr>
       <tr>

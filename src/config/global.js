@@ -267,7 +267,7 @@ export default {
         'https://www.ostelea.com/actualidad/blog-turismo/que-tipos-de-turismo-existen-y-cuales-triunfaran-en-2020',
     },
     {
-      referencia: 'Procolombia (2021). Cinco tendencias para viajar en 2021',
+      referencia: 'Procolombia (2021). Cinco tendencias para viajar en 2021.',
       link:
         'https://procolombia.co/noticias/cinco-tendencias-para-viajar-en-2021 ',
     },
@@ -321,8 +321,7 @@ export default {
       referencia:
         'Redacción El Tiempo. (16 de octubre 2008). 25 Hitos de la historia del turismo colombiano. EL TIEMPO.',
       tipo: 'Artículo',
-      link:
-        'file:///D:/SENA/PROGRAMA%20DE%20DISE%C3%91O%20INSTRUCCIONAL/COMERCIALIZACI%C3%93N%20DIGITAL%20PARA%20EL%20TURISMO/COMPONENTES/CF01/ANEXOS%20VIEJOS/Anexo%204-CF1_1.5-%20hitos%20de%20la%20historia%20del%20turismo%20colombiano.pdf',
+      descarga: 'downloads/25 hitos de la historia del turismo colombiano.pdf',
     },
     {
       tema: 'Producto Turístico',
@@ -436,12 +435,19 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Melina Tatiana Quintero Rodriguez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
   },

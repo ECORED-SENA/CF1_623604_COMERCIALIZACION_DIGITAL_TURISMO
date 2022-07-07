@@ -106,13 +106,13 @@
         img.mt-4(src='@/assets/curso/tema2/imagen5.jpg')
       .col-xxl-6.col-lg-6.col-md-10.col-sm-11.col-11.mb-5.mb-md-0.mt-4(data-aos="fade-up-left")
         LineaTiempoD
-          p.text-small(numero="6" titulo="Captura momentos íntimos y especiales") en los cuales se observen las sensaciones de asombro, descubrimiento, enriquecimiento espiritual u otras que la experiencia provoca entre los visitantes.
+          p.text-small(numero="6" titulo="Captura momentos íntimos y especiales") En los cuales se observen las sensaciones de asombro, descubrimiento, enriquecimiento espiritual u otras que la experiencia provoca entre los visitantes.
           
           p.text-small(numero="7" titulo="Describe en forma explícita la experiencia que ofreces") Resaltando sus elementos únicos y especiales. Refiérete a las actividades principales y a las sensaciones que estas pueden producir en los visitantes, pero recuerda no contarlo todo, a fin de reservar algunas sorpresas para la visita.
 
           p.text-small(numero="8" titulo="Emplea un estilo simple, relajado y divertido") Evita textos densos o recargados. Cuenta las historias en un tono personal e íntimo -“de viajero a viajero”-, narrándolas como lo harías a un amigo. 
           
-          p.text-small(numero="9" titulo="Enfócate en comunicar experiencias y evocar emociones") No en enumerar actividades
+          p.text-small(numero="9" titulo="Enfócate en comunicar experiencias y evocar emociones") No en enumerar actividades.
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 2.2 Servicio al cliente
