@@ -344,7 +344,7 @@ export default {
         'Organización de las Naciones Unidas y Organización Mundial del Turismo. (2001). Código de ética Mundial. ',
       tipo: 'Libro- Documento',
       link:
-        'https://www.ugto.mx/images/eventos/06-07-16/codigo-etico-mundial-turismo.pdf',
+        'https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2019-10/gcetpassportglobalcodees.pdf',
     },
     {
       tema: 'Colombia turística',
