@@ -22,47 +22,52 @@
       .row.justify-content-center(data-aos="fade-up-right")
         .col-xxl-3.col-lg-4.col-md-5.col-9.fondo2.mb-4
           h3.text-white.text-center.pt-2.pb-3.mb-0 Objetivos del turismo 
-    //--tarjetas slide
-    .row.mb-5.justify-content-center(data-aos="fade-up-left")
-      .col-sm-6.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido     
-              img(src='@/assets/curso/tema1/slidepos1.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/slide1.svg')})`}")
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/slidepos2.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/slide2.png')})`}")
+    //-tarjetas slide nuevo
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/slide1.png")
+          .crd_hover_txt--body
+            h4.mb-3 Económicos
+            p.mb-0 Le genera divisas al país que acoge a los turistas.
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/slidepos3.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/slide3.svg')})`}")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/slide2.png")
+          .crd_hover_txt--body
+            h4.mb-3 Políticos
+            p.mb-0 Está alineado con los planes de desarrollo gubernamentales y municipales.
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/slidepos4.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/slide4.png')})`}")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/slide3.png")
+          .crd_hover_txt--body
+            h4.mb-3 Ecológicos
+            p.mb-0.me-5 Promueve el cuidado del patrimonio natural.
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/slide4.png")
+          .crd_hover_txt--body
+            h4.mb-3 Interculturales
+            p.mb-0 Permite conocer la vida y cultura de los residentes del destino, logrando generar un  intercambio de conocimientos y tradiciones entre ellos y los turistas.
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/slide5.png")
+          .crd_hover_txt--body
+            h4.mb-3 Sociales
+            p.mb-0 Está dirigido a satisfacer las necesidades de las personas.
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/slidepos5.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/slide5.svg')})`}")
     p De igual forma, se ofrecen multiplicidad de beneficios como puede observarse en el siguiente recurso educativo:
     .row.justify-content-center
       .col-xxl-3.col-lg-4.col-md-5.col-9.fondo2.mb-4
@@ -71,17 +76,17 @@
     .row.justify-content-center.align-items-center
       .col-xxl-6.col-lg-6.col-md-10.col-sm-11.col-11.mb-5.mb-md-0(data-aos="fade-up-left")
         LineaTiempoD
-          p.text-small(numero="1" titulo="Impacto en población receptora") Ayuda a los residentes de los destinos a tener mejor calidad de vida y disminuir los niveles de pobreza, además de posibilitar el contacto con otras culturas y comunidades. 
+          p(numero="1" titulo="Impacto en población receptora") Ayuda a los residentes de los destinos a tener mejor calidad de vida y disminuir los niveles de pobreza, además de posibilitar el contacto con otras culturas y comunidades. 
           
-          p.text-small(numero="2" titulo="Crecimiento económico e inversión") Promueve el crecimiento económico y la inversión local en infraestructura y edificaciones aptas para el turismo, y servicios relacionados con el gremio.
+          p(numero="2" titulo="Crecimiento económico e inversión") Promueve el crecimiento económico y la inversión local en infraestructura y edificaciones aptas para el turismo, y servicios relacionados con el gremio.
 
-          p.text-small(numero="3" titulo="Generación de empleo") Genera oportunidades de empleo, bien sea de forma directa o indirecta, estableciéndose mediante las temporadas de demanda o durante todo el año, de acuerdo con el lugar de destino.
+          p(numero="3" titulo="Generación de empleo") Genera oportunidades de empleo, bien sea de forma directa o indirecta, estableciéndose mediante las temporadas de demanda o durante todo el año, de acuerdo con el lugar de destino.
           
-          p.text-small(numero="4" titulo="Desarrollo de actividades asociadas") Contribuye a un mayor desarrollo de otras actividades como la agricultura, pesca y artesanía en los destinos receptores.
+          p(numero="4" titulo="Desarrollo de actividades asociadas") Contribuye a un mayor desarrollo de otras actividades como la agricultura, pesca y artesanía en los destinos receptores.
 
-          p.text-small(numero="5" titulo="Mejora en prestación de servicios") Los diferentes medios ofrecidos al turista como el de trasporte o de vías, mejoran en cuanto a la calidad y la frecuencia. 
+          p(numero="5" titulo="Mejora en prestación de servicios") Los diferentes medios ofrecidos al turista como el de trasporte o de vías, mejoran en cuanto a la calidad y la frecuencia. 
 
-          p.text-small(numero="6" titulo="Contribuye en la macroeconomía") Contribuye a la generación del PIB, balanza de pagos y otros indicadores macroeconómicos de diferentes países.
+          p(numero="6" titulo="Contribuye en la macroeconomía") Contribuye a la generación del PIB, balanza de pagos y otros indicadores macroeconómicos de diferentes países.
       .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
         img.mt-4(src='@/assets/curso/tema1/imagen2.jpg')
     p.my-5 En cuanto a sus características, se pueden mencionar:
@@ -115,34 +120,34 @@
       #elementos.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
         h2 1.2 Elementos básicos o factores que componen la actividad turística
     p.mb-5 El turismo, más que una simple actividad, consiste en viajar a un lugar diferente al del entorno habitual, se considera que este viaje debe durar mínimo 24 horas y máximo 365 días.  Entre los diferentes elementos o factores que le corresponden se encuentran:
-    .row
-      .col-xxl-12.col-lg-12.col-12.p-0(data-aos="fade-up-left")
+    .row.justify-content-center.fondo47
+      .col-xxl-5.col-lg-5.col-5.p-0(data-aos="fade-up-left")
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema1/figurainfo1.svg')
 
-          .tarjeta.fondo4.p-3(x="56.4%" y="11%" numero="+")
+          .tarjeta.fondo4.p-3(x="60.5%" y="13.3%" numero="+")
             .titulo-sexto.color-primario
               p.text-bold.mb-0 1. LA DEMANDA
-            span Formada por el conjunto de consumidores de bienes y servicios turísticos que buscan satisfacer sus necesidades de viaje. Según la OMT, es el conjunto de turistas que, de forma individual o colectiva, están motivados por una serie de productos o servicios turísticos con el objetivo de cubrir sus necesidades.
+            span.mt-4 Formada por el conjunto de consumidores de bienes y servicios turísticos que buscan satisfacer sus necesidades de viaje. Según la OMT, es el conjunto de turistas que, de forma individual o colectiva, están motivados por una serie de productos o servicios turísticos con el objetivo de cubrir sus necesidades.
 
-          .tarjeta.fondo4.p-3(x="56.4%" y="35.5%" numero="+")
+          .tarjeta.fondo4.p-3(x="60.5%" y="36%" numero="+")
             .titulo-sexto.color-primario
               p.text-bold.mb-0 2. LA OFERTA
-            span Son los productos y servicios que un destino pone a disposición del turista para que éste los adquiera al precio interno y por un periodo de tiempo determinado.
+            span.mt-4 Son los productos y servicios que un destino pone a disposición del turista para que éste los adquiera al precio interno y por un periodo de tiempo determinado.
 
-          .tarjeta.fondo4.p-3(x="56.4%" y="61%" numero="+")
+          .tarjeta.fondo4.p-3(x="60.5%" y="63.3%" numero="+")
             .titulo-sexto.color-primario
               p.text-bold.mb-0 3. EL ESPACIO GEOGRÁFICO
-            span Lugar donde se produce la interacción entre la oferta y la demanda, es decir donde se realiza la práctica de actividades turísticas. La planta turística y los atractivos turísticos son los elementos primordiales del espacio turístico.
+            span.mt-4 Lugar donde se produce la interacción entre la oferta y la demanda, es decir donde se realiza la práctica de actividades turísticas. La planta turística y los atractivos turísticos son los elementos primordiales del espacio turístico.
 
-          .tarjeta.fondo4.p-3(x="56.4%" y="82%" numero="+")
+          .tarjeta.fondo4.p-3(x="60.5%" y="89.1%" numero="+")
             .titulo-sexto.color-primario
               p.text-bold.mb-0 4. LOS OPERADORES DEL MERCADO
-            span Son aquellas empresas y organismos que facilitan la correcta relación entre la oferta y la demanda, como ejemplo de ellos se pueden nombrar: organismos públicos y privados dedicados a la regulación y/o a la promoción del turismo, compañías de transporte y agencias de viajes.
+            span.mt-4 Son aquellas empresas y organismos que facilitan la correcta relación entre la oferta y la demanda, como ejemplo de ellos se pueden nombrar: organismos públicos y privados dedicados a la regulación y/o a la promoción del turismo, compañías de transporte y agencias de viajes.
 
-    p(data-aos="fade-up-left") Según la OMT (1998) “los operadores turísticos son aquellos agentes que participan en la actividad turística en calidad de intermediarios entre el consumidor final (el turista, la demanda turística) y el producto turístico (bien o servicio, destino turístico) aunque puede extender su acción intermediadora al resto de la oferta complementaria (restaurantes, hoteles, conjunto de oferta de alojamiento, etc.)".
+    p.mt-5(data-aos="fade-up-left") Según la OMT (1998) “los operadores turísticos son aquellos agentes que participan en la actividad turística en calidad de intermediarios entre el consumidor final (el turista, la demanda turística) y el producto turístico (bien o servicio, destino turístico) aunque puede extender su acción intermediadora al resto de la oferta complementaria (restaurantes, hoteles, conjunto de oferta de alojamiento, etc.)".
     separador
     #prestadores.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 1.3 Prestadores de servicios turísticos
@@ -224,7 +229,7 @@
                 img(src='@/assets/curso/tema1/figuramodal6.svg')
 
     separador
-    #prestadores.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
+    #turista.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 1.4 Turista y sus motivaciones
 
     p(data-aos="fade-up-left") Cualquier persona que se encuentre realizando un viaje (por cualquier motivo) entre lugares geográficamente distintos y fuera de su entorno habitual, se puede llamar viajero; sin embargo, cuando una persona se establece en otro lugar para trabajar, o porque son refugiados, diplomáticos o migrantes, no serán considerados viajeros.
@@ -233,35 +238,29 @@
       span.text-bold.mb-0 Figura 1 
       span Diferencias entre turista y excursionista.
     .row.mb-5.justify-content-center.align-items-center
-      .col-xxl-4.col-xxl.pe-0.col-xxl.me-3.col-xxl.pb-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12.col-lg.mb-5.mb-lg-0(data-aos="fade-up-left")
+      .col-xxl-4.col-xxl.pe-0.col-xxl.me-3.col-xxl.pb-4.col-xl-5.col-lg-6.col-md-10.col-sm-10.col-12.col-lg.mb-5.mb-lg-0(data-aos="fade-up-left")
         .tarjeta-avatar
           img.sizeimg(src='@/assets/curso/tema1/turista.svg')
           .tarjeta.fondo3
-            ul.lista-ul--color.col-xxl.ps-4.pb-5.mb-5.col-xxl.pe-4.col-md.me-2.col-sm.ps-4.col-xl-11.col-xl.ms-3
-              li 
-                i.lista-ul__vineta
-                | Son visitantes que pernotan o amanecen en el lugar. 
+            ul.lista-ul--color.otralista.col-xxl.ps-4.pb-5.mb-5.col-xxl.pe-4.col-md.me-2.col-sm.ps-4.col-xl-11.col-xl.ms-3.col-md-11.col-sm-11.col-11.mt-sm-3.mt-2
+              li  
+                <i class="fas fa-circle fa-xs"></i>Son visitantes que pernotan o amanecen en el lugar.
               li
-                i.lista-ul__vineta
-                | Su estancia es superior o igual a 24 horas en el destino.
-              li 
-                i.lista-ul__vineta.mb-5
-                | Razones del viaje: recreo, vacaciones, salud, estudio, religión, deportes o negocios.
+                <i class="fas fa-circle fa-xs"></i>Su estancia es superior o igual a 24 horas en el destino.
+              li.mb-5
+                <i class="fas fa-circle fa-xs"></i>Razones del viaje: recreo, vacaciones, salud, estudio, religión, deportes o negocios.
 
-      .col-xxl-4.col-xxl.pe-0.col-xxl.me-3.col-xxl.pb-3.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12.col-lg.mb-5.mb-lg-0(data-aos="fade-up-right")
+      .col-xxl-4.col-xxl.pe-0.col-xxl.me-3.col-xxl.pb-3.col-xl-5.col-lg-6.col-md-10.col-sm-10.col-12.col-lg.mb-5.mb-lg-0(data-aos="fade-up-right")
         .tarjeta-avatar
           img.sizeimg(src='@/assets/curso/tema1/excursionista.svg')
           .tarjeta.fondo5
-            ul.lista-ul--color.px-4.col-xxl.pb-5.col-xxl.mb-5.mb-5.col-xxl.pe-4.col-md.me-2.col-lg-11.col-xl-11
+            ul.lista-ul--color.otralista.ps-5.col-xxl.pb-5.col-xxl.mb-5.mb-5.col-xxl.pe-2.col-lg-11.col-xl-11.col-md-11.col-sm-11.col-11.mt-sm-3.mt-2
               li 
-                i.lista-ul__vineta
-                | Son los visitantes que se demoran menos de 24 horas en el destino.
+                <i class="fas fa-circle fa-xs"></i>Son los visitantes que se demoran menos de 24 horas en el destino.
               li
-                i.lista-ul__vineta
-                | Son viajeros que se desplazan a ciudades fronterizas, ya sea en su propio vehículo o en cruceros, a destinos de costa.
-              li 
-                i.lista-ul__vineta.mb-2
-                | Se excluyen a los viajeros en un país.
+                <i class="fas fa-circle fa-xs"></i>Son viajeros que se desplazan a ciudades fronterizas, ya sea en su propio vehículo o en cruceros, a destinos de costa.
+              li.mb-5
+                <i class="fas fa-circle fa-xs"></i>Se excluyen a los viajeros en un país.
 
     .row.justify-content-center
       .col-xxl-12(data-aos="fade-up")
@@ -285,157 +284,125 @@
     .tabla-c(data-aos="fade-up-right")
       table
         tr.fondo6
-          th 
-            h4.text-center Necesidad
-          td
+          th.bordetablablanco
+            h3.text-center Necesidad
+          td.bordetablablanco
             h4.text-center Motivación
           td
             h4.text-center Referencia turística
         tr
-          th 
+          th.bordetabla 
             p.text-bold.text-center Fisiológica
-          td 
+          td.bordetabla 
             p.text-center <i>Relax</i>
           td
             ul.lista-ul--color.otralista
               li 
-                i.lista-ul__vineta
-                | Escapada
+                <i class="fas fa-circle fa-xs"></i>Escapada
               li
-                i.lista-ul__vineta
-                | <i>Relax</i>
+                <i class="fas fa-circle fa-xs"></i><i>Relax</i>
               li 
-                i.lista-ul__vineta
-                | Alivio de la tensión
+                <i class="fas fa-circle fa-xs"></i>Alivio de la tensión
               li 
-                i.lista-ul__vineta
-                | Deseo de sol
+                <i class="fas fa-circle fa-xs"></i>Deseo de sol
               li 
-                i.lista-ul__vineta
-                | Relajación mental y física
+                <i class="fas fa-circle fa-xs"></i>Relajación mental y física
         tr
-          th 
+          th.bordetabla  
             p.text-bold.text-center Seguridad
-          td 
+          td.bordetabla  
             p.text-center Seguridad
           td
             ul.lista-ul--color.otralista
               li 
-                i.lista-ul__vineta
-                | Salud
+                <i class="fas fa-circle fa-xs"></i>Salud
               li
-                i.lista-ul__vineta
-                | Diversión
+                <i class="fas fa-circle fa-xs"></i>Diversión
               li 
-                i.lista-ul__vineta
-                | Mantenerse en forma
+                <i class="fas fa-circle fa-xs"></i>Mantenerse en forma
         tr
-          th 
+          th.bordetabla  
             p.text-bold.text-center Pertenencia
-          td 
+          td.bordetabla  
             p.text-center Amor
           td
             ul.lista-ul--color.otralista
               li 
-                i.lista-ul__vineta
-                | Unión familiar
+                <i class="fas fa-circle fa-xs"></i>Unión familiar
               li
-                i.lista-ul__vineta
-                | Relaciones sociales
+                <i class="fas fa-circle fa-xs"></i>Relaciones sociales
               li 
-                i.lista-ul__vineta
-                | Compañerismo
+                <i class="fas fa-circle fa-xs"></i>Compañerismo
               li 
-                i.lista-ul__vineta
-                | Mantenimiento de lazos personales
+                <i class="fas fa-circle fa-xs"></i>Mantenimiento de lazos personales
               li 
-                i.lista-ul__vineta
-                | Relaciones interpersonales
+                <i class="fas fa-circle fa-xs"></i>Relaciones interpersonales
               li 
-                i.lista-ul__vineta
-                | Raíces y etnia
+                <i class="fas fa-circle fa-xs"></i>Raíces y etnia
               li 
-                i.lista-ul__vineta
-                | Afecto familiar
+                <i class="fas fa-circle fa-xs"></i>Afecto familiar
         tr
-          th 
+          th.bordetabla  
             p.text-bold.text-center Estima
-          td 
+          td.bordetabla  
             p.text-center Obtención de status
           td
             ul.lista-ul--color.otralista
               li 
-                i.lista-ul__vineta
-                | Auto convencimiento de logros
+                <i class="fas fa-circle fa-xs"></i>Auto convencimiento de logros
               li
-                i.lista-ul__vineta
-                | Prestigio
+                <i class="fas fa-circle fa-xs"></i>Prestigio
               li 
-                i.lista-ul__vineta
-                | Reconocimiento social
+                <i class="fas fa-circle fa-xs"></i>Reconocimiento social
               li 
-                i.lista-ul__vineta
-                | Mejora del ego
+                <i class="fas fa-circle fa-xs"></i>Mejora del ego
               li 
-                i.lista-ul__vineta
-                | Reconocimiento profesional
+                <i class="fas fa-circle fa-xs"></i>Reconocimiento profesional
               li 
-                i.lista-ul__vineta
-                | Desarrollo personal
+                <i class="fas fa-circle fa-xs"></i>Desarrollo personal
               li 
-                i.lista-ul__vineta
-                | Status y prestigio
+                <i class="fas fa-circle fa-xs"></i>Status y prestigio
         tr
-          th 
+          th.bordetabla 
             p.text-bold.text-center Autodesarrollo
-          td 
+          td.bordetabla  
             p.text-center Ser sincero con uno mismo
           td
             ul.lista-ul--color.otralista
               li 
-                i.lista-ul__vineta
-                | Exploración y autoevaluación
+                <i class="fas fa-circle fa-xs"></i>Exploración y autoevaluación
               li
-                i.lista-ul__vineta
-                | Autodescubrimiento 
+                <i class="fas fa-circle fa-xs"></i>Autodescubrimiento 
               li 
-                i.lista-ul__vineta
-                | Satisfacción interna 
+                <i class="fas fa-circle fa-xs"></i>Satisfacción interna 
         tr
-          th 
+          th.bordetabla 
             p.text-bold.text-center Saber y entender
-          td 
+          td.bordetabla 
             p.text-center Conocimientos
           td
             ul.lista-ul--color.otralista
               li 
-                i.lista-ul__vineta
-                | Cultura 
+                <i class="fas fa-circle fa-xs"></i>Cultura 
               li
-                i.lista-ul__vineta
-                | Educación 
+                <i class="fas fa-circle fa-xs"></i>Educación 
               li 
-                i.lista-ul__vineta
-                | Pasión por viajar
+                <i class="fas fa-circle fa-xs"></i>Pasión por viajar
               li 
-                i.lista-ul__vineta
-                | Interés en otras culturas
+                <i class="fas fa-circle fa-xs"></i>Interés en otras culturas
         tr
-          th 
+          th.bordetabla  
             p.text-bold.text-center Estética
-          td 
+          td.bordetabla  
             p.text-center Aprecio de la belleza
           td
             ul.lista-ul--color.otralista
               li 
-                i.lista-ul__vineta
-                | Paisajes
+                <i class="fas fa-circle fa-xs"></i>Paisajes
               li
-                i.lista-ul__vineta
-                | Medioambiente
+                <i class="fas fa-circle fa-xs"></i>Medioambiente
               li 
-                i.lista-ul__vineta
-                | Manifestaciones culturales y artísticas
+                <i class="fas fa-circle fa-xs"></i>Manifestaciones culturales y artísticas
     p.my-5.text-center(data-aos="fade-up") Nota. Adaptado de Gutiérrez y Bordas (1993) por Cordente Rodríguez, M; Mondéjar Jiménez, J.A; Esteban Talaya, A (s.f.).
     p.mt-5(data-aos="fade-up") Según la OMT, el perfil del turista ha ido evolucionando durante los últimos años. Hoy por hoy, se puede encontrar un viajero mucho más exigente, informado, digital y comprometido con el medio ambiente y el entorno. 
     p.mb-5(data-aos="fade-up") A pesar de que se siguen presentando las motivaciones descritas en la sección anterior, también se han venido presentando otras como la práctica de negocios, actividades saludables, formación o aprendizaje; actividades de sanación o espiritualidad y enriquecimiento cultural; todas ellas han dado lugar a nuevas tipologías de turista como puede apreciarse en el siguiente recurso educativo, se puede ver:
@@ -536,14 +503,14 @@
     .row.justify-content-center.align-items-center
       .col-xxl-6.col-lg-6.col-md-6.col-sm-10.col-11(data-aos="fade-up-left")
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Ecoturismo y turismo sostenible") Un modo de hacer turismo que consiste en el respeto por el medio ambiente y el planeta, acorde con los principios de sostenibilidad y la conservación de los recursos de los destinos turísticos.
+          p(numero="1" titulo="Ecoturismo y turismo sostenible") Un modo de hacer turismo que consiste en el respeto por el medio ambiente y el planeta, acorde con los principios de sostenibilidad y la conservación de los recursos de los destinos turísticos.
 
-          p.text-small(numero="2" titulo="<i>Mindful Travel</i>") Es un modo de viajar relacionado con el bienestar, autocuidado y la transformación personal. Son viajes tranquilos donde no se cumple con horarios estrictos ya que su principal objetivo es que los turistas, realmente conecten con el destino, con su cultura, sus costumbres y tradiciones.
+          p(numero="2" titulo="<i>Mindful Travel</i>") Es un modo de viajar relacionado con el bienestar, autocuidado y la transformación personal. Son viajes tranquilos donde no se cumple con horarios estrictos ya que su principal objetivo es que los turistas, realmente conecten con el destino, con su cultura, sus costumbres y tradiciones.
 
-          p.text-small(numero="3" titulo="Experiencias turísticas") Los turistas buscan experiencias memorables, sentir emociones y vivir aventuras placenteras en cada uno de sus viajes. El viajero experto busca actividades distintas, destinos turísticos que ofrezcan atractivos y experiencias diferentes, lejos del turismo masivo y en busca de vivencias en lugares especiales.
+          p(numero="3" titulo="Experiencias turísticas") Los turistas buscan experiencias memorables, sentir emociones y vivir aventuras placenteras en cada uno de sus viajes. El viajero experto busca actividades distintas, destinos turísticos que ofrezcan atractivos y experiencias diferentes, lejos del turismo masivo y en busca de vivencias en lugares especiales.
 
           
-          p.text-small(numero="4" titulo="Turismo de viajes nómadas") Son los empresarios y empleados que se desplazan hacia cualquier destino con la intención de trabajar a distancia. Este tipo de turismo también combinado con los viajes, es una oportunidad excelente para que los destinos ofrezcan espacios ideales para trabajar y a la vez viajar. 
+          p(numero="4" titulo="Turismo de viajes nómadas") Son los empresarios y empleados que se desplazan hacia cualquier destino con la intención de trabajar a distancia. Este tipo de turismo también combinado con los viajes, es una oportunidad excelente para que los destinos ofrezcan espacios ideales para trabajar y a la vez viajar. 
       .col-xxl-6.col-lg-6.col-md-6.col-sm-11.col-11(data-aos="fade-up-right")
         img.mt-4(src="@/assets/curso/tema1/imagen5.jpg")
     p.my-5(data-aos="fade-up-left") También se puede encontrar nuevas preferencias de los turistas a la hora de viajar como:
@@ -556,8 +523,8 @@
             i.fas.fa-check
             | Preferencia por destinos turísticos no masificados y viajes de una corta estancia en fechas de baja demanda.
           li
-            i.fas.fa-check
-            | Búsqueda de alojamientos de pequeño tamaño y sin espacios compartidos, como viviendas de turismo rural, apartamentos turísticos y <i>bungalow</i>.
+            i.fas.fa-check 
+            p.mb-0 Búsqueda de alojamientos de pequeño tamaño y sin espacios compartidos, como viviendas de turismo rural, apartamentos turísticos y <i>bungalow</i>.
           li 
             i.fas.fa-check
             | Interés en destinos de naturaleza, donde sea posible la realización de actividades al aire libre y espacios abiertos.
@@ -703,44 +670,44 @@
     .tabla-c(data-aos="fade-up-left")
       table
         tr.fondo14
-          th 
+          th.bordetablablanco
             h4.text-center.text-white 
-          td
+          td.bordetablablanco 
             h4.text-center.text-white Ley 300 de 1996
-          td
+          td.bordetablablanco 
             h4.text-center.text-white Ley 1101 de 2006
-          td
+          td.bordetablablanco 
             h4.text-center.text-white Ley 1558 de 2012
           td
             h4.text-center.text-white Ley 2068 de 2020
         tr
-          th 
+          th.bordetabla
             h4.text-center Objeto de la ley
-          td.alinearArriba 
+          td.alinearArriba.bordetabla 
             p Ley general del turismo, reconoce la importancia del turismo para el desarrollo nacional.
-          td.alinearArriba
+          td.alinearArriba.bordetabla
             p Modifica la ley 300 de 1996 y crea el impuesto nacional con destino al turismo como inversión social mediante la promoción y el fortalecimiento de la competitividad que comprende la capacitación y la calidad turísticas.
-          td.alinearArriba
+          td.alinearArriba.bordetabla
             p Fomenta, el desarrollo, la promoción, la competitividad del sector y la regulación de la actividad turística, mediante el aprovechamiento de los recursos y atractivos turísticos nacionales.
-          td.alinearArriba
+          td.alinearArriba.bordetabla
             p Fomenta la sostenibilidad e implementa mecanismos para la conservación, protección y aprovechamiento de los destinos y atractivos turísticos, formaliza la competitividad del sector y promueve la recuperación de la industria turística, mediante incentivos, la calidad y el impulso de oportunidades del sector.
         tr
-          th 
+          th.bordetabla
             h4.text-center Concepción del turismo
-          td.alinearArriba 
+          td.alinearArriba.bordetabla 
             p Una industria esencial para el desarrollo del país con una función social.
-          td.alinearArriba
+          td.alinearArriba.bordetabla
             p Una industria esencial para el desarrollo del país con una función social.
-          td.alinearArriba
+          td.alinearArriba.bordetabla
             p El turismo se concibe, como una industria esencial para el desarrollo del país con una función social, una actividad comercial o industrial.
-          td.alinearArriba
+          td.alinearArriba.bordetabla
             p Un sector esencial para el desarrollo del país con funciones económicas, sociales y ambientales que se debe reactivar y velar por su crecimiento.
     .row.ampliarambos.fondo15
       .col-xxl-12.px-5
         p.my-5.text-center(data-aos="fade-up-left") Nota. SENA (2022).
         p.mb-5(data-aos="fade-up-left") En relación con la ley 1558 de 2012, como ya se indicó, su objetivo fue conseguir más recursos para promoción y competitividad a partir del pago de impuestos de los prestadores de servicios turísticos. Teniendo en cuenta que estos recursos se destinan a:
         .row.justify-content-center
-          .col-xxl-3.col-xl-3.col-lg-3.col-md-4.col-sm-4.col-5(data-aos="fade-up-left")
+          .col-xxl-3.col-xl-3.col-lg-3.col-md-8.col-sm-8.col-8(data-aos="fade-up-left")
             ul.lista-ul--color
               li 
                 i.fas.fa-check
@@ -751,7 +718,7 @@
               li 
                 i.fas.fa-check
                 | Prevención del turismo sexual infantil.     
-          .col-xxl-7.col-xl-7.col-lg-7.col-md-6.col-sm-6.col-5(data-aos="fade-up-left")
+          .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12(data-aos="fade-up-left")
             p Para recolectarlos se crea el Fondo de Promoción Turística que se encarga de administrar el recaudo del impuesto al turismo, los recursos que entran a financiar la infraestructura turística, y también el dinero que se invertirá posteriormente en los temas relacionados con la promoción y la competitividad turística de los destinos.
         .cajon.color-primario.p-4.mb-4.mt-4.fondo1(data-aos="fade-down-right")
           p En esta ley se deja determinado el cumplimiento obligatorio para los prestadores de servicios turísticos en cuanto a la inscripción al Registro Nacional de Turismo, que es el documento legal que les confiere el permiso a estas empresas para que desempeñen su función y también para que puedan acceder a las diferentes fuentes de apoyo del Gobierno Nacional y sus programas regionales.
@@ -773,7 +740,7 @@
 
     TabsC.color-primario(data-aos="fade-up-left")
       .py-3.py-md-4(titulo="Proyectos generados en la ley 1558 de 2012 de turismo")
-        .row.justify-content-around
+        .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             p Comités locales para la Organización de las Playas  que divide las zonas así:
             ul.lista-ul--color
@@ -792,30 +759,30 @@
               li 
                 i.fas.fa-caret-right
                 | Aprovechamiento del tiempo libre que desarrollen los usuarios de las playas.
-          .col-md-3
+          .col-md-4.me-sm-5.pe-sm-5.mt-md-5.pt-md-5
             figure
-              img(src='@/assets/curso/tema1/ley1.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/ley1.jpg')
 
       .py-3.py-md-4(titulo="Programas de inversión social en las comunidades")
-        .row.justify-content-around
+        .row.justify-content-center
           .col-md-7
             p Teniendo especial cuidado aquellas comunidades/personas, en condición de vulnerabilidad.
-          .col-md-3.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0.me-sm-5.pe-sm-5
             figure
               img(src='@/assets/curso/tema1/ley2.jpg', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Destinación al turismo de bienes incautados al narcotráfico")
-        .row.justify-content-around
+        .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             p Los bienes inmuebles con vocación turística incautados por delitos de narcotráfico, serán administrados por el Fondo Nacional de Turismo o la entidad pública que este contrate.
-          .col-md-3
+          .col-md-4.me-sm-5.pe-sm-5
             figure
               img(src='@/assets/curso/tema1/ley3.jpg', alt='Texto que describa la imagen')
 
       .py-3.py-md-4(titulo="Medalla al mérito turístico")
-        .row.justify-content-around
+        .row.justify-content-center
           .col-md-7
             p Esta medalla, tiene como fin el reconocimiento a los prestadores de servicios turísticos que se destaquen por su innovación, promoción o internacionalización del turismo otorgada por el Ministerio de Comercio, Industria y Turismo.
-          .col-md-3.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0.me-sm-5.pe-sm-5
             figure
               img(src='@/assets/curso/tema1/ley4.jpg')
 
@@ -902,101 +869,112 @@
     .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-up-left")
       span.text-small.mb-0 Tabla 3 
       span.text-small.mb-0 Elementos del equipamiento turístico
-    .tabla-c(data-aos="fade-up")
-      table
-        tr.fondo14.align-items-top
-          th 
-            h4.text-center.text-white Categoría
-          td
-            h4.text-center.text-white Alojamiento
-          td
-            h4.text-center.text-white Alimentación
-          td
-            h4.text-center.text-white Esparcimiento
-          td
-            h4.text-center.text-white Otros servicios
-        tr
-          th 
-            h4.text-center Tipo
-          td.alinearArriba
-            p.mb-1 Hoteles
-            p.mb-1 Moteles
-            p.mb-1 Hosterías y posadas
-            p.mb-1 Pensiones
-            p.mb-1 Aparta hoteles
-            p.mb-1 Condominios (unidades o conjuntos)
-            p.mb-1 Casas (unidades o barrios)
-            p.mb-1 Cabañas
-            p.mb-1 Albergues 
-            p.mb-1 <i>Trailer parks</i>
-            p.mb-1 <i>Campings</i>
-            p.mb-1 Camas en casas de familia.
-          td.alinearArriba
-            p.mb-1 Restaurantes
-            p.mb-1 Cafeterías
-            p.mb-1 Quioscos
-            p.mb-1 Comedores típicos (palapas, taquerías, ostionerías, parrillas, etc.)
+    .row
+      .col-xxl-12(data-aos="fade-up")
+        <div class="table-responsive">
+          <table class="table table-striped w-auto table-responsive">
+            <tr class="fondo14" style="align-items: top;">
+              <th class="bordetablablanco" style="width: 150px !important;">
+                h4.text-center.text-white Categoría
+              </th>
+              <th class="bordetablablanco">
+                h4.text-center.text-white Alojamiento
+              </th>
+              <th class="bordetablablanco">
+                h4.text-center.text-white Alimentación
+              </th>
+              <th class="bordetablablanco">
+                h4.text-center.text-white Esparcimiento
+              </th>
+              <th class="bordetablablanco">
+                h4.text-center.text-white Otros servicios
+              </th>
+            </tr>
+            tr.fondo48
+              th.bordetabla  
+                h4.text-center Tipo
+              td.alinearArriba.bordetabla
+                p.mb-0.pb-0 Hoteles
+                p.mb-0.pb-0 Moteles
+                p.mb-0.pb-0 Hosterías y posadas
+                p.mb-0.pb-0 Pensiones
+                p.mb-0.pb-0 Aparta hoteles
+                p.mb-0.pb-0 Condominios (unidades o conjuntos)
+                p.mb-0.pb-0 Casas (unidades o barrios)
+                p.mb-0.pb-0 Cabañas
+                p.mb-0.pb-0 Albergues 
+                p.mb-0.pb-0 <i>Trailer parks</i>
+                p.mb-0.pb-0 <i>Campings</i>
+                p.mb-0.pb-0 Camas en casas de familia.
+              td.alinearArriba.bordetabla
+                p.mb-0.pb-0 Restaurantes
+                p.mb-0.pb-0 Cafeterías
+                p.mb-0.pb-0 Quioscos
+                p.mb-0.pb-0 Comedores típicos (palapas, taquerías, ostionerías, parrillas, etc.)
+              td.alinearArriba.bordetabla
+                p.mb-0.pb-0 <i>Night clubs</i>
+                p.mb-0.pb-0 Discotecas
+                p.mb-0.pb-0 Bares
+                p.mb-0.pb-0 Casinos y otros juegos de azar
+                p.mb-0.pb-0 Otros espectáculos públicos (toros, riñas de gallo, rodeos, etc.)
+                p.mb-0.pb-0 Cubes deportivos
+                p.mb-0.pb-0 Parques temáticos.
+              td.alinearArriba
+                p.mb-0.pb-0 Agencias de viajes
+                p.mb-0.pb-0 Información
+                p.mb-0.pb-0 Guías
+                p.mb-0.pb-0 Comercio
+                p.mb-0.pb-0 Cambios de moneda
+                p.mb-0.pb-0 Dotación para congresos y convenciones
+                p.mb-0.pb-0 Transporte turístico
+                p.mb-0.pb-0 Primeros auxilios
+                p.mb-0.pb-0 Guarderías 
+                p.mb-0.pb-0 Estacionamientos.
+          </table>
+        </div>
 
-
-          td.alinearArriba
-            p.mb-1 <i>Night clubs</i>
-            p.mb-1 Discotecas
-            p.mb-1 Bares
-            p.mb-1 Casinos y otros juegos de azar
-            p.mb-1 Otros espectáculos públicos (toros, riñas de gallo, rodeos, etc.)
-            p.mb-1 Cubes deportivos
-            p.mb-1 Parques temáticos.
-
-          td.alinearArriba
-            p.mb-1 Agencias de viajes
-            p.mb-1 Información
-            p.mb-1 Guías
-            p.mb-1 Comercio
-            p.mb-1 Cambios de moneda
-            p.mb-1 Dotación para congresos y convenciones
-            p.mb-1 Transporte turístico
-            p.mb-1 Primeros auxilios
-            p.mb-1 Guarderías 
-            p.mb-1 Estacionamientos.
     p.text-center.my-5(data-aos="fade-up-left") Nota. Propuesta de un modelo alternativo de funcionamiento del sistema turístico. Abarca Zaquinaula, M (s.f.).
     p.mb-5(data-aos="fade-up-left") Las instalaciones por su parte también se encuentran clasificadas, tal como se indica en la siguiente figura 6:
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-left")
       span.text-bold.mb-0 Figura 6 
       span Clasificación de las instalaciones.
-    .row.justify-content-center
-      .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-10.col-11.px-0(data-aos="fade-up-left")
+    .row.justify-content-center.px-5
+      .col-xxl-4.col-xl-4.col-lg-4.col-md-4.col-sm-10.col-11.px-0(data-aos="fade-up-left")
         img.ms-3(src='@/assets/curso/tema1/clase1.svg')
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-6.col-sm-1.col-1.px-0(data-aos="fade-up-right")
+      .col-xxl-6.col-xl-6.col-lg-6.col-md-6.col-sm-1.col-1.px-0.me-3(data-aos="fade-up-right")
         img.nomostrar1.alto1(src='@/assets/curso/tema1/clase2.png')
 
     p.my-5.text-center(data-aos="fade-up-left") Nota. Propuesta de un modelo alternativo de funcionamiento del sistema turístico. Abarca Zaquinaula, M (s.f.).
     p.mb-5(data-aos="fade-up-left") En cuanto a la infraestructura turística, se debe recordar que se trata de todas las obras y servicios que no solo apoyan al sector del turismo sino, también a los demás sectores para que las actividades económicas de un destino se desarrollen con normalidad. Puede existir infraestructura netamente creada para el turismo como caminos, vías marítimas etc.; sin embargo, la infraestructura es una de las bases esenciales para el desarrollo de cualquier territorio. Los componentes de la infraestructura dedicada al turismo son:
 
-    //--tarjetas slide
-    .row.mb-5.justify-content-center(data-aos="fade-up-left")
-      .col-xxl-4.col-lg-4.col-md-4.col-sm-8.col-10.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido     
-              img(src='@/assets/curso/tema1/t1b.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1a.svg')})`}")
+    //-tarjetas slide nuevo
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/t1a.png")
+          .crd_hover_txt--body.nuevocolor
+            h4.mb-3 Rutas de acceso
+            p.mb-0 Pueden ser terrestre, área, lacustre, marítima, redes viales, aeropuertos, terminales, etc.
 
-      .col-xxl-4.col-lg-4.col-md-4.col-sm-8.col-10.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/t2b.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t2a.svg')})`}")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/t2a.png")
+          .crd_hover_txt--body.nuevocolor
+            h4.mb-3 Comunicaciones
+            p.mb-0 Abarca los servicios de teléfono, correo, internet, correo electrónico, etc.
 
-      .col-xxl-4.col-lg-4.col-md-4.col-sm-8.col-10.col-xl-4.mb-4.mb-xl-4
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/t3b.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t3a.svg')})`}")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/t3a.png")
+          .crd_hover_txt--body.nuevocolor
+            h4.mb-3 Equipamiento urbano
+            p.mb-0.me-5 Comprende los servicios de agua, desagüe, alcantarillado y energía eléctrica.
 
     p.my-5(data-aos="fade-up-left") Cuando se habla de la superestructura, se integra tanto por organismos públicos como privados que tienen la misión de planificar, optimizar y regular el funcionamiento del sistema turístico, facilitando la producción y venta de los servicios por los cuales está compuesto el producto turístico.
     .row.justify-content-center(data-aos="fade-up")
@@ -1015,32 +993,32 @@
     SlyderF.my-5(data-aos="fade-up")(columnas="col-lg-6 col-xl-6")
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-4.col-8
+          .col-xxl-4.col-lg-4.col-md-3.col-4
             img(src='@/assets/curso/tema1/slider1.png' alt='AvatarTop')
         h3.text-dark Sitios naturales
         p.text-dark Montañas, planicies, costas, lagos, lagunas y esteros, ríos y arroyos y caídas de agua, grutas y cavernas, lugares de observación de flora y fauna, lugares de caza y pesca, caminos pintorescos, termas, parques nacionales y reservas de flora y fauna.
 
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-5.col-8
-            img(src='@/assets/curso/tema1/slider2.svg' alt='AvatarTop')
+          .col-xxl-5.col-lg-5.col-md-4.col-4
+            img(src='@/assets/curso/tema1/slider2.svg')
         h3.text-dark Museos y manifestaciones culturales históricas
         p.text-dark Museos, obras de arte y técnica, lugares históricos, ruinas y sitios arqueológicos.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-5.col-md-4.col-8
+          .col-xxl-4.col-lg-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider3.png' alt='AvatarTop')
         h3.text-dark <i>Folklore</i>
         p.text-dark Manifestaciones religiosas y creencias populares, ferias y mercados, música y danzas, artesanías y artes populares comidas y bebidas típicas, grupos étnicos arquitectura popular y espontánea.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-left.mb-3
-          .col-xxl-6.col-md-4.col-8
+          .col-xxl-4.col-lg-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider4.png' alt='AvatarTop')
         h3.text-dark Realizaciones técnicas, científicas o artísticas contemporáneas
         p.text-dark Explotaciones mineras, explotaciones agropecuarias, explotaciones industriales, obras de arte y técnica, centros científicos y técnicos.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-5.col-8
+          .col-xxl-4.col-lg-5.col-md-4.col-5
             img(src='@/assets/curso/tema1/slider5.svg' alt='AvatarTop')
         h3.text-dark Acontecimientos programados
         p.text-dark Artísticos, deportivos, ferias y exposiciones, concursos, fiestas religiosas y profanas y carnavales.
@@ -1131,15 +1109,15 @@
     .row.justify-content-center
       .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Atractivo turístico") Es todo lugar, objeto o acontecimiento de interés turístico. Estos pueden ser atractivos naturales o culturales. Y pueden ser:<br/><br/><span style="font-weight: 700;"> Naturales: </span><span> aquellos asociados a la geografía y la ecología, como los relacionados con las playas, el mar, la costa, el clima, el sol, la orografía, las montañas, los ríos, la flora, la fauna.</span><br/><br/><span style="font-weight: 700;">Asociados al ocio: </span><span> instalaciones existentes para la práctica de diferentes tipos de deportes.</span><br/><br/><span style="font-weight: 700;">Recursos Culturales e históricos: </span><span> monumentos arqueológicos, religiosos, museos, cascos antiguos, entre otros.</span>
+          p(numero="1" titulo="Atractivo turístico") Es todo lugar, objeto o acontecimiento de interés turístico. Estos pueden ser atractivos naturales o culturales. Y pueden ser:<br/><br/><span style="font-weight: 700;"> Naturales: </span><span> aquellos asociados a la geografía y la ecología, como los relacionados con las playas, el mar, la costa, el clima, el sol, la orografía, las montañas, los ríos, la flora, la fauna.</span><br/><br/><span style="font-weight: 700;">Asociados al ocio: </span><span> instalaciones existentes para la práctica de diferentes tipos de deportes.</span><br/><br/><span style="font-weight: 700;">Recursos Culturales e históricos: </span><span> monumentos arqueológicos, religiosos, museos, cascos antiguos, entre otros.</span>
 
-          p.text-small(numero="2" titulo="Servicio turístico") Son todos los servicios que el turista requiere y consume mientras está de viaje como el alojamiento, alimentación, transporte, agencias de viajes, etc.
+          p(numero="2" titulo="Servicio turístico") Son todos los servicios que el turista requiere y consume mientras está de viaje como el alojamiento, alimentación, transporte, agencias de viajes, etc.
           
-          p.text-small(numero="3" titulo="Infraestructura turística") Es la dotación de bienes y servicios básicos con que cuenta un país, departamento o municipio y permite que el viaje sea cómodo y agradable, se puede clasificar en: red de transportes (red ferroviaria y vial), terminales terrestres (aeropuertos, terminales de buses, puertos, etc.), redes de servicios básicos (agua potable, electricidad, etc.), redes de comunicaciones (correo, teléfonos fijos, equipos celulares, fax, Internet, etc.
+          p(numero="3" titulo="Infraestructura turística") Es la dotación de bienes y servicios básicos con que cuenta un país, departamento o municipio y permite que el viaje sea cómodo y agradable, se puede clasificar en: red de transportes (red ferroviaria y vial), terminales terrestres (aeropuertos, terminales de buses, puertos, etc.), redes de servicios básicos (agua potable, electricidad, etc.), redes de comunicaciones (correo, teléfonos fijos, equipos celulares, fax, Internet, etc.
 
-          p.text-small(numero="4" titulo="Comunidad local") Habitantes, costumbres y tradiciones<br/><br/>El producto turístico debe incluir a los residentes, ya que son ellos los que ponen la diferencia principal entre un lugar y otro. En definitiva, es el sello que hace que un lugar sea agradable y único para visitar, es lo que lo hace diferente.
+          p(numero="4" titulo="Comunidad local") Habitantes, costumbres y tradiciones<br/><br/>El producto turístico debe incluir a los residentes, ya que son ellos los que ponen la diferencia principal entre un lugar y otro. En definitiva, es el sello que hace que un lugar sea agradable y único para visitar, es lo que lo hace diferente.
 
-          p.text-small(numero="5" titulo="Servicio turístico") Percepción - Imagen - Emoción (Sensación) <br/>independiente de las características que posea un destino concreto, no todos los turistas que lo visitan van a percibirlo de igual forma, ya que cada uno construirá su propia imagen del destino y esto lo va a conectar con una emoción que finalmente se transforma en sensaciones.<br/><br/>También debemos tener presente que normalmente un turista no se satisface a partir de la oferta de un solo proveedor. El transporte, la alimentación, el alojamiento y las actividades serán entregadas por muchos oferentes distintos, razón por la que el éxito de nuestro producto depende del éxito de la combinación de estos oferentes.
+          p(numero="5" titulo="Servicio turístico") Percepción - Imagen - Emoción (Sensación) <br/>independiente de las características que posea un destino concreto, no todos los turistas que lo visitan van a percibirlo de igual forma, ya que cada uno construirá su propia imagen del destino y esto lo va a conectar con una emoción que finalmente se transforma en sensaciones.<br/><br/>También debemos tener presente que normalmente un turista no se satisface a partir de la oferta de un solo proveedor. El transporte, la alimentación, el alojamiento y las actividades serán entregadas por muchos oferentes distintos, razón por la que el éxito de nuestro producto depende del éxito de la combinación de estos oferentes.
 
       .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
         img.mt-4(src="@/assets/curso/tema1/imagen14.jpg")
@@ -1148,23 +1126,27 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-left")
       span.text-small.mb-0 Tabla 4 
       span.text-small.mb-0 Concepto y diferencia entre costos y gastos de un producto turístico
-    .tabla-c(data-aos="fade-up")
-      table
-        tr.fondo6
-          th 
-            h4.text-center GASTO
-          td
-            h4.text-center COSTO
-          td
-            h4.text-center DIFERENCIA ENTRE GASTO Y COSTO
-        tr
-          th.alinearArriba 
-            p Una partida que disminuye las ganancias (beneficio) de la empresa y que, por ende, contribuye a aumentar sus pérdidas (deuda).
-          td.alinearArriba 
-            p Es el desembolso económico que se realiza para la producción de algún bien o la oferta de algún servicio. El costo incluye la compra de insumos, el pago de la mano de obra, los gastos en la producción y los gastos administrativos, entre otras actividades.
-          td.alinearArriba
-            p El costo se define como todas aquellas inversiones necesarias para la producción del bien o servicio, como son: la mano de obra o las materias primas. Los costos son considerados como inversiones, ya que se espera que vuelvan como forma de ganancias para la empresa. 
-            p Los gastos son todos aquellos pagos que la empresa debe realizar por aspectos que no tienen que ver directamente con la producción, como el pago de sueldos del personal administrativo. Estos gastos son los que permiten el correcto funcionamiento de la empresa, pero que no se encuentran directamente relacionados con las ganancias.
+    .row
+      .col-xxl-12(data-aos="fade-up")
+        <div class="table-responsive">
+          <table class="table table-striped w-auto table-responsive">
+            tr.fondo6
+              th 
+                h4.text-center.bordetablablanco GASTO
+              td
+                h4.text-center.bordetablablanco COSTO
+              td
+                h4.text-center DIFERENCIA ENTRE GASTO Y COSTO
+            tr
+              th.alinearArriba.bordetabla
+                p Una partida que disminuye las ganancias (beneficio) de la empresa y que, por ende, contribuye a aumentar sus pérdidas (deuda).
+              td.alinearArriba.bordetabla 
+                p Es el desembolso económico que se realiza para la producción de algún bien o la oferta de algún servicio. El costo incluye la compra de insumos, el pago de la mano de obra, los gastos en la producción y los gastos administrativos, entre otras actividades.
+              td.alinearArriba
+                p El costo se define como todas aquellas inversiones necesarias para la producción del bien o servicio, como son: la mano de obra o las materias primas. Los costos son considerados como inversiones, ya que se espera que vuelvan como forma de ganancias para la empresa. 
+                p Los gastos son todos aquellos pagos que la empresa debe realizar por aspectos que no tienen que ver directamente con la producción, como el pago de sueldos del personal administrativo. Estos gastos son los que permiten el correcto funcionamiento de la empresa, pero que no se encuentran directamente relacionados con las ganancias.
+          </table>
+        </div>
     p.text-center.my-4(data-aos="fade-up-left") Nota. Costo. Enciclopedia Concepto (2022).
     p.mb-5(data-aos="fade-up-left") En la siguiente gráfica puede consultar con detalle cada uno de los costos y de los gastos que se precisan en la industria del turismo, y que son obligatorios para llevar a cabo una excelente prestación del servicio:
 
@@ -1273,11 +1255,11 @@
     .row.justify-content-center.my-5
         .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11.mt-4(data-aos="fade-up-left")
           LineaTiempoD.color-secundario
-            p.text-small(numero="1" titulo="Agencias de viajes y turismo") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a vender planes turísticos.<br/>Funciones:<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Organizar, promover y vender planes turísticos nacionales, para ser operados por las agencias de viajes operadoras establecidas legalmente en el país.</span></li><li><span style="color: #12263F;">Organizar, promover y vender planes turísticos para ser operados fuera del territorio nacional.</span></li><li><span style="color: #12263F;">Reservar y contratar alojamiento y demás servicios turísticos.</span></li><li><span style="color: #12263F;">Reservar cupos y vender pasajes nacionales e internacionales en cualquier medio de transporte.</span></li><li><span style="color: #12263F;">Operar turismo receptivo, para lo cual deberán contar con un departamento de turismo receptivo y cumplir con las funciones propias de las agencias de viajes operadoras.</span></li></ul>
+            p(numero="1" titulo="Agencias de viajes y turismo") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a vender planes turísticos.<br/><span style="margin-left: 5px;">Funciones:</span><br/><ul style="color: margin-left: 10px;"><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Organizar, promover y vender planes turísticos nacionales, para ser operados por las agencias de viajes operadoras establecidas legalmente en el país.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Organizar, promover y vender planes turísticos para ser operados fuera del territorio nacional.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Reservar y contratar alojamiento y demás servicios turísticos.</span></li><li><span style="color: #12263F;">Reservar cupos y vender pasajes nacionales e internacionales en cualquier medio de transporte.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Operar turismo receptivo, para lo cual deberán contar con un departamento de turismo receptivo y cumplir con las funciones propias de las agencias de viajes operadoras.</span></li></ul>
 
-            p.text-small(numero="2" titulo="Agencias de viajes operadoras") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a operar planes turísticos.<br/>Funciones:<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Operar dentro del país planes turísticos, programados por agencias de viajes del exterior y del país.</span></li><li><span style="color: #12263F;">Organizar y promover planes turísticos para ser operados por ellas mismas, sus sucursales y agencias si las tuviere, de acuerdo con la ubicación de cada una de ellas dentro del territorio nacional.</span></li><li><span style="color: #12263F;">Prestar los servicios de transporte turístico de acuerdo con las disposiciones que reglamentan la materia.</span></li><li><span style="color: #12263F;">Brindar equipo especializado tal como implementos de caza y pesca, buceo y otros elementos deportivos, cuando la actividad lo requiera.</span></li><li><span style="color: #12263F;">Prestar el servicio de guianza con personas debidamente inscritas en el Registro Nacional de Turismo.</span></li></ul>
+            p(numero="2" titulo="Agencias de viajes operadoras") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas que se dediquen profesionalmente a operar planes turísticos.<br/><span style="margin-left: 5px;">Funciones:</span><br/><ul style="color: margin-left: 10px;"><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Operar dentro del país planes turísticos, programados por agencias de viajes del exterior y del país.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Organizar y promover planes turísticos para ser operados por ellas mismas, sus sucursales y agencias si las tuviere, de acuerdo con la ubicación de cada una de ellas dentro del territorio nacional.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Prestar los servicios de transporte turístico de acuerdo con las disposiciones que reglamentan la materia.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Brindar equipo especializado tal como implementos de caza y pesca, buceo y otros elementos deportivos, cuando la actividad lo requiera.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Prestar el servicio de guianza con personas debidamente inscritas en el Registro Nacional de Turismo.</span></li></ul>
             
-            p.text-small(numero="3" titulo="Agencias de viajes mayoristas") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas, que se dediquen profesionalmente a programar y organizar planes turísticos.<br/>Funciones:<br/><ul style="list-style-type:disc; color: #FFB338; margin-left: 10px;"><li><span style="color: #12263F;">Programar y organizar planes turísticos nacionales e internacionales, para ser ejecutados o por agencias de viajes operadoras y vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;">Programar y organizar planes turísticos para ser operados fuera del territorio nacional por sus corresponsales o agentes y para ser vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;">Promover y vender planes turísticos hacia Colombia, para ser ejecutados por las agencias operadoras establecidas en el país.</span></li><li><span style="color: #12263F;">Reservar y contratar alojamiento y demás servicios turísticos, para ser vendidos por las agencias de viajes y turismo.</span></li></ul>
+            p(numero="3" titulo="Agencias de viajes mayoristas") Son las empresas comerciales, debidamente constituidas por personas naturales o jurídicas, que se dediquen profesionalmente a programar y organizar planes turísticos.<br/><span style="margin-left: 5px;">Funciones:</span><br/><ul style="margin-left: 10px;"><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Programar y organizar planes turísticos nacionales e internacionales, para ser ejecutados o por agencias de viajes operadoras y vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Programar y organizar planes turísticos para ser operados fuera del territorio nacional por sus corresponsales o agentes y para ser vendidos por las agencias de viajes y turismo.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Promover y vender planes turísticos hacia Colombia, para ser ejecutados por las agencias operadoras establecidas en el país.</span></li><li><span style="color: #12263F;"><i class="fas fa-circle fa-xs" style="margin-right: 5px;"></i>Reservar y contratar alojamiento y demás servicios turísticos, para ser vendidos por las agencias de viajes y turismo.</span></li></ul>
         .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
           img.mt-4(src="@/assets/curso/tema1/imagen16.jpg")
     .row(data-aos="fade-up-left")
@@ -1331,7 +1313,7 @@
                 p Ideal para: alquileres vacacionales, <i>bed and breakfasts</i>, alojamientos compartidos, hoteles <i>boutique</i>, hostales y propiedades independiente.
 
             .row.justify-content-center
-              .col-lg-4.col-md-4.col-4
+              .col-lg-4.col-md-4.col-5.col-sm-5
                 figure
                   img(src='@/assets/curso/tema1/booking.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
@@ -1347,7 +1329,7 @@
                 p Ideal para: alojamientos de toda clase y tamaño en el mundo entero.
 
             .row.justify-content-center
-              .col-lg-5.col-md-5.col-5
+              .col-lg-5.col-md-6.col-sm-7.col-7
                 figure
                   img(src='@/assets/curso/tema1/hotel.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
@@ -1355,7 +1337,7 @@
                 p Ideal para: hostales, hoteles, bed and breakfast, casas de huéspedes, apartamentos y zonas de <i>camping</i>.
 
             .row.justify-content-center
-              .col-lg-5.col-md-5.col-5
+              .col-lg-5.col-md-6.col-sm-7.col-7
                 figure
                   img(src='@/assets/curso/tema1/despegar.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
@@ -1363,7 +1345,7 @@
                 p Ideal para: hoteles y aerolíneas.
 
             .row.justify-content-center
-              .col-lg-4.col-md-4.col-5
+              .col-lg-4.col-md-5.col-6
                 figure
                   img(src='@/assets/curso/tema1/travel.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
@@ -1459,8 +1441,8 @@
     p.text-center.my-5(data-aos="fade-up-left") Nota. SENA (2022).
 
     .row
-      .col-xxl-7.col-xl-8.col-lg-10.col-md-12.col-sm-12.col-12.fondomundo2.ps-5(data-aos="fade-up-left")
-        h4.ps-5.pt-5.ms-5.mt-3 <i>Customer Relationship Management y Enterprise Resoure Planning</i>
+      .col-xxl-7.col-xl-8.col-lg-10.col-md-12.col-sm-12.col-12.fondomundo2.ps-5.py-2.py-xs-1(data-aos="fade-up-left")
+        h4.ps-5.pt-5.ms-5.my-3 <i>Customer Relationship Management y Enterprise Resource Planning</i>
     p.my-5(data-aos="fade-up-left") Estas dos herramientas permiten la gestión del servicio y la relación que ejerce con el cliente o los clientes interesados, así como la fidelización de estos, posibilitando perdurabilidad en el tiempo, a continuación, se explica cada una de estas:
     p.subrayar.mb-5(data-aos="fade-up-left") <i>Customer Relationship Management.</i>
     p.mb-5(data-aos="fade-up-left") Este término se refiere a una herramienta diseñada para gestionar las estrategias y prácticas de negocio que están dirigidas a la relación con el cliente y prospectos. Son <i>software</i> especializados de gran ayuda para los equipos de ventas y <i>marketing</i>. Observar el siguiente video para aprender más al respecto. 
@@ -1579,44 +1561,44 @@
     SlyderF.my-5(data-aos="fade-up-right")(columnas="col-lg-6 col-xl-6")
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-4.col-8
+          .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-1.png')
         h3.text-dark Programas de estancia
         p.text-dark Incluyen la combinación de un medio de transporte y una estancia en algún alojamiento turístico. no suele haber horarios o excursiones preestablecidas. Se usa para playas, campo o montañas.
 
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-5.col-8
+          .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-2.png')
         h3.text-dark Circuitos
         p.text-dark Se visitan un conjunto de destinos de manera articulada y programada. Suelen clasificarse de acuerdo al medio de transporte que utilicen.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-5.col-md-4.col-8
+          .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-3.png')
         h3.text-dark Circuitos terrestres
         p.text-dark Generalmente son <i>tours</i> en autobús para viajes dentro del territorio nacional o países limítrofes.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-left.mb-3
-          .col-xxl-6.col-md-4.col-8
+          .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-4.png')
         h3.text-dark Circuitos aeroterrestres
         p.text-dark El paquete incluye el vuelo aéreo para llegar al destino turístico determinado donde se desarrolla el resto de los servicios turísticos: paseos, alojamiento, visitas guiadas, etc.; y luego se utiliza nuevamente el avión para volver.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-5.col-8
+          .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-5.png')
         h3.text-dark Larga distancia
         p.text-dark Este tipo de paquetes turísticos suele utilizar transporte y guía particular para llegar al destino.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-5.col-8
+          .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-6.png')
         h3.text-dark Viajes alternativos
         p.text-dark Están diseñados exclusivamente con destinos inéditos, suelen implementar medios de transporte o alojamiento insólitos o poco frecuentes. El objetivo de estos paquetes es ofrecer actividades y experiencias diferentes.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
-          .col-xxl-6.col-md-5.col-8
+          .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-7.png')
         h3.text-dark Viajes a medida
         p.text-dark De acuerdo a las requerimientos o preferencias del cliente, incluyendo en el producto final todos los servicios necesarios como transporte, alojamiento y experiencias.
@@ -1834,10 +1816,10 @@
     .row.justify-content-center.my-5
         .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11.mt-4(data-aos="fade-up-right")
           LineaTiempoD.color-secundario
-            p.text-small(numero="1" titulo="Temática") Con una orientación de excursión o conocimientos.
-            p.text-small(numero="2" titulo="Senderismo") Con formas activas de moverse por el territorio.
-            p.text-small(numero="3" titulo="Bienestar") Con el predominio del deporte y el descanso activo.
-            p.text-small(numero="3" titulo="Combinadas") Son las rutas que combinan elementos de todas las rutas anteriores.
+            p(numero="1" titulo="Temática") Con una orientación de excursión o conocimientos.
+            p(numero="2" titulo="Senderismo") Con formas activas de moverse por el territorio.
+            p(numero="3" titulo="Bienestar") Con el predominio del deporte y el descanso activo.
+            p(numero="3" titulo="Combinadas") Son las rutas que combinan elementos de todas las rutas anteriores.
         .col-xxl-6.col-lg-6.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
           img.mt-4(src="@/assets/curso/tema1/imagen26.jpg")
     p.subrayar.mb-5(data-aos="fade-up-right") Según tipo de recorrido
@@ -1869,8 +1851,8 @@
     separador
     #establecimiento.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 1.14 Establecimientos de alojamiento y hospedaje
-    .row.fondo30.ampliarambos
-      .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.ps-5(data-aos="fade-up-right")
+    .row.fondo30.ampliarambos.justify-content-center.px-5
+      .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
         p.mb-4 Son los establecimientos de comercio que brindan el servicio de alojamiento turístico no permanente inferior a 30 días, con o sin alimentación y servicios básicos y/o complementarios, mediante contrato de hospedaje, y se clasifican en:
         ul.lista-ul--color
           li.otrocolorcheck 
@@ -1880,7 +1862,7 @@
             i.fas.fa-check
             | Según la explotación comercial o modalidad: de acuerdo con la Norma Técnica Sectorial Colombiana NTSH 006 del 2009, los establecimientos de alojamiento y hospedaje se clasifican según la modalidad en la prestación del servicio, de la siguiente forma:
           p.ms-4 Albergue-refugio-hostal, aparta hotel, apartamentos turísticos, alojamiento rural-<i>lodge</i>, hotel, posadas turísticas y recinto de campamento o <i>camping</i>.  
-      .col-xxl-6.col-xl-6.col-lg-5.col-md-11.col-sm-11.col-11.pe-5(data-aos="fade-up-left")
+      .col-xxl-6.col-xl-6.col-lg-5.col-md-11.col-sm-11.col-11(data-aos="fade-up-left")
         img(src='@/assets/curso/tema1/imagen28.jpg')
     p.mt-5 En el siguiente recurso educativo se ofrece una amplia explicación a este respecto:
     //-slider    
@@ -2079,7 +2061,7 @@
         h4.mb-4 Dimensión económica
         p El turismo sostenible debe ser rentable y debe haber una distribución equitativa de los beneficios socio-económicos como el empleo estable y la obtención de ingresos y servicios sociales para las comunidades anfitrionas.
     .row(data-aos="fade-up-right")
-      .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-11.fondomundo2.ps-3
+      .col-xxl-5.col-xl-5.col-lg-6.col-md-9.col-sm-12.col-12.fondomundo3.ps-4
         h4.ps-5.pt-5.ms-5.mt-3 Colombia y el turismo sostenible
       p.my-5 El compromiso de Colombia con la sostenibilidad inició en el año 2012, cuando el país definió los ODS (Objetivos de Desarrollo Sostenible) en la Cumbre de Rio de Janeiro. Este evento estuvo enfocado en los requerimientos económicos e institucionales para el desarrollo sostenible y allí Colombia defendió la necesidad de realizar prácticas sostenibles cuando de turismo se habla y adicionalmente mencionó que los ODS deberían ser aplicados en todos los países y no solo en las economías emergentes a las que estaban inicialmente dirigidos (ver figura 13). 
     .row.justify-content-center.mb-5(data-aos="fade-up-right")
@@ -2123,29 +2105,15 @@
     p.mb-5(data-aos="fade-up-right") El clima en el país varía de acuerdo con los pisos térmicos que hay en cada región, de acuerdo con la explicación que encuentra a continuación:
     .row.justify-content-center
       .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-up-right")
-        AcordionA.otroacordion.otratarjetaazul(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-          .row(titulo="Clima cálido")
-            .col-md-11
-              p Son zonas en las que el calor supera los 24º C., como ocurre en el Pacífico, en donde se puede hacer avistamiento de ballenas jorobadas; San Andrés, un destino con playas increíbles para bucear; y  la costa Caribe, en donde se celebra el famoso Carnaval de Barranquilla, y en donde se encuentra el Parque Nacional Natural Tayrona.
-          .row(titulo="Clima templado")
-            .col-md-11
-              p En estas zonas, la temperatura oscila entre los 17ºC. Y los 24º C. Como ocurre en Medellín, en donde se celebra la Feria de las flores, o en Cali hogar de la famosa Feria de Cali.
-          .row(titulo="Clima frío")
-            .col-md-11
-              p La temperatura oscila entre los 12º C y los 17º C. Ejemplo de éste clima es la ciudad de Bogotá, la cual fusiona historia, patrimonio y modernidad, en donde hay variedad de museos y centros culturales, como el Museo del Oro del Banco de la República.
-          .row(titulo="Páramos")
-            .col-md-11
-              p En estas zonas, las temperaturas oscilan entre los 6º C y los 12º C. El parque Nacional Natural Chingaza, en el cual habitan especies como venados de cola blanca, cóndores y osos andinos.
-          .row(titulo="Zonas glaciares")
-            .col-md-11
-              p Tienen una temperatura inferior a los 6º C. En la Sierra Nevada de Santa Marta, se puede apreciar paisajes nevados, además de practicar el <i>trekking</i>.
-          .row(titulo="Selvas tropicales")
-            .col-md-11
-              p Son hábitats calurosos y húmedos, y las temperaturas superan los 27º C. En Colombia, la región del Amazonas es una selva tropical, con gran riqueza de paisajes naturales.
-          .row(titulo="Tropical de estepa")
-            .col-md-11
-              p Se caracteriza por sus altas temperaturas, sus lluvias mínimas y muy poca vegetación, con temperaturas que sobrepasan los 34º C. La Guajira es un ejemplo de este clima, en donde se puede disfrutar de paisajes desérticos, visitar las rancherías y conocer algo más de la cultura <i>Wayuu</i>.
-      .col-xxl-6.col-xl-6.col-lg-5.col-md-8.col-sm-11.col-11(data-aos="fade-up-right")
+        LineaTiempoD.color-secundario
+          p(numero="1" titulo="Clima cálido") Son zonas en las que el calor supera los 24º C., como ocurre en el Pacífico, en donde se puede hacer avistamiento de ballenas jorobadas; San Andrés, un destino con playas increíbles para bucear; y  la costa Caribe, en donde se celebra el famoso Carnaval de Barranquilla, y en donde se encuentra el Parque Nacional Natural Tayrona.
+          p(numero="2" titulo="Clima templado") En estas zonas, la temperatura oscila entre los 17ºC. Y los 24º C. Como ocurre en Medellín, en donde se celebra la Feria de las flores, o en Cali hogar de la famosa Feria de Cali.
+          p(numero="3" titulo="Clima frío") La temperatura oscila entre los 12º C y los 17º C. Ejemplo de éste clima es la ciudad de Bogotá, la cual fusiona historia, patrimonio y modernidad, en donde hay variedad de museos y centros culturales, como el Museo del Oro del Banco de la República.
+          p(numero="4" titulo="Páramos") En estas zonas, las temperaturas oscilan entre los 6º C y los 12º C. El parque Nacional Natural Chingaza, en el cual habitan especies como venados de cola blanca, cóndores y osos andinos.
+          p(numero="5" titulo="Zonas glaciares") Tienen una temperatura inferior a los 6º C. En la Sierra Nevada de Santa Marta, se puede apreciar paisajes nevados, además de practicar el <i>trekking</i>.
+          p(numero="6" titulo="Selvas tropicales") Son hábitats calurosos y húmedos, y las temperaturas superan los 27º C. En Colombia, la región del Amazonas es una selva tropical, con gran riqueza de paisajes naturales.hábitats calurosos y húmedos, y las temperaturas superan los 27º C. En Colombia, la región del Amazonas es una selva tropical, con gran riqueza de paisajes naturales.
+          p(numero="7" titulo="Tropical de estepa") Se caracteriza por sus altas temperaturas, sus lluvias mínimas y muy poca vegetación, con temperaturas que sobrepasan los 34º C. La Guajira es un ejemplo de este clima, en donde se puede disfrutar de paisajes desérticos, visitar las rancherías y conocer algo más de la cultura <i>Wayuu</i>.
+      .col-xxl-6.col-xl-6.col-lg-5.col-md-8.col-sm-11.col-11.my-5(data-aos="fade-up-right")
         img(src='@/assets/curso/tema1/imagen31.jpg')
     p.mt-5(data-aos="fade-up-right") Anteriormente por parte del turismo, Colombia no obtenía ingresos importantes debido a la inseguridad y la violencia en la que se había sumergido desde los años sesenta; sin embargo, este panorama cambió y en la última década bajo todas las políticas públicas, el país ha tenido un desarrollo económico y cultural exponencial, lo que ha ayudado a que el sector turismo ocupe una de las bases fundamentales del país.
     p.mb-5(data-aos="fade-up-right") Colombia está lleno de atractivos turísticos, su variada geografía, la riqueza ecológica, la variedad de regiones y climas, su historia llena aventuras, sus personajes representativos, sus residentes y su cultura, ha encantado a propios y foráneos durante años. Es un país que hace vibrar a sus visitantes, con sus emociones y toda su cultura. El gobierno ha enfatizado 7 sectores de turismo, como forma de promoción, estos son (ver figura 14):
@@ -2193,7 +2161,7 @@
     .row.justify-content-center
       .col-xxl-4.col-xl-4.col-lg-4.col-md-11.col-11(data-aos="fade-up-right")
         p Colombia obtiene las estadísticas de turismo de diferentes fuentes:
-        ul.lista-ul--color.fondo41.otrocolorcheck 
+        ul.lista-ul--color.fondo41.otrocolorcheck.sombracajon 
           li 
             i.fas.fa-check
             | CITUR.
@@ -2315,40 +2283,45 @@ export default {
   data: () => ({
     datosLineaTiempoB: [
       {
-        titulo: '<p style="color: #111E61; font-weight: 700;">Prehistoria</p>',
+        titulo:
+          '<p style="color: #111E61; font-weight: 700; margin-left: 25px;">Prehistoria</p>',
         texto:
-          '<p style="color: #111E61;">Primeros desplazamientos por cuestiones climáticas, de alimentación y presiones de grupos.</p>',
+          '<p style="color: #111E61; margin-left: 25px;">Primeros desplazamientos por cuestiones climáticas, de alimentación y presiones de grupos.</p>',
         icono: require('@/assets/curso/tema1/prehistoria.png'),
       },
       {
-        titulo: '<p style="color: #111E61; font-weight: 700;">Edad antigua</p>',
+        titulo:
+          '<p style="color: #111E61; font-weight: 700; margin-right: 25px;">Edad antigua</p>',
         texto:
-          '<p style="color: #111E61;">Aparecen actividades de tiempo libre y de ocio creativo en la Antigua Grecia. Con la cultura Romana inician las primeras actividades de termalismo. Primeros viajes hacia el mar en época dorada de la antigua Roma, así como las actividades de teatro.</p>',
+          '<p style="color: #111E61; margin-right: 25px;">Aparecen actividades de tiempo libre y de ocio creativo en la Antigua Grecia. Con la cultura Romana inician las primeras actividades de termalismo. Primeros viajes hacia el mar en época dorada de la antigua Roma, así como las actividades de teatro.</p>',
         icono: require('@/assets/curso/tema1/antigua.png'),
       },
       {
-        titulo: '<p style="color: #111E61; font-weight: 700;">Edad media</p>',
+        titulo:
+          '<p style="color: #111E61; font-weight: 700; margin-left: 25px;">Edad media</p>',
         texto:
-          '<ul style="list-style-type: disc; margin-left:1em; color:#008BD2;"><li><p style="color: #111E61;">Primeros peregrinaciones hacia lugares cristianos.</p></li><li><p style="color: #111E61;">Surgen las Cruzadas con el objetivo de recuperar territorios cristianos invadidos por los árabes.</p></li><li><p style="color: #111E61;">Primeros mapas y rutas de caminos de peregrinación.</p></li><li><p style="color: #111E61;">Nacen los refugios y hospedajes en dichos caminos por Europa.</p></li></ul>',
+          '<ul style="list-style-type: disc; margin-left:1em; color:#008BD2;  margin-left: 25px;"><li><p style="color: #111E61;">Primeros peregrinaciones hacia lugares cristianos.</p></li><li><p style="color: #111E61;">Surgen las Cruzadas con el objetivo de recuperar territorios cristianos invadidos por los árabes.</p></li><li><p style="color: #111E61;">Primeros mapas y rutas de caminos de peregrinación.</p></li><li><p style="color: #111E61;">Nacen los refugios y hospedajes en dichos caminos por Europa.</p></li></ul>',
         icono: require('@/assets/curso/tema1/media.png'),
       },
       {
-        titulo: '<p style="color: #111E61; font-weight: 700;">Edad moderna</p>',
+        titulo:
+          '<p style="color: #111E61; font-weight: 700; margin-right: 35px;">Edad moderna</p>',
         texto:
-          '<p style="color: #111E61;">Aparecen las primeras formas de alojamiento y surge el concepto de Hotel. Por cuenta de los viajes a América, aparece la geografía como ciencia. Surgen las expediciones para jóvenes aristócratas <i>“El Grand Tour”</i>.Aumenta la demanda de visitas a aguas termales.</p>',
+          '<p style="color: #111E61; margin-right: 35px;">Aparecen las primeras formas de alojamiento y surge el concepto de Hotel. Por cuenta de los viajes a América, aparece la geografía como ciencia. Surgen las expediciones para jóvenes aristócratas <i>“El Grand Tour”</i>.Aumenta la demanda de visitas a aguas termales.</p>',
         icono: require('@/assets/curso/tema1/moderna.png'),
       },
       {
         titulo:
-          '<p style="color: #111E61; font-weight: 700;">Edad contemporánea</p>',
+          '<p style="color: #111E61; font-weight: 700; margin-left: 25px;">Edad contemporánea</p>',
         texto:
-          '<p style="color: #111E61;">Revolución industrial que aumenta actividades de tiempo libre y viajes. El inglés Thomas Cook organiza el primer viaje y crea su agencia de viajes. Se fortalecen hoteles y la administración en este campo. Se potencializan los viajes en automóvil y avión. Se universaliza el mercado turístico a partir de la apertura de fronteras.</p>',
+          '<p style="color: #111E61; margin-left: 25px;">Revolución industrial que aumenta actividades de tiempo libre y viajes. El inglés Thomas Cook organiza el primer viaje y crea su agencia de viajes. Se fortalecen hoteles y la administración en este campo. Se potencializan los viajes en automóvil y avión. Se universaliza el mercado turístico a partir de la apertura de fronteras.</p>',
         icono: require('@/assets/curso/tema1/contemporanea.png'),
       },
       {
-        titulo: '<p style="color: #111E61; font-weight: 700;">Siglo XXI</p>',
+        titulo:
+          '<p style="color: #111E61; font-weight: 700; margin-right: 25px;">Siglo XXI</p>',
         texto:
-          '<p style="color: #111E61;">Aumentan los viajes a destinos como Asia Central y el Pacífico. Entra el auge del Turismo de aventura y de naturaleza. Con las tendencias del siglo XXI se potencializa el turismo experiencial. En turismo de sol y playa, los viajes se dirigen hacia lugares lejanos.</p>',
+          '<p style="color: #111E61; margin-right: 25px;">Aumentan los viajes a destinos como Asia Central y el Pacífico. Entra el auge del Turismo de aventura y de naturaleza. Con las tendencias del siglo XXI se potencializa el turismo experiencial. En turismo de sol y playa, los viajes se dirigen hacia lugares lejanos.</p>',
         icono: require('@/assets/curso/tema1/xxi.png'),
       },
     ],

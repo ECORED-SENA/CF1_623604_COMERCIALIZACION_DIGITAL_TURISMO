@@ -44,8 +44,46 @@
       width: 80px !important
       top: -4%
 
+///////// Card hover
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 0.88) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+  @media (max-width: 500px)  
+    .crd_hover_txt--body
+      h4 
+        font-size: 1em
+      p
+        font-size: 0.8em
+
+.banner-principal__img
+  position: relative
+  bottom: -48px
+
+.nuevocolor
+  background-color: rgba(255, 255, 255, 0.90) !important
+
 .fondo1
   background-color: #FFECBE !important
+  box-shadow: 2px 2px 5px #70707062
 
 .fondo2
   background-image: url('../assets/curso/tema1/fondo1.png')
@@ -82,9 +120,9 @@
 
 .fondo9
   background-image: url('../assets/curso/tema1/fondo3.jpg')
-  background-size: 100% 100%
+  background-size: cover
   background-repeat: no-repeat
-  background-position: center
+  background-position: right
 
 .fondo10
   background-image: url('../assets/curso/tema1/tipo1.svg')
@@ -176,6 +214,18 @@
   background-repeat: no-repeat
   background-position: left
 
+.fondomundo3
+  background-image: url('../assets/curso/tema1/fondomundo.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: left
+
+.fondomundo4
+  background-image: url('../assets/curso/tema1/fondomundo.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: left
+
 .fondo26
   background-color: #CBEBF2 !important
   padding: 10px
@@ -229,10 +279,13 @@
 .fondo35
   background-color: #D0E0C8
   border-radius: 10px
+  box-shadow: 3px 3px 3px #7070701a
+
 
 .fondo36
   background-color: #FFF0CA
   border-radius: 10px
+  box-shadow: 3px 3px 3px #7070701a
 
 .fondo40
   background-image: url('../assets/curso/tema1/fondo14.jpg')
@@ -267,6 +320,27 @@
   background-size: cover
   background-repeat: no-repeat
   background-position: center
+
+.fondo47
+  background-image: url('../assets/curso/tema1/fondoinfo.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.fondo48
+  background-color: #F6F6F6 
+
+.tabs-c__tab--active
+  font-weight: 700
+
+.lista-ul__vineta:before
+  color: #FFB338
+
+.tabla-c th
+  width: 10%!important
+
+.tabla-c th + td
+  width: 16% !important
 
 .sombracajon
   box-shadow: 3px 3px 3px #7070701a
@@ -306,7 +380,7 @@
 
 .fa-circle:before
   content: "\f111"
-  color: #E89C21
+  color: #E89C21 !important
 
 .img-infografica-b__modal
   min-height: 500px !important
@@ -413,6 +487,18 @@
 .otralista 
   .lista-ul__vineta:before
     color: #008BD2
+    width: 10px !important
+
+.bordetabla
+  border-right-color: #F6F6F6
+
+.bordetablablanco
+  border-right-color: #fff !important
+  border-left-color: #fff !important
+
+.fa-circle:before
+  content: "\f111"
+  color:  #008BD2
 
 .tabla-c th + td
   width: 10% !important
@@ -472,6 +558,10 @@
 
 .bloque-texto-b.color-primario:before
   bottom: 20% !important
+
+.sizeimg1
+  width: 90% !important
+  height: 90% !important
 
 .slyder-a__bullets__item 
     background-color: rgba(27,63,94,0.35)
@@ -537,9 +627,9 @@
   .justificar
     justify-content: center
   .alto1
-    height: 700px
+    height: 550px
   .alto2
-    height: 820px
+    height: 550px
   .altura
     height: 90% !important
   .fondo31
@@ -562,6 +652,7 @@
     width: 150px
   .margin-5
     margin-left: 40px !important
+    margin-bottom: 0 !important
 
 @media (max-width: 1400px)
   .margenesx
@@ -569,9 +660,9 @@
   .justificar
     justify-content: center
   .alto1
-    height: 650px
+    height: 470px
   .alto2
-    height: 700px
+    height: 480px
   .altura
     height: 92% !important
   .alineacion
@@ -596,6 +687,12 @@
     width: 150px
   .margin-5
     margin-left: 40px !important
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 120px
+    left: -10%
 
 @media (max-width: 1200px)
   .margenesx
@@ -603,15 +700,26 @@
   .justificar
     justify-content: start
   .alto1
-    height: 500px
+    height: 370px
   .alto2
-    height: 600px
+    height: 400px
   .altura
     height: 93% !important
   .margen
     margin-top: 60px
+  .banner-principal__img
+    position: relative
+    bottom: -57px
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 120px
+    left: -30%
 
 @media (max-width: 992px)
+  .tarjeta.otra
+    height: 450px
   .margenesx
     margin: 0 20px 0 20px
   .justificar
@@ -619,9 +727,9 @@
   .nomostrar
     display: none
   .alto1
-    height: 450px
+    height: 260px
   .alto2
-    height: 520px
+    height: 350px
   .fondo26
     margin-left: 0
   .alineacion
@@ -650,7 +758,7 @@
     background-color: rgba(255, 255, 255, 0.95)
   .otrobloque2 .bloque-texto-g__img
     width: 100%
-    height: 70% !important
+    height: 50% !important
     position: absolute
     top: 0
     left: 0
@@ -672,6 +780,12 @@
   .fondo39
     background-color: #B6E1FD
     width: 48%
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 120px
+    left: -50%
 
 @media (max-width: 768px)
   .nomostrar1
@@ -689,6 +803,12 @@
     width: 100px
   .linea-tiempo-d__item__content__title 
     height: 80px
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 100px
+    left: -30%
 
 @media (max-width: 576px)
   .img-infografica-b__modal
@@ -701,7 +821,45 @@
   .margin-5
     margin-left: 20px !important
     margin-bottom: 0
+  .fondomundo2
+    background-image: url('../assets/curso/tema1/fondomundo.png')
+    background-size: 180% 80%
+    background-repeat: no-repeat
+    background-position: left
+  .fondomundo3
+    background-image: url('../assets/curso/tema1/fondomundo.png')
+    background-size: 160% 80%
+    background-repeat: no-repeat
+    background-position: left
+  .fondomundo4
+    background-image: url('../assets/curso/tema1/fondomundo.png')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: left
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 85px
+    left: -20%
 
+@media (max-width: 530px)
+  .fondomundo4
+    background-image: url('../assets/curso/tema1/fondomundo.png')
+    background-size: 110% 80%
+    background-repeat: no-repeat
+    background-position: left
+
+@media (max-width: 350px)
+  .otrobloque2 .bloque-texto-g__img
+    width: 100%
+    height: 30% !important
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    background-position: top
+    background-size: 100% 108%
 
 @keyframes float1
   0%
