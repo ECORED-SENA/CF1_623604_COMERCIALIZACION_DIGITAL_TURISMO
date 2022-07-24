@@ -242,7 +242,7 @@
         .tarjeta-avatar
           img.sizeimg(src='@/assets/curso/tema1/turista.svg')
           .tarjeta.fondo3
-            ul.lista-ul--color.otralista.col-xxl.ps-4.pb-5.mb-5.col-xxl.pe-4.col-md.me-2.col-sm.ps-4.col-xl-11.col-xl.ms-3.col-md-11.col-sm-11.col-11.mt-sm-3.mt-2
+            ul.lista-ul--color.otralista.col-xxl.ps-4.pb-5.mb-5.col-xxl.pe-4.col-md.me-2.col-sm.ps-4.col-xl-11.col-xl.ms-3.col-md-11.col-sm-11.col-11.mt-sm-3.margenxs.mt-3
               li  
                 <i class="fas fa-circle fa-xs"></i>Son visitantes que pernotan o amanecen en el lugar.
               li
@@ -254,7 +254,7 @@
         .tarjeta-avatar
           img.sizeimg(src='@/assets/curso/tema1/excursionista.svg')
           .tarjeta.fondo5
-            ul.lista-ul--color.otralista.ps-5.col-xxl.pb-5.col-xxl.mb-5.mb-5.col-xxl.pe-2.col-lg-11.col-xl-11.col-md-11.col-sm-11.col-11.mt-sm-3.mt-2
+            ul.lista-ul--color.otralista.ps-5.col-xxl.pb-5.col-xxl.mb-5.mb-5.col-xxl.pe-2.col-lg-11.col-xl-11.col-md-11.col-sm-11.col-11.mt-sm-3.margenxs.mt-3
               li 
                 <i class="fas fa-circle fa-xs"></i>Son los visitantes que se demoran menos de 24 horas en el destino.
               li
@@ -480,8 +480,8 @@
       h2 1.5 Evolución del turismo
     p.mb-5(data-aos="fade-up-left") Para el caso colombiano, el turismo comenzó a desarrollarse en mayor medida con la llegada del tren a comienzos del siglo XX, lo que permitió que varias familias pudieran realizar viajes cortos de descanso y diversión a los destinos cercanos a sus hogares. Lo anterior también impulsó la organización de <i>“tours”</i>, ya que algunas personas comenzaron a ofrecer viajes incluyendo los pasajes de tren, alimentación, alojamientos en establecimientos como fincas y hoteles, y visitas a monumentos y recintos religiosos. Se podrá entender un poco más sobre la evolución del turismo con la siguiente línea del tiempo:
     .row.justify-content-center(data-aos="fade-up-right")
-      .col-xxl-10.col-lg-10.col-md-11.col-11.fondo9
-        LineaTiempoB.m-5(:datos="datosLineaTiempoB")    
+      .col-xxl-10.col-lg-12.col-md-12.col-12.fondo9
+        LineaTiempoB.my-5.px-4(:datos="datosLineaTiempoB")    
 
     p.my-5(data-aos="fade-up-left") Así surgieron las primeras agencias de viajes, que posteriormente a mediados de siglo, con la llegada de la aviación al país, crecieron en mayor medida, porque tuvieron la oportunidad de incursionar en el ámbito internacional.
     .row.justify-content-around.align-items-center(data-aos="fade-up-left")
@@ -759,7 +759,7 @@
               li 
                 i.fas.fa-caret-right
                 | Aprovechamiento del tiempo libre que desarrollen los usuarios de las playas.
-          .col-md-4.me-sm-5.pe-sm-5.mt-md-5.pt-md-5
+          .col-md-4.pe-5.me-5.mt-md-5.pt-md-5
             figure
               img(src='@/assets/curso/tema1/ley1.jpg')
 
@@ -767,14 +767,14 @@
         .row.justify-content-center
           .col-md-7
             p Teniendo especial cuidado aquellas comunidades/personas, en condición de vulnerabilidad.
-          .col-md-4.mb-4.mb-md-0.me-sm-5.pe-sm-5
+          .col-md-4.mb-4.mb-md-0.pe-5.me-5
             figure
               img(src='@/assets/curso/tema1/ley2.jpg', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Destinación al turismo de bienes incautados al narcotráfico")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
             p Los bienes inmuebles con vocación turística incautados por delitos de narcotráfico, serán administrados por el Fondo Nacional de Turismo o la entidad pública que este contrate.
-          .col-md-4.me-sm-5.pe-sm-5
+          .col-md-4.pe-5.me-5
             figure
               img(src='@/assets/curso/tema1/ley3.jpg', alt='Texto que describa la imagen')
 
@@ -782,7 +782,7 @@
         .row.justify-content-center
           .col-md-7
             p Esta medalla, tiene como fin el reconocimiento a los prestadores de servicios turísticos que se destaquen por su innovación, promoción o internacionalización del turismo otorgada por el Ministerio de Comercio, Industria y Turismo.
-          .col-md-4.mb-4.mb-md-0.me-sm-5.pe-sm-5
+          .col-md-4.mb-4.mb-md-0.pe-5.me-5
             figure
               img(src='@/assets/curso/tema1/ley4.jpg')
 
@@ -1441,8 +1441,8 @@
     p.text-center.my-5(data-aos="fade-up-left") Nota. SENA (2022).
 
     .row
-      .col-xxl-7.col-xl-8.col-lg-10.col-md-12.col-sm-12.col-12.fondomundo2.ps-5.py-2.py-xs-1(data-aos="fade-up-left")
-        h4.ps-5.pt-5.ms-5.my-3 <i>Customer Relationship Management y Enterprise Resource Planning</i>
+      .col-xxl-7.col-xl-8.col-lg-9.col-md-12.col-sm-12.col-12.fondomundo2.pt-4.py-xs-1(data-aos="fade-up-left")
+        h4.ps-4.ms-5.mt-3.mb-2.mt-lg-1 <i>Customer Relationship Management y Enterprise Resource Planning</i>
     p.my-5(data-aos="fade-up-left") Estas dos herramientas permiten la gestión del servicio y la relación que ejerce con el cliente o los clientes interesados, así como la fidelización de estos, posibilitando perdurabilidad en el tiempo, a continuación, se explica cada una de estas:
     p.subrayar.mb-5(data-aos="fade-up-left") <i>Customer Relationship Management.</i>
     p.mb-5(data-aos="fade-up-left") Este término se refiere a una herramienta diseñada para gestionar las estrategias y prácticas de negocio que están dirigidas a la relación con el cliente y prospectos. Son <i>software</i> especializados de gran ayuda para los equipos de ventas y <i>marketing</i>. Observar el siguiente video para aprender más al respecto. 
@@ -2284,44 +2284,44 @@ export default {
     datosLineaTiempoB: [
       {
         titulo:
-          '<p style="color: #111E61; font-weight: 700; margin-left: 25px;">Prehistoria</p>',
+          '<p style="color: #111E61; font-weight: 700; margin-left: 0;">Prehistoria</p>',
         texto:
-          '<p style="color: #111E61; margin-left: 25px;">Primeros desplazamientos por cuestiones climáticas, de alimentación y presiones de grupos.</p>',
+          '<p style="color: #111E61; margin-left: 0;">Primeros desplazamientos por cuestiones climáticas, de alimentación y presiones de grupos.</p>',
         icono: require('@/assets/curso/tema1/prehistoria.png'),
       },
       {
         titulo:
-          '<p style="color: #111E61; font-weight: 700; margin-right: 25px;">Edad antigua</p>',
+          '<p style="color: #111E61; font-weight: 700; margin-right: 0;">Edad antigua</p>',
         texto:
-          '<p style="color: #111E61; margin-right: 25px;">Aparecen actividades de tiempo libre y de ocio creativo en la Antigua Grecia. Con la cultura Romana inician las primeras actividades de termalismo. Primeros viajes hacia el mar en época dorada de la antigua Roma, así como las actividades de teatro.</p>',
+          '<p style="color: #111E61; margin-right: 0;">Aparecen actividades de tiempo libre y de ocio creativo en la Antigua Grecia. Con la cultura Romana inician las primeras actividades de termalismo. Primeros viajes hacia el mar en época dorada de la antigua Roma, así como las actividades de teatro.</p>',
         icono: require('@/assets/curso/tema1/antigua.png'),
       },
       {
         titulo:
-          '<p style="color: #111E61; font-weight: 700; margin-left: 25px;">Edad media</p>',
+          '<p style="color: #111E61; font-weight: 700; margin-left: 0;">Edad media</p>',
         texto:
-          '<ul style="list-style-type: disc; margin-left:1em; color:#008BD2;  margin-left: 25px;"><li><p style="color: #111E61;">Primeros peregrinaciones hacia lugares cristianos.</p></li><li><p style="color: #111E61;">Surgen las Cruzadas con el objetivo de recuperar territorios cristianos invadidos por los árabes.</p></li><li><p style="color: #111E61;">Primeros mapas y rutas de caminos de peregrinación.</p></li><li><p style="color: #111E61;">Nacen los refugios y hospedajes en dichos caminos por Europa.</p></li></ul>',
+          '<ul style="list-style-type: disc; margin-left: 20px; color:#008BD2;"><li><p style="color: #111E61;">Primeros peregrinaciones hacia lugares cristianos.</p></li><li><p style="color: #111E61;">Surgen las Cruzadas con el objetivo de recuperar territorios cristianos invadidos por los árabes.</p></li><li><p style="color: #111E61;">Primeros mapas y rutas de caminos de peregrinación.</p></li><li><p style="color: #111E61;">Nacen los refugios y hospedajes en dichos caminos por Europa.</p></li></ul>',
         icono: require('@/assets/curso/tema1/media.png'),
       },
       {
         titulo:
-          '<p style="color: #111E61; font-weight: 700; margin-right: 35px;">Edad moderna</p>',
+          '<p style="color: #111E61; font-weight: 700; margin-right: 0;">Edad moderna</p>',
         texto:
-          '<p style="color: #111E61; margin-right: 35px;">Aparecen las primeras formas de alojamiento y surge el concepto de Hotel. Por cuenta de los viajes a América, aparece la geografía como ciencia. Surgen las expediciones para jóvenes aristócratas <i>“El Grand Tour”</i>.Aumenta la demanda de visitas a aguas termales.</p>',
+          '<p style="color: #111E61; margin-right: 0;">Aparecen las primeras formas de alojamiento y surge el concepto de Hotel. Por cuenta de los viajes a América, aparece la geografía como ciencia. Surgen las expediciones para jóvenes aristócratas <i>“El Grand Tour”</i>.Aumenta la demanda de visitas a aguas termales.</p>',
         icono: require('@/assets/curso/tema1/moderna.png'),
       },
       {
         titulo:
-          '<p style="color: #111E61; font-weight: 700; margin-left: 25px;">Edad contemporánea</p>',
+          '<p style="color: #111E61; font-weight: 700; margin-left: 0;">Edad contemporánea</p>',
         texto:
-          '<p style="color: #111E61; margin-left: 25px;">Revolución industrial que aumenta actividades de tiempo libre y viajes. El inglés Thomas Cook organiza el primer viaje y crea su agencia de viajes. Se fortalecen hoteles y la administración en este campo. Se potencializan los viajes en automóvil y avión. Se universaliza el mercado turístico a partir de la apertura de fronteras.</p>',
+          '<p style="color: #111E61; margin-left: 0;">Revolución industrial que aumenta actividades de tiempo libre y viajes. El inglés Thomas Cook organiza el primer viaje y crea su agencia de viajes. Se fortalecen hoteles y la administración en este campo. Se potencializan los viajes en automóvil y avión. Se universaliza el mercado turístico a partir de la apertura de fronteras.</p>',
         icono: require('@/assets/curso/tema1/contemporanea.png'),
       },
       {
         titulo:
-          '<p style="color: #111E61; font-weight: 700; margin-right: 25px;">Siglo XXI</p>',
+          '<p style="color: #111E61; font-weight: 700; margin-right: 0;">Siglo XXI</p>',
         texto:
-          '<p style="color: #111E61; margin-right: 25px;">Aumentan los viajes a destinos como Asia Central y el Pacífico. Entra el auge del Turismo de aventura y de naturaleza. Con las tendencias del siglo XXI se potencializa el turismo experiencial. En turismo de sol y playa, los viajes se dirigen hacia lugares lejanos.</p>',
+          '<p style="color: #111E61; margin-right: 0;">Aumentan los viajes a destinos como Asia Central y el Pacífico. Entra el auge del Turismo de aventura y de naturaleza. Con las tendencias del siglo XXI se potencializa el turismo experiencial. En turismo de sol y playa, los viajes se dirigen hacia lugares lejanos.</p>',
         icono: require('@/assets/curso/tema1/xxi.png'),
       },
     ],

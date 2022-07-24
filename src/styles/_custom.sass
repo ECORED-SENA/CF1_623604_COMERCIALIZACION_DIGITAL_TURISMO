@@ -93,18 +93,22 @@
 
 .fondo3
   background-image: url('../assets/curso/tema1/fondoturista.svg')
-  background-size: cover
+  background-size: 100% auto
   background-repeat: no-repeat
   background-position: bottom
+  position: relative
+  z-index: 1
 
 .fondo4
   background-color: #F3F9FF !important
 
 .fondo5
   background-image: url('../assets/curso/tema1/fondoexcursionista.svg')
-  background-size: cover
+  background-size: 100% auto
   background-repeat: no-repeat
   background-position: bottom
+  position: relative
+  z-index: 0
 
 .fondo6
   background-color: #FFB338 !important
@@ -120,7 +124,7 @@
 
 .fondo9
   background-image: url('../assets/curso/tema1/fondo3.jpg')
-  background-size: cover
+  background-size: 140% 100%
   background-repeat: no-repeat
   background-position: right
 
@@ -209,8 +213,8 @@
   background-position: left
 
 .fondomundo2
-  background-image: url('../assets/curso/tema1/fondomundo.png')
-  background-size: 100% 100%
+  background-image: url('../assets/curso/tema1/fondomundo1.png')
+  background-size: 100% auto
   background-repeat: no-repeat
   background-position: left
 
@@ -329,6 +333,17 @@
 
 .fondo48
   background-color: #F6F6F6 
+
+.fondo49
+  background-color: rgba(61, 103, 47, 0.46)
+  background-size: 100% 100px
+
+.img-infografica.color-secundario .img-infografica__item__dot:before
+  width: 30px
+  height: 30px
+  left: -9px
+  top: -9px
+
 
 .tabs-c__tab--active
   font-weight: 700
@@ -563,6 +578,12 @@
   width: 90% !important
   height: 90% !important
 
+.sizeimg
+  width: 50% !important
+  height: 35% !important
+  position: relative
+  z-index: 9999 
+
 .slyder-a__bullets__item 
     background-color: rgba(27,63,94,0.35)
     border: 1px solid rgba(112,112,112,0.35)
@@ -692,7 +713,7 @@
     border-radius: 50%
     position: relative
     width: 120px
-    left: -10%
+    left: 10px
 
 @media (max-width: 1200px)
   .margenesx
@@ -715,7 +736,7 @@
     border-radius: 50%
     position: relative
     width: 120px
-    left: -30%
+    left: 0
 
 @media (max-width: 992px)
   .tarjeta.otra
@@ -784,8 +805,17 @@
     padding-top: 100%
     border-radius: 50%
     position: relative
-    width: 120px
-    left: -50%
+    width: 100px
+    left: -20%
+  .linea-tiempo-b__row:nth-child(odd) .linea-tiempo-b__content
+    margin-right: 15px !important
+  .linea-tiempo-b__content
+    margin-left: 15px !important
+  .fondo9
+    background-image: url('../assets/curso/tema1/fondo3.jpg')
+    background-size: 280% 100%
+    background-repeat: no-repeat
+    background-position: right
 
 @media (max-width: 768px)
   .nomostrar1
@@ -808,24 +838,38 @@
     border-radius: 50%
     position: relative
     width: 100px
-    left: -30%
+    left: -5px
+  .fondomundo2
+    background-image: url('../assets/curso/tema1/fondomundo1.png')
+    background-size: 165% 85%
+    background-repeat: no-repeat
+    background-position: left
+    padding-bottom: 0 !important
+  .linea-tiempo-b__content
+    margin-left: 0 !important
+  .fondo9
+    background-image: url('../assets/curso/tema1/fondo3.jpg')
+    background-size: 280% 100%
+    background-repeat: no-repeat
+    background-position: right
 
 @media (max-width: 576px)
   .img-infografica-b__modal
     left: 20px
   .sizeimg
     width: 40% !important
-    height: 40% !important
+    height: 35% !important
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 100px
+    left: 0 !important
   .tarjeta.otra2
     height: 700px
   .margin-5
     margin-left: 20px !important
     margin-bottom: 0
-  .fondomundo2
-    background-image: url('../assets/curso/tema1/fondomundo.png')
-    background-size: 180% 80%
-    background-repeat: no-repeat
-    background-position: left
   .fondomundo3
     background-image: url('../assets/curso/tema1/fondomundo.png')
     background-size: 160% 80%
@@ -842,6 +886,14 @@
     position: relative
     width: 85px
     left: -20%
+  .margenxs
+    margin-top: 0 !important
+  .fondo3
+    background-image: url('../assets/curso/tema1/fondoturista.svg')
+    background-size: cover
+  .fondo5
+    background-image: url('../assets/curso/tema1/fondoexcursionista.svg')
+    background-size: cover
 
 @media (max-width: 530px)
   .fondomundo4
@@ -849,6 +901,16 @@
     background-size: 110% 80%
     background-repeat: no-repeat
     background-position: left
+
+@media (max-width: 500px)
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 100px
+    left: -20px !important
+  .linea-tiempo-b__content
+    margin-left: 20px !important
 
 @media (max-width: 350px)
   .otrobloque2 .bloque-texto-g__img
@@ -860,6 +922,14 @@
     bottom: 0
     background-position: top
     background-size: 100% 108%
+  .linea-tiempo-b__icon
+    padding-top: 100%
+    border-radius: 50%
+    position: relative
+    width: 80px
+    left: -30px !important
+  .linea-tiempo-b__content
+    margin-left: 20px !important
 
 @keyframes float1
   0%

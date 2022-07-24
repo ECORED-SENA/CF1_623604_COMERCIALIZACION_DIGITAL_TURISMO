@@ -229,7 +229,7 @@
 
           p(numero="3" titulo="Prepara la reunión") Una de las clave para tener éxito es una negociación es estar bien preparado; por eso, la recomendación es que te informes bien sobre la historia del proveedor, los productos o servicios que ofertan, los precios.
           
-          p.text-small(numero="4" titulo="Ten en cuenta tus objetivos") Para llevar la negociación a buen puerto y obtener unas circunstancias ventajosas para ti, es vital que tengas claros tus objetivos y presupuesto.<br/><br/> Durante la reunión, si el contrario es un buen comercial, tratará por todos los medios de venderte su producto. Quizás las condiciones o el servicio sean muy buenos, pero tienen que valorar si te ayudarán a cumplir tus objetivos y si además entra dentro de tu presupuesto.
+          p(numero="4" titulo="Ten en cuenta tus objetivos") Para llevar la negociación a buen puerto y obtener unas circunstancias ventajosas para ti, es vital que tengas claros tus objetivos y presupuesto.<br/><br/> Durante la reunión, si el contrario es un buen comercial, tratará por todos los medios de venderte su producto. Quizás las condiciones o el servicio sean muy buenos, pero tienen que valorar si te ayudarán a cumplir tus objetivos y si además entra dentro de tu presupuesto.
 
 
           p(numero="5" titulo="Sé flexible y ponte el lugar de tu proveedor") Dicho lo anterior, permítete ser un poco flexible sobre todo si estás tratando con un proveedor que ha trabajado en anteriores ocasiones contigo. Si la experiencia ha sido buena en el pasado, quizás puedas relajar tus condiciones y llegar a un acuerdo igualmente ventajoso.
