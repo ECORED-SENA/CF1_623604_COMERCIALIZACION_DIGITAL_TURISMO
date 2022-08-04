@@ -1448,7 +1448,7 @@
     p.mb-5(data-aos="fade-up-left") Este término se refiere a una herramienta diseñada para gestionar las estrategias y prácticas de negocio que están dirigidas a la relación con el cliente y prospectos. Son <i>software</i> especializados de gran ayuda para los equipos de ventas y <i>marketing</i>. Observar el siguiente video para aprender más al respecto. 
     figure.mb-5(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PF_yA02FGIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos="fade-up-left") Anteriormente las compañías usaban métodos tradicionales para poder gestionar sus relaciones con clientes; era tradicional encontrar <i>post it</i>, cuadernos, agendas físicas, hojas de cálculo, etc., con la información de sus usuarios y con las tareas a desarrollar para agendar reuniones con ellos, llamarlos e incluso cobrarles. Hoy día, esto se hace de manera mucho más eficiente y tecnológica con la ayuda de un CRM. Hay diferentes recursos en el mercado, sin embargo, la decisión de compra dependerá de los requerimientos de cada empresa. Estas diferencias pueden establecerse como tipos de CRM, tal como se muestra en la siguiente figura 9:
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-left")
       span.text-bold.mb-0 Figura 9 
