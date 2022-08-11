@@ -341,7 +341,7 @@ export default {
     {
       tema: 'Sustentabilidad turística',
       referencia:
-        'Organización de las Naciones Unidas y Organización Mundial del Turismo. (2001). Código de ética Mundial. ',
+        'Organización de las Naciones Unidas y Organización Mundial del Turismo. (2001). Código de Ética Mundial para el Turismo. ',
       tipo: 'Libro- Documento',
       link:
         'https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2019-10/gcetpassportglobalcodees.pdf',
@@ -446,30 +446,8 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

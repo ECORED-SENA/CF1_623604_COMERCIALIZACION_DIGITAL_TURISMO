@@ -64,7 +64,7 @@
           .col-xxl-7.col-md-7.col-8
             img(src='@/assets/curso/tema2/slider5.png')
         h4.text-dark.text-center Mediadores
-        p.text-dark.text-center.mx-4 Persona que interactúa con quienes viven la experiencia. Puede conducir la experiencia o un episodio en su totalidad , o solo estar a cargo de algunas acciones específicas (recepcionista, garzones, etc.)
+        p.text-dark.text-center.mx-4 Persona que interactúa con quienes viven la experiencia. Puede conducir la experiencia o un episodio en su totalidad, o solo estar a cargo de algunas acciones específicas (recepcionista, garzones, etc.)
       .tarjeta.otra.p-4.fondo44
         .row.justify-content-center.mb-3
           .col-xxl-7.col-md-7.col-8
@@ -91,7 +91,7 @@
         LineaTiempoD
           p(numero="1" titulo="Presenta el contenido en nuevos formatos") La inclusión de vídeos, imágenes y <i>stories</i> se consigue más interacción, pero se puede ir más allá y utilizar otros formatos como vídeos 360° o realidad virtual para que las publicaciones lleguen a más usuarios e interactúan con ellas.
           
-          p(numero="2" titulo="Se creativo y ofrece contenidos actualizados") Las redes sociales son muy dinámicas y suelen ir pegadas a la actualidad, por lo que es indispensable saber qué está pasando en cada momento, cuáles son las nuevas tendencias o de qué se está hablando en tiempo real.
+          p(numero="2" titulo="Sé creativo y ofrece contenidos actualizados") Las redes sociales son muy dinámicas y suelen ir pegadas a la actualidad, por lo que es indispensable saber qué está pasando en cada momento, cuáles son las nuevas tendencias o de qué se está hablando en tiempo real.
 
           p(numero="3" titulo="Informa sobre las condiciones de la experiencia") Entregando datos útiles sobre tus canales de contacto y/o las formas de llegar a tu oferta. Agregar un mapa puede ser una buena idea. 
           
@@ -227,7 +227,7 @@
           
           p(numero="2" titulo="Busca un proveedor con recorrido") De todos los proveedores incluidos en tu lista elige, para empezar, a aquel que tenga más experiencia en su ámbito. Trabajar con una empresa especializada te dará más seguridad y, probablemente, mejores resultados.<br/><br/> Una vez lo tengas, llámale y concierta una primera reunión.
 
-          p(numero="3" titulo="Prepara la reunión") Una de las clave para tener éxito es una negociación es estar bien preparado; por eso, la recomendación es que te informes bien sobre la historia del proveedor, los productos o servicios que ofertan, los precios.
+          p(numero="3" titulo="Prepara la reunión") Una de las claves para tener éxito es una negociación es estar bien preparado; por eso, la recomendación es que te informes bien sobre la historia del proveedor, los productos o servicios que ofertan, los precios.
           
           p(numero="4" titulo="Ten en cuenta tus objetivos") Para llevar la negociación a buen puerto y obtener unas circunstancias ventajosas para ti, es vital que tengas claros tus objetivos y presupuesto.<br/><br/> Durante la reunión, si el contrario es un buen comercial, tratará por todos los medios de venderte su producto. Quizás las condiciones o el servicio sean muy buenos, pero tienen que valorar si te ayudarán a cumplir tus objetivos y si además entra dentro de tu presupuesto.
 

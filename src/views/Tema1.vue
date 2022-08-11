@@ -279,7 +279,7 @@
     p(data-aos="fade-up-left") Respecto a la satisfacción de necesidades, se ha hablado mucho en la literatura, sin embargo, el autor que ha sido más reconocido en el tema, ha sido Maslow, quien brindó una teoría psicológica a partir de la cual se diseñó la jerarquía de las necesidades humanas que incluye las de seguridad (protección, seguridad o refugio), las fisiológicas (hambre, descanso o sed), las necesidades de estima (autoestima, estatus o reconocimiento por los demás), las necesidades sociales (de amor o pertenencia), y las necesidades de autorrealización (de realización y desarrollo personal).  
     p(data-aos="fade-up-left") Así pues, se puede decir que todos los viajes pueden tener un objetivo o finalidad diferente; habrá quienes busquen recreación, o quienes lo hagan por motivos profesionales o bien por otras razones como estudio, salud entre otros (ver tabla1).  
     .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-up-left")
-      span.text-small.mb-0 Tabla 1 
+      span.text-small.mb-0.text-bold Tabla 1 
       span.text-small.mb-0 Relación entre necesidades, motivación y referencia turísticas
     .tabla-c(data-aos="fade-up-right")
       table
@@ -438,7 +438,7 @@
           .col-md-4.mb-4.mb-md-0
             h4 El turista comprador
             p La principal motivación para viajar es adquirir productos por fuera de su país de origen. En el <i>"shopping"</i> se prioriza la calidad tanto en los comercios donde se realizan las compras como en el tiempo que se dedica a las mismas.
-            p Este tipo de turistas combina su viajes con el turismo cultural conociendo así los lugares más importantes del destino, así como sus mejores lugares para comprar.
+            p Este tipo de turistas combina sus viajes con el turismo cultural conociendo así los lugares más importantes del destino, así como sus mejores lugares para comprar.
           .col-md-7
             figure
               img(src='@/assets/curso/tema1/comprador.png')
@@ -495,7 +495,7 @@
                 .col.mb-3.mb-sm-0
                   p Se invita a conocer un poco más sobre el turismo, revisando el siguiente artículo publicado por El Tiempo el 16 de octubre del 2008, que agrupa los 25 hitos de la historia del turismo colombiano, y que puede consultar en el siguiente enlace: 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/25 hitos de la historia del turismo colombiano.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/25_hitos_de_la_historia_del_turismo_colombiano.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -580,7 +580,7 @@
           .col-lg-4.col-md-10.mb-4.mb-md-0
             h4 Turismo rural
             p Ofrece al turista la oportunidad de experimentar el encuentro con las diferentes formas de vivir de las comunidades que cohabitan en un ambiente rural y además lo sensibiliza sobre el respeto y valor de su identidad cultural.
-            p Este tipo de turismo de complementa con el agroturismo, que consiste en involucras al turista, con las labores del campo y agrícolas, en donde se puede aprender técnicas, cultura y vivir en el entorno natural de conservación.
+            p Este tipo de turismo se complementa con el agroturismo, que consiste en involucrar al turista, con las labores del campo y agrícolas, en donde se puede aprender técnicas, cultura y vivir en el entorno natural de conservación.
           .col-lg-7.col-md-8
             figure
               img(src='@/assets/curso/tema1/rural.png')
@@ -588,7 +588,7 @@
           .col-lg-4.col-md-10.mb-4.mb-md-0
             h4 Turismo de aventura
             p Son los viajes que tienen como fin, realizar actividades recreativas, asociadas a desafíos impuestos por la naturaleza.
-            p En tierra, agua, aire, disfrutar de: ciclismo de montaña, alpinismo, <i>rappel</i>, espeleísmo, cabalgata, descenso ríos, pesca recreativa, <i>rafting</i> / kayakismo, vuelo en parapente vuelo en ala delta y <i>bungee jumping</i>.
+            p En tierra, agua, aire, disfrutar de: ciclismo de montaña, alpinismo, <i>rappel</i>, espeleísmo, cabalgata, descenso ríos, pesca recreativa, <i>rafting</i> / kayakismo, vuelo en parapente, vuelo en ala delta y <i>bungee jumping</i>.
 
           .col-lg-7.col-md-8
             figure
@@ -603,7 +603,7 @@
         .row.justify-content-center
           .col-lg-4.col-md-10.mb-4.mb-md-0
             h4 Turismo de negocios
-            p Los viajes de negocios, MICE (por sus siglas en ingles,<i> Meetings, Incentives, Conventions and Exhibitions</i>),se refiere a los traslados de una ciudad o país a otra, relacionados con actividades corporativas o laborales. Este puede ser individual o grupal.
+            p Los viajes de negocios, MICE (por sus siglas en ingles,<i> Meetings, Incentives, Conventions and Exhibitions</i>), se refiere a los traslados de una ciudad o país a otra, relacionados con actividades corporativas o laborales. Este puede ser individual o grupal.
             ul.lista-ul--color
               li 
                 i.fas.fa-caret-right
@@ -665,7 +665,7 @@
     p(data-aos="fade-up-left") El turismo no está exento de la aplicación de leyes y normativas que regulan la industria de este sector, desde 1996 se ha ido reconociendo no sólo su importancia, sino también la reglamentación que favorece el servicio, y el renglón económico al que pertenece y que genera un importante aporte a la economía del país. Las principales leyes que enmarcan la industria del turismo son (ver tabla 2):
 
     .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-up-left")
-      span.text-small.mb-0 Tabla 2 
+      span.text-small.mb-0.text-bold Tabla 2 
       span.text-small.mb-0 Normatividad que regula el sector turístico
     .tabla-c(data-aos="fade-up-left")
       table
@@ -867,7 +867,7 @@
     p(data-aos="fade-up-left") En la siguiente tabla 3 se especifica en los elementos del equipamiento turístico:
     
     .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-up-left")
-      span.text-small.mb-0 Tabla 3 
+      span.text-small.mb-0.text-bold Tabla 3 
       span.text-small.mb-0 Elementos del equipamiento turístico
     .row
       .col-xxl-12(data-aos="fade-up")
@@ -917,7 +917,7 @@
                 p.mb-0.pb-0 Bares
                 p.mb-0.pb-0 Casinos y otros juegos de azar
                 p.mb-0.pb-0 Otros espectáculos públicos (toros, riñas de gallo, rodeos, etc.)
-                p.mb-0.pb-0 Cubes deportivos
+                p.mb-0.pb-0 Clubes deportivos
                 p.mb-0.pb-0 Parques temáticos.
               td.alinearArriba
                 p.mb-0.pb-0 Agencias de viajes
@@ -945,7 +945,7 @@
         img.nomostrar1.alto1(src='@/assets/curso/tema1/clase2.png')
 
     p.my-5.text-center(data-aos="fade-up-left") Nota. Propuesta de un modelo alternativo de funcionamiento del sistema turístico. Abarca Zaquinaula, M (s.f.).
-    p.mb-5(data-aos="fade-up-left") En cuanto a la infraestructura turística, se debe recordar que se trata de todas las obras y servicios que no solo apoyan al sector del turismo sino, también a los demás sectores para que las actividades económicas de un destino se desarrollen con normalidad. Puede existir infraestructura netamente creada para el turismo como caminos, vías marítimas etc.; sin embargo, la infraestructura es una de las bases esenciales para el desarrollo de cualquier territorio. Los componentes de la infraestructura dedicada al turismo son:
+    p.mb-5(data-aos="fade-up-left") En cuanto a la infraestructura turística, se debe recordar que se trata de todas las obras y servicios que no solo apoyan al sector del turismo sino, también a los demás sectores para que las actividades económicas de un destino se desarrollen con normalidad. Puede existir infraestructura netamente creada para el turismo como caminos, vías marítimas, etc. Sin embargo, la infraestructura es una de las bases esenciales para el desarrollo de cualquier territorio. Los componentes de la infraestructura dedicada al turismo son:
 
     //-tarjetas slide nuevo
     .row.justify-content-center.mb-5
@@ -1009,7 +1009,7 @@
           .col-xxl-4.col-lg-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider3.png' alt='AvatarTop')
         h3.text-dark <i>Folklore</i>
-        p.text-dark Manifestaciones religiosas y creencias populares, ferias y mercados, música y danzas, artesanías y artes populares comidas y bebidas típicas, grupos étnicos arquitectura popular y espontánea.
+        p.text-dark Manifestaciones religiosas y creencias populares, ferias y mercados, música y danzas, artesanías y artes populares, comidas y bebidas típicas, grupos étnicos, arquitectura popular y espontánea.
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-left.mb-3
           .col-xxl-4.col-lg-4.col-md-4.col-4
@@ -1042,7 +1042,7 @@
         .row
           .col-md-7.mb-4.mb-md-0
             p Se caracteriza por tener un cuerpo físico que puede ser dimensionado y percibido sensorialmente
-            p Esta constituido por el territorio geográfico con sus recursos ambientales y naturales, los hechos construidos los sistemas de transporte y las obras de infraestructura como vías, caminos  y puentes, entre otros; y todo el universo de herramientas, utensilios, máquinas y demás objetos que apoyan la vida productiva y cotidiana.
+            p Esta constituido por el territorio geográfico con sus recursos ambientales y naturales, los hechos construidos, los sistemas de transporte y las obras de infraestructura como vías, caminos  y puentes, entre otros; y todo el universo de herramientas, utensilios, máquinas y demás objetos que apoyan la vida productiva y cotidiana.
 
           .col-md-5
             figure
@@ -1103,7 +1103,7 @@
           .col-xxl-4.col-xl-4.col-lg-5.col-md-4.col-sm-3.col-3
             img.mt-3.ms-3(src='@/assets/curso/tema1/nro3.svg')
           .col-xxl-12
-            p.py-3.px-4 Los beneficios vivenciales están relacionados con los cinco sentidos del ser humano, es decir, experiencias y vivencias resultantes de la actividad turística. Ej. ofrecer experiencias únicas, especiales, poco comunes, que la experiencia sea segura.
+            p.py-3.px-4 Los beneficios vivenciales están relacionados con los cinco sentidos del ser humano, es decir, experiencias y vivencias resultantes de la actividad turística. Ej. Ofrecer experiencias únicas, especiales, poco comunes, que la experiencia sea segura.
     p.mt-5(data-aos="fade-up-left") Cuando se piensa en crear productos turísticos, lo debe hacer de tal forma que sean novedosos, oportunos y eficaces para que aporten un valor económico, social y ambiental, tanto para el destino como para los turistas quienes finalmente los disfrutarán.
     p.mb-5(data-aos="fade-up-left") En dicho sentido, los componentes necesarios para tal fin según la Subdirección de Productos y Destinos Sustentables Sernatur (2015) son:
     .row.justify-content-center
@@ -1113,7 +1113,7 @@
 
           p(numero="2" titulo="Servicio turístico") Son todos los servicios que el turista requiere y consume mientras está de viaje como el alojamiento, alimentación, transporte, agencias de viajes, etc.
           
-          p(numero="3" titulo="Infraestructura turística") Es la dotación de bienes y servicios básicos con que cuenta un país, departamento o municipio y permite que el viaje sea cómodo y agradable, se puede clasificar en: red de transportes (red ferroviaria y vial), terminales terrestres (aeropuertos, terminales de buses, puertos, etc.), redes de servicios básicos (agua potable, electricidad, etc.), redes de comunicaciones (correo, teléfonos fijos, equipos celulares, fax, Internet, etc.
+          p(numero="3" titulo="Infraestructura turística") Es la dotación de bienes y servicios básicos con que cuenta un país, departamento o municipio y permite que el viaje sea cómodo y agradable, se puede clasificar en: red de transportes (red ferroviaria y vial), terminales terrestres (aeropuertos, terminales de buses, puertos, etc.), redes de servicios básicos (agua potable, electricidad, etc.), redes de comunicaciones (correo, teléfonos fijos, equipos celulares, fax, Internet, etc.).
 
           p(numero="4" titulo="Comunidad local") Habitantes, costumbres y tradiciones<br/><br/>El producto turístico debe incluir a los residentes, ya que son ellos los que ponen la diferencia principal entre un lugar y otro. En definitiva, es el sello que hace que un lugar sea agradable y único para visitar, es lo que lo hace diferente.
 
@@ -1124,7 +1124,7 @@
     p.my-5(data-aos="fade-up-left") Una condición más a tener en cuenta corresponde con la fijación de precios de los productos turísticos, y para hacerlo, se deben establecer los costos y gastos de la empresa o de quien esté diseñando el producto, en la siguiente tabla 4 se hace una conceptualización y diferenciación entre los costos y los gastos de un producto turístico:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-left")
-      span.text-small.mb-0 Tabla 4 
+      span.text-small.mb-0.text-bold Tabla 4 
       span.text-small.mb-0 Concepto y diferencia entre costos y gastos de un producto turístico
     .row
       .col-xxl-12(data-aos="fade-up")
@@ -1171,7 +1171,7 @@
 
           .tarjeta.fondo24.p-3(x="38.1%" y="58.2%" numero="+")
             p.text-bold.mb-0 Costos indirectos
-            span Tienen consecuencias sobre la producción en forma total, es decir, que no pueden ser asignados a un determinado producto. ejemplos: el aumento en insumos de limpieza de la fábrica o el aumento de los salarios de los trabajadores.
+            span Tienen consecuencias sobre la producción en forma total, es decir, que no pueden ser asignados a un determinado producto. Ejemplos: el aumento en insumos de limpieza de la fábrica o el aumento de los salarios de los trabajadores.
 
           .tarjeta.fondo24.p-3(x="38.1%" y="72.2%" numero="+")
             p.text-bold.mb-0 Costos de mano de obra
@@ -1317,7 +1317,7 @@
                 figure
                   img(src='@/assets/curso/tema1/booking.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
-                p.mt-5 Es uno de los sitios <i>web</i> de viajes más grandes y conocidos en el mundo entero. Su sitio <i>web</i> y aplicaciones móviles son accesibles en 43 idiomas y reúnen más de 50 millones de comentarios de huéspedes verificados en más de 200 países. sus tasas de comisión son generalmente más bajas que las de otras OTA.
+                p.mt-5 Es uno de los sitios <i>web</i> de viajes más grandes y conocidos en el mundo entero. Su sitio <i>web</i> y aplicaciones móviles son accesibles en 43 idiomas y reúnen más de 50 millones de comentarios de huéspedes verificados en más de 200 países. Sus tasas de comisión son generalmente más bajas que las de otras OTA.
                 p Ideal para: todo tipo de alojamientos, incluyendo <i>resorts</i>, villas, cabañas, hoteles, apartamentos, hostales, alquileres vacacionales, B&B y más.
 
             .row.justify-content-center
@@ -1334,14 +1334,14 @@
                   img(src='@/assets/curso/tema1/hotel.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
                 p.mt-5 Es la mayor OTA para alojamientos de hostales en el mundo entero. Cuenta con más de 12 millones de comentarios de usuarios. Su inventario incluye hoteles, B&B y demás alojamientos de distintos presupuestos. Su aplicación y sitio <i>web</i> están en 20 idiomas distintos.
-                p Ideal para: hostales, hoteles, bed and breakfast, casas de huéspedes, apartamentos y zonas de <i>camping</i>.
+                p Ideal para: hostales, hoteles, <i>bed and breakfast</i>, casas de huéspedes, apartamentos y zonas de <i>camping</i>.
 
             .row.justify-content-center
               .col-lg-5.col-md-6.col-sm-7.col-7
                 figure
                   img(src='@/assets/curso/tema1/despegar.svg')
               .col-lg-12.col-md-12.mb-4.mb-md-0.px-4
-                p.mt-5 Es la OTA más grande de América Latina, sirviendo a toda la región y más allá. se especializa en hoteles y vuelos. Sin embargo, también ofrece alquileres de vacaciones, alquiler de automóviles, actividades y paquetes.
+                p.mt-5 Es la OTA más grande de América Latina, sirviendo a toda la región y más allá. Se especializa en hoteles y vuelos. Sin embargo, también ofrece alquileres de vacaciones, alquiler de automóviles, actividades y paquetes.
                 p Ideal para: hoteles y aerolíneas.
 
             .row.justify-content-center
@@ -1520,7 +1520,7 @@
     p(data-aos="fade-up-right") Es un conjunto de servicios como alojamiento, transporte, alimentación, etc. que se le ofrecen a un cliente y que son contratados con base a un itinerario organizado previamente, a un precio único y global. Estos servicios pueden pertenecer a la agencia de viajes que ofrece el paquete turístico o pueden ser contratados con los diferentes prestadores de servicios turísticos para posibilitar al usuario su consumo y disfrute.
     p.mb-5(data-aos="fade-up-right") Cuando se habla de itinerario se hace referencia al recorrido, y al tipo de actividades y servicios incluidos en el paquete (ver tabla 5):
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-right")
-      span.text-small.mb-0 Tabla 5 
+      span.text-small.mb-0.text-bold Tabla 5 
       span.text-small.mb-0 Itinerario de un paquete turístico
     .tabla-c(data-aos="fade-up")
       table
@@ -1564,7 +1564,7 @@
           .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-1.png')
         h3.text-dark Programas de estancia
-        p.text-dark Incluyen la combinación de un medio de transporte y una estancia en algún alojamiento turístico. no suele haber horarios o excursiones preestablecidas. Se usa para playas, campo o montañas.
+        p.text-dark Incluyen la combinación de un medio de transporte y una estancia en algún alojamiento turístico. No suele haber horarios o excursiones preestablecidas. Se usa para playas, campo o montañas.
 
       .tarjeta.otra.p-4.fondo19
         .row.justify-content-start.mb-3
@@ -1601,7 +1601,7 @@
           .col-xxl-4.col-md-4.col-4
             img(src='@/assets/curso/tema1/slider2-7.png')
         h3.text-dark Viajes a medida
-        p.text-dark De acuerdo a las requerimientos o preferencias del cliente, incluyendo en el producto final todos los servicios necesarios como transporte, alojamiento y experiencias.
+        p.text-dark De acuerdo a los requerimientos o preferencias del cliente, incluyendo en el producto final todos los servicios necesarios como transporte, alojamiento y experiencias.
     .row.fondo29.ampliarambos
       .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.px-5(data-aos="fade-up-right")
         p.mb-4 Los elementos fundamentales de un paquete turístico deben tener en cuenta:
@@ -1655,7 +1655,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Creación o diseño del producto - Análisis de Información
-            p Se debe trabajar sobre las necesidades del cliente para realizar la investigación de mercado del producto turístico que ofreceremos. debemos conocer el perfil del pasajero, sus intereses, sus expectativas, así como tener en claro el tipo de turismo en el cual se especializa la agencia y conocer todos los tipos de actividades turísticas existentes.
+            p Se debe trabajar sobre las necesidades del cliente para realizar la investigación de mercado del producto turístico que ofreceremos. Debemos conocer el perfil del pasajero, sus intereses, sus expectativas, así como tener en claro el tipo de turismo en el cual se especializa la agencia y conocer todos los tipos de actividades turísticas existentes.
         
           .col-md-7
             figure
@@ -1708,7 +1708,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Promoción del producto
-            p Debemos elegir el medio por el cual se va promocionar el paquete turístico, bien sea a través de redes sociales, <i>e-mail</i>, llamadas telefónicas, presencial etc. aquí es fundamental contar con una buena base de datos de potenciales clientes (los que siempre nos compran, los que nos compraron alguna vez o los que sólo preguntaron), y para ello contar con un CRM turístico es muy importante, porque sabremos exactamente que quiere cada cliente, y nos permitirá personalizar las ofertas.
+            p Debemos elegir el medio por el cual se va a promocionar el paquete turístico, bien sea a través de redes sociales, <i>e-mail</i>, llamadas telefónicas, presencial, etc. Aquí es fundamental contar con una buena base de datos de potenciales clientes (los que siempre nos compran, los que nos compraron alguna vez o los que sólo preguntaron), y para ello contar con un CRM turístico es muy importante, porque sabremos exactamente que quiere cada cliente, y nos permitirá personalizar las ofertas.
         
           .col-md-7
             figure
@@ -1724,7 +1724,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Control de calidad y seguimiento de la venta
-            p Se recomienda fuertemente que, luego de finalizado el viaje, se llame al cliente para consultarle como estuvo el mismo, en que podemos mejorar, y cualquier otro dato del viaje y del cliente que sea importante para fidelizar a este último
+            p Se recomienda fuertemente que, luego de finalizado el viaje, se llame al cliente para consultarle como estuvo el mismo, en que podemos mejorar, y cualquier otro dato del viaje y del cliente que sea importante para fidelizar a este último.
         
           .col-md-7
             figure
@@ -1742,7 +1742,7 @@
               p El cliente vive la experiencia ofrecida en el paquete turístico y obtiene una percepción favorable o desfavorable al respecto.
           .row(titulo="Fase después del consumo del paquete turístico")
             .col-md-11
-              p la experiencia generada se califica y se difunde a otros turistas por medio de la voz a voz. En esta fase consolidamos o no, la fidelidad al producto y marca.
+              p La experiencia generada se califica y se difunde a otros turistas por medio del voz a voz. En esta fase consolidamos o no, la fidelidad al producto y marca.
       .col-xxl-6.col-xl-6.col-lg-5.col-md-8.col-sm-11.col-11(data-aos="fade-up-left")
         img(src='@/assets/curso/tema1/imagen24.jpg')
 
@@ -1918,7 +1918,7 @@
             h4 <i>Resort</i>
             p Hotel orientado hacia la recreación.
             p Cuentan con varios restaurantes, piscinas. 
-            p En ocasiones se llega a percibir como destinos “ todo incluido” 
+            p En ocasiones se llega a percibir como destinos “todo incluido” 
             p Cobra una sola tarifa Tienden a estar en categoría de calidad o lujo.
 
           .col-lg-7.col-md-8
@@ -1928,8 +1928,8 @@
           .col-lg-4.col-md-10.mb-4.mb-md-0
             h4 Hotel Casino
             p Hotel que tiene juegos de azar.
-            p En algunos lugares ( especial mente en Europa) los hoteles casinos son sofisticados y elegantes.
-            p En otros lugares ( especial mete en las vegas) son <i>resort</i> extravagantes.
+            p En algunos lugares (especialmente en Europa) los hoteles casinos son sofisticados y elegantes.
+            p En otros lugares (especialmente en Las Vegas) son <i>resort</i> extravagantes.
           .col-lg-7.col-md-8
             figure
               img(src='@/assets/curso/tema1/casino.png')
@@ -2016,10 +2016,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Hoteles de Naturaleza
-            p Están situados en las proximidades de parajes naturales de interés como parques naturales, reservas y áreas protegidas. Las estancias suelen ser de varios días. El turismo ecológico es una de las actividades que esta creciendo por la variedades que la naturaleza y las costumbres que los habitantes nos brindan, aunque la naturaleza como la única y verdadera fuente de descanso y paz por lo tanto tenemos que ser muy responsables para no causar daño a la naturaleza ni a los nativos de la región. Debido a su rápido crecimiento han contribuido al desarrollo de la actividad turística. Ejemplo: Ecohabs Minca (Santa Marta, Colombia)
-            .row.justify-content-center
-              .col-xxl-4.col-xl-4.col-lg-5.col-md-6.col-sm-3.col-3
-                img(src='@/assets/curso/tema1/formula.svg')
+            p Están situados en las proximidades de parajes naturales de interés como parques naturales, reservas y áreas protegidas. Las estancias suelen ser de varios días. El turismo ecológico es una de las actividades que esta creciendo por las variedades que la naturaleza y las costumbres que los habitantes nos brindan, aunque la naturaleza como la única y verdadera fuente de descanso y paz, por lo tanto tenemos que ser muy responsables para no causar daño a la naturaleza ni a los nativos de la región. Debido a su rápido crecimiento han contribuido al desarrollo de la actividad turística. Ejemplo: Ecohabs Minca (Santa Marta, Colombia)
           .col-md-7
             figure
               img(src='@/assets/curso/tema1/slider35.png')
@@ -2052,18 +2049,18 @@
     p.my-5(data-aos="fade-up-right") Según la explotación comercial, modalidad o temática escogida para llevar a cabo su oferta, los hoteles pueden especializarse en las siguientes:
     .row.justify-content-around(data-aos="fade-up-right")
       .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-11.col-11.fondo37.p-5.mb-5
-        h4.mb-4 Dimensión socio cultural
+        h4.mb-4 Dimensión sociocultural
         p Hace referencia al respeto por la identidad de las comunidades anfitrionas, su cultura, valores y tradiciones. También a la preservación de los activos culturales, arquitectónicos y arqueológicos de los destinos, y a la protección del patrimonio inmaterial y las costumbres ancestrales de comunidades étnicas (Política de Turismo Sostenible, MINCIT 2012).
       .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-11.col-11.fondo38.p-5.mx-1.mb-5
         h4.mb-4 Dimensión ambiental 
         p Gestión óptima de los recursos naturales que están en la base del desarrollo turístico, y a la conservación del medio ambiente y de los ecosistemas, que soportan la vida de distintas especies y la salud del ser humano.
       .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-11.col-11.fondo39.p-5.mb-5
         h4.mb-4 Dimensión económica
-        p El turismo sostenible debe ser rentable y debe haber una distribución equitativa de los beneficios socio-económicos como el empleo estable y la obtención de ingresos y servicios sociales para las comunidades anfitrionas.
+        p El turismo sostenible debe ser rentable y debe haber una distribución equitativa de los beneficios socioeconómicos como el empleo estable y la obtención de ingresos y servicios sociales para las comunidades anfitrionas.
     .row(data-aos="fade-up-right")
       .col-xxl-5.col-xl-5.col-lg-6.col-md-9.col-sm-12.col-12.fondomundo3.ps-4
         h4.ps-5.pt-5.ms-5.mt-3 Colombia y el turismo sostenible
-      p.my-5 El compromiso de Colombia con la sostenibilidad inició en el año 2012, cuando el país definió los ODS (Objetivos de Desarrollo Sostenible) en la Cumbre de Rio de Janeiro. Este evento estuvo enfocado en los requerimientos económicos e institucionales para el desarrollo sostenible y allí Colombia defendió la necesidad de realizar prácticas sostenibles cuando de turismo se habla y adicionalmente mencionó que los ODS deberían ser aplicados en todos los países y no solo en las economías emergentes a las que estaban inicialmente dirigidos (ver figura 13). 
+      p.my-5 El compromiso de Colombia con la sostenibilidad inició en el año 2012, cuando el país definió los ODS (Objetivos de Desarrollo Sostenible) en la Cumbre de Río de Janeiro. Este evento estuvo enfocado en los requerimientos económicos e institucionales para el desarrollo sostenible y allí Colombia defendió la necesidad de realizar prácticas sostenibles cuando de turismo se habla y adicionalmente mencionó que los ODS deberían ser aplicados en todos los países y no solo en las economías emergentes a las que estaban inicialmente dirigidos (ver figura 13). 
     .row.justify-content-center.mb-5(data-aos="fade-up-right")
       .col-xxl-10.col-xl-10.col-lg-10.col-md-11.col-sm-11.col-11
         .cajon.puntacajon.p-4.mb-4.fondo17.sombracajon
@@ -2088,7 +2085,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p Las Naciones Unidas y la Organización Mundial del Turismo, han formulado el código ético mundial, para llevar a cabo una práctica responsable y sostenible de gobiernos, empresas, comunidades y turistas, con responsabilidad en cada uno de sus territorios, en el siguiente enlace podrá consultarlo:
+                  p Las Naciones Unidas y la Organización Mundial del Turismo, han formulado el Código Ético Mundial para el Turismo, para llevar a cabo una práctica responsable y sostenible de gobiernos, empresas, comunidades y turistas, con responsabilidad en cada uno de sus territorios, en el siguiente enlace podrá consultarlo:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2019-10/gcetpassportglobalcodees.pdf" target="_blank")
                     span Ingresar
@@ -2111,7 +2108,7 @@
           p(numero="3" titulo="Clima frío") La temperatura oscila entre los 12º C y los 17º C. Ejemplo de éste clima es la ciudad de Bogotá, la cual fusiona historia, patrimonio y modernidad, en donde hay variedad de museos y centros culturales, como el Museo del Oro del Banco de la República.
           p(numero="4" titulo="Páramos") En estas zonas, las temperaturas oscilan entre los 6º C y los 12º C. El parque Nacional Natural Chingaza, en el cual habitan especies como venados de cola blanca, cóndores y osos andinos.
           p(numero="5" titulo="Zonas glaciares") Tienen una temperatura inferior a los 6º C. En la Sierra Nevada de Santa Marta, se puede apreciar paisajes nevados, además de practicar el <i>trekking</i>.
-          p(numero="6" titulo="Selvas tropicales") Son hábitats calurosos y húmedos, y las temperaturas superan los 27º C. En Colombia, la región del Amazonas es una selva tropical, con gran riqueza de paisajes naturales.hábitats calurosos y húmedos, y las temperaturas superan los 27º C. En Colombia, la región del Amazonas es una selva tropical, con gran riqueza de paisajes naturales.
+          p(numero="6" titulo="Selvas tropicales") Son hábitats calurosos y húmedos, y las temperaturas superan los 27º C. En Colombia, la región del Amazonas es una selva tropical, con gran riqueza de paisajes naturales. Hábitats calurosos y húmedos, y las temperaturas superan los 27º C. En Colombia, la región del Amazonas es una selva tropical, con gran riqueza de paisajes naturales.
           p(numero="7" titulo="Tropical de estepa") Se caracteriza por sus altas temperaturas, sus lluvias mínimas y muy poca vegetación, con temperaturas que sobrepasan los 34º C. La Guajira es un ejemplo de este clima, en donde se puede disfrutar de paisajes desérticos, visitar las rancherías y conocer algo más de la cultura <i>Wayuu</i>.
       .col-xxl-6.col-xl-6.col-lg-5.col-md-8.col-sm-11.col-11.my-5(data-aos="fade-up-right")
         img(src='@/assets/curso/tema1/imagen31.jpg')
@@ -2213,7 +2210,7 @@
                 p.mt-5 ANATO (Asociación Nacional de Agencias de Viajes y Turismo) viene trabajando con sus Agencias Asociadas para recolectar los datos en las Encuestas de Temporada, las cuales presentan datos asociados a las ventas de las Agencias en las cuatro temporadas altas del año y en la actualidad, mediante la Encuesta Trimestral que mide los resultados de las Agencias para cada trimestre en específico.
     p.my-5(data-aos="fade-up-right") El Ministerio de Comercio, Industria y Turismo de Colombia, en su plataforma Centro de Información Turística de Colombia, CITUR, establece la medición de una serie de datos, que permiten obtener estadísticas puntuales, estos son (ver tabla 6):
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-right")
-      span.text-small.mb-0 Tabla 6 
+      span.text-small.mb-0.text-bold Tabla 6 
       span.text-small.mb-0 Datos Estadísticos CITUR
     <table>
       <tr style="align-items: center;">
@@ -2300,14 +2297,14 @@ export default {
         titulo:
           '<p style="color: #111E61; font-weight: 700; margin-left: 0;">Edad media</p>',
         texto:
-          '<ul style="list-style-type: disc; margin-left: 20px; color:#008BD2;"><li><p style="color: #111E61;">Primeros peregrinaciones hacia lugares cristianos.</p></li><li><p style="color: #111E61;">Surgen las Cruzadas con el objetivo de recuperar territorios cristianos invadidos por los árabes.</p></li><li><p style="color: #111E61;">Primeros mapas y rutas de caminos de peregrinación.</p></li><li><p style="color: #111E61;">Nacen los refugios y hospedajes en dichos caminos por Europa.</p></li></ul>',
+          '<ul style="list-style-type: disc; margin-left: 20px; color:#008BD2;"><li><p style="color: #111E61;">Primeras peregrinaciones hacia lugares cristianos.</p></li><li><p style="color: #111E61;">Surgen las Cruzadas con el objetivo de recuperar territorios cristianos invadidos por los árabes.</p></li><li><p style="color: #111E61;">Primeros mapas y rutas de caminos de peregrinación.</p></li><li><p style="color: #111E61;">Nacen los refugios y hospedajes en dichos caminos por Europa.</p></li></ul>',
         icono: require('@/assets/curso/tema1/media.png'),
       },
       {
         titulo:
           '<p style="color: #111E61; font-weight: 700; margin-right: 0;">Edad moderna</p>',
         texto:
-          '<p style="color: #111E61; margin-right: 0;">Aparecen las primeras formas de alojamiento y surge el concepto de Hotel. Por cuenta de los viajes a América, aparece la geografía como ciencia. Surgen las expediciones para jóvenes aristócratas <i>“El Grand Tour”</i>.Aumenta la demanda de visitas a aguas termales.</p>',
+          '<p style="color: #111E61; margin-right: 0;">Aparecen las primeras formas de alojamiento y surge el concepto de Hotel. Por cuenta de los viajes a América, aparece la geografía como ciencia. Surgen las expediciones para jóvenes aristócratas <i>“El Grand Tour”</i>. Aumenta la demanda de visitas a aguas termales.</p>',
         icono: require('@/assets/curso/tema1/moderna.png'),
       },
       {
