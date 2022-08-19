@@ -321,7 +321,7 @@ export default {
       referencia:
         'Redacción El Tiempo. (16 de octubre 2008). 25 Hitos de la historia del turismo colombiano. EL TIEMPO.',
       tipo: 'Artículo',
-      descarga: 'downloads/25 hitos de la historia del turismo colombiano.pdf',
+      descarga: 'downloads/25_hitos_de_la_historia_del_turismo_colombiano.pdf',
     },
     {
       tema: 'Producto Turístico',

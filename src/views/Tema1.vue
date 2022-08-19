@@ -122,7 +122,7 @@
     p.mb-5 El turismo, más que una simple actividad, consiste en viajar a un lugar diferente al del entorno habitual, se considera que este viaje debe durar mínimo 24 horas y máximo 365 días.  Entre los diferentes elementos o factores que le corresponden se encuentran:
     .row.justify-content-center.fondo47
       .col-xxl-5.col-lg-5.col-5.p-0(data-aos="fade-up-left")
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-secundario.moverdots.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema1/figurainfo1.svg')
