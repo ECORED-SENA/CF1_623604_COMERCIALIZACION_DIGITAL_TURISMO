@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="337.354" height="321.953" viewBox="0 0 337.354 321.953">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectángulo_275445" data-name="Rectángulo 275445" d="M17.3,0H310.145a17.3,17.3,0,0,1,17.3,17.3V253.831a17.3,17.3,0,0,1-17.3,17.3H17.3A17.3,17.3,0,0,1,0,253.832V17.3A17.3,17.3,0,0,1,17.3,0Z" fill="#bbdbfa"/>
+    </clipPath>
+    <filter id="Unión_2" x="0" y="0" width="337.354" height="296.125" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_275449" data-name="Rectángulo 275449" width="280.952" height="290.113" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectángulo_275448" data-name="Rectángulo 275448" width="76.566" height="84.704" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_765820" data-name="Grupo 765820" transform="translate(-28.45 -6426.312)">
+    <g id="Grupo_765819" data-name="Grupo 765819">
+      <g id="Grupo_731741" data-name="Grupo 731741" transform="translate(33.4 6472.553)">
+        <g id="Grupo_731713" data-name="Grupo 731713" clip-path="url(#clip-path)">
+          <path id="Trazado_496670" data-name="Trazado 496670" d="M0,0H327.447V271.133H0Z" fill="#bbdbfa"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 28.45, 6426.31)" filter="url(#Unión_2)">
+        <path id="Unión_2-2" data-name="Unión 2" d="M140.924,245.677,122.19,214.032q-.094-.158-.175-.32H18a18,18,0,0,1-18-18V18A18,18,0,0,1,18,0H271.354a18,18,0,0,1,18,18V195.712a18,18,0,0,1-18,18H168.438q-.081.161-.175.32l-18.734,31.645a5,5,0,0,1-8.6,0Z" transform="translate(24 21)" fill="#fff"/>
+      </g>
+      <g id="Grupo_765818" data-name="Grupo 765818" transform="translate(-368 -18.979)">
+        <g id="Grupo_731748" data-name="Grupo 731748" transform="translate(419 6477.131)">
+          <g id="Grupo_731720" data-name="Grupo 731720" clip-path="url(#clip-path-2)">
+            <g id="Grupo_731719" data-name="Grupo 731719" transform="translate(7.301 205.408)" opacity="0.6" style="mix-blend-mode: multiply;isolation: isolate">
+              <g id="Grupo_731718" data-name="Grupo 731718">
+                <g id="Grupo_731717" data-name="Grupo 731717" clip-path="url(#clip-path-3)">
+                  <g id="Grupo_731716" data-name="Grupo 731716" transform="translate(0)">
+                    <g id="Grupo_731715" data-name="Grupo 731715" clip-path="url(#clip-path-3)">
+                      <image id="Rectángulo_275446" data-name="Rectángulo 275446" width="76.566" height="80.596" xlink:href="data:image/png;base64,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"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text id="_01" data-name="01" transform="translate(434.675 6738.865)" fill="#12263f" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">01</tspan></text>
+      </g>
+      <text id="Turista_" data-name="Turista
+
+
+" transform="translate(157.684 6705)" fill="#12263f" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="25">Turista</tspan></text>
+    </g>
+  </g>
+</svg>

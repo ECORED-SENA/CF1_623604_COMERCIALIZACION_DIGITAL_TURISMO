@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="559.861" height="506" viewBox="0 0 559.861 506">
+  <defs>
+    <filter id="Rectángulo_287317" x="0" y="336" width="559.861" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_287318" x="0" y="255" width="559.861" height="74.75" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_287320" x="0" y="0" width="559.861" height="71.75" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_292473" x="0" y="74.178" width="559.861" height="96.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_287319" x="0" y="176" width="559.861" height="73.75" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_765822" data-name="Grupo 765822" transform="translate(-773.447 -5584.793)">
+    <g transform="matrix(1, 0, 0, 1, 773.45, 5584.79)" filter="url(#Rectángulo_287317)">
+      <rect id="Rectángulo_287317-2" data-name="Rectángulo 287317" width="550.861" height="161" transform="translate(4.5 338.5)" fill="#f3f9ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 773.45, 5584.79)" filter="url(#Rectángulo_287318)">
+      <rect id="Rectángulo_287318-2" data-name="Rectángulo 287318" width="550.861" height="65.75" transform="translate(4.5 257.5)" fill="#f3f9ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 773.45, 5584.79)" filter="url(#Rectángulo_287320)">
+      <rect id="Rectángulo_287320-2" data-name="Rectángulo 287320" width="550.861" height="62.75" transform="translate(4.5 2.5)" fill="#f3f9ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 773.45, 5584.79)" filter="url(#Rectángulo_292473)">
+      <rect id="Rectángulo_292473-2" data-name="Rectángulo 292473" width="550.861" height="87.213" transform="translate(4.5 76.68)" fill="#f3f9ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 773.45, 5584.79)" filter="url(#Rectángulo_287319)">
+      <rect id="Rectángulo_287319-2" data-name="Rectángulo 287319" width="550.861" height="64.75" transform="translate(4.5 178.5)" fill="#f3f9ff"/>
+    </g>
+    <text id="Ampliación_de_la_tarifa_especial_del_9_del_impuesto_sobre_la_renta_para_la_construcción_de_hoteles_nuevos_parques_temáticos_nuevos_y_remodelación_de_estos:_el_tiempo_de_construcción_se_amplió_de_4_a_6_años._Además_en_este_beneficio_se_incluyeron_los_ser" data-name="Ampliación de la tarifa especial del 9% del impuesto sobre la renta para la construcción de hoteles nuevos, parques temáticos nuevos y remodelación de estos: el tiempo de construcción se amplió de 4 a 6 años. Además, en este beneficio se incluyeron los ser" transform="translate(787.947 5946.293)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Ampliación de la tarifa especial del 9% del impuesto sobre la renta para la </tspan><tspan x="0" y="41">construcción de hoteles nuevos, parques temáticos nuevos y </tspan><tspan x="0" y="65">remodelación de estos: el tiempo de construcción se amplió de 4 a 6 </tspan><tspan x="0" y="89">años. Además, en este beneficio se incluyeron los servicios prestados en </tspan><tspan x="0" y="113">nuevos centros de asistencia para el turista adulto mayor.</tspan></text>
+    <text id="Reducción_del_IVA_en_los_tiquetes_aéreos:_pasará_del_19_al_5_hasta_el_31_de_diciembre_de_2022._" data-name="Reducción del IVA en los tiquetes aéreos: pasará del 19% al 5% hasta el 31 de diciembre de 2022.
+" transform="translate(788.947 5596.293)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Reducción del IVA en los tiquetes aéreos: pasará del 19% al 5% hasta el 31 </tspan><tspan x="0" y="41">de diciembre de 2022.</tspan></text>
+    <text id="Suspensión_transitoria_del_pago_de_la_sobretasa_a_la_energía:_para_los_prestadores_de_servicios_turísticos_de_los_subsectores_hotelero_alojamiento_eventos_y_parques._" data-name="Suspensión transitoria del pago de la sobretasa a la energía: para los prestadores de servicios turísticos de los subsectores hotelero, alojamiento, eventos y parques. 
+" transform="translate(788.947 5670.471)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Suspensión transitoria del pago de la sobretasa a la energía: para los </tspan><tspan x="0" y="41">prestadores de servicios turísticos de los subsectores hotelero, </tspan><tspan x="0" y="65">alojamiento, eventos y parques. </tspan></text>
+    <text id="Reducción_transitoria_del_impuesto_al_consumo_al_0_y_la_exención_del_IVA:_para_servicios_de_hotelería_y_turismo_hasta_el_31_de_diciembre_de_2021._" data-name="Reducción transitoria del impuesto al consumo al 0% y la exención del IVA: para servicios de hotelería y turismo hasta el 31 de diciembre de 2021.  " transform="translate(788.947 5769.293)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Reducción transitoria del impuesto al consumo al 0% y la exención del IVA: </tspan><tspan x="0" y="41" xml:space="preserve">para servicios de hotelería y turismo hasta el 31 de diciembre de 2021.  </tspan></text>
+    <text id="Eliminación_del_pago_de_la_sanción_para_la_reactivación_del_Registro_Nacional_de_Turismo_RNT_:_hasta_marzo_de_2021." data-name="Eliminación del pago de la sanción para la reactivación del Registro Nacional de Turismo (RNT):  hasta marzo de 2021." transform="translate(788.947 5850.293)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Eliminación del pago de la sanción para la reactivación del Registro </tspan><tspan x="0" y="41" xml:space="preserve">Nacional de Turismo (RNT):  hasta marzo de 2021.</tspan></text>
+  </g>
+</svg>

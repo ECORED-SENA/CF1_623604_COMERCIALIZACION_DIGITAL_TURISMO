@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375.016" height="558" viewBox="0 0 375.016 558">
+  <defs>
+    <filter id="Trazado_515169" x="273.697" y="13.268" width="101.318" height="81.041" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_515174" x="273.697" y="370.268" width="101.318" height="81.041" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_515172" x="273.697" y="177.479" width="101.318" height="81.041" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_765837" data-name="Grupo 765837" transform="translate(-285 -2608.83)">
+    <g id="Rectángulo_291452" data-name="Rectángulo 291452" transform="translate(285 2608.83)" fill="#ffb338" stroke="#e89c21" stroke-width="3">
+      <rect width="247" height="96" rx="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="244" height="93" rx="8.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_291467" data-name="Rectángulo 291467" transform="translate(285 2965.83)" fill="#ffb338" stroke="#e89c21" stroke-width="3">
+      <rect width="247" height="96" rx="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="244" height="93" rx="8.5" fill="none"/>
+    </g>
+    <g id="Trazado_515171" data-name="Trazado 515171" transform="translate(285 2775.83)" fill="#5f914e">
+      <path d="M 237 94.5 L 10 94.5 C 5.313093662261963 94.5 1.5 90.68690490722656 1.5 86 L 1.5 10 C 1.5 5.313093662261963 5.313093662261963 1.5 10 1.5 L 237 1.5 C 241.6869049072266 1.5 245.5 5.313093662261963 245.5 10 L 245.5 86 C 245.5 90.68690490722656 241.6869049072266 94.5 237 94.5 Z" stroke="none"/>
+      <path d="M 10 3 C 6.14019775390625 3 3 6.14019775390625 3 10 L 3 86 C 3 89.85980224609375 6.14019775390625 93 10 93 L 237 93 C 240.8598022460938 93 244 89.85980224609375 244 86 L 244 10 C 244 6.14019775390625 240.8598022460938 3 237 3 L 10 3 M 10 0 L 237 0 C 242.5228271484375 0 247 4.477134704589844 247 10 L 247 86 C 247 91.52283477783203 242.5228271484375 96 237 96 L 10 96 C 4.4771728515625 96 0 91.52283477783203 0 86 L 0 10 C 0 4.477134704589844 4.4771728515625 0 10 0 Z" stroke="none" fill="#4c793d"/>
+    </g>
+    <g id="Rectángulo_291458" data-name="Rectángulo 291458" transform="translate(305 2690.83)" fill="#fff" stroke="#e89c21" stroke-width="3">
+      <rect width="247" height="96" rx="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="244" height="93" rx="8.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_291468" data-name="Rectángulo 291468" transform="translate(305 3047.83)" fill="#fff" stroke="#e89c21" stroke-width="3">
+      <rect width="247" height="119" rx="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="244" height="116" rx="8.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_291464" data-name="Rectángulo 291464" transform="translate(305 2857.83)" fill="#fff" stroke="#4c793d" stroke-width="3">
+      <rect width="247" height="123" rx="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="244" height="120" rx="8.5" fill="none"/>
+    </g>
+    <text id="Número_de_participantes_" data-name="Número de participantes
+" transform="translate(353 2631.83)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="10.944" y="19">Número de </tspan><tspan x="1.794" y="44">participantes</tspan></text>
+    <text id="transporte_utilizado_" data-name="transporte utilizado
+" transform="translate(353 2988.83)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="12.93" y="19">transporte </tspan><tspan x="20.388" y="44">utilizado</tspan></text>
+    <text id="Zona_geográfica_del_destino_" data-name="Zona geográfica del destino
+" transform="translate(335 2798.83)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="7.788" y="19">Zona geográfica </tspan><tspan x="29.057" y="44">del destino</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 285, 2608.83)" filter="url(#Trazado_515169)">
+      <path id="Trazado_515169-2" data-name="Trazado 515169" d="M-3411.682,3821.29h50.99v13.667l32.329-30.418-32.329-32.622V3786.9h-50.99Z" transform="translate(3694.38 -3752.65)" fill="#e89c21"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 285, 2608.83)" filter="url(#Trazado_515174)">
+      <path id="Trazado_515174-2" data-name="Trazado 515174" d="M-3411.682,3821.29h50.99v13.667l32.329-30.418-32.329-32.622V3786.9h-50.99Z" transform="translate(3694.38 -3395.65)" fill="#e89c21"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 285, 2608.83)" filter="url(#Trazado_515172)">
+      <path id="Trazado_515172-2" data-name="Trazado 515172" d="M-3411.682,3821.29h50.99v13.667l32.329-30.418-32.329-32.622V3786.9h-50.99Z" transform="translate(3694.38 -3588.44)" fill="#5f914e"/>
+    </g>
+    <g id="Grupo_750577" data-name="Grupo 750577" transform="translate(0 -12286.17)">
+      <text id="Individuales_no_requieren_un_mínimo_de_viajeros_o_grupales._" data-name="Individuales (no requieren un mínimo de viajeros) o grupales.
+" transform="translate(332 14991)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Individuales (no requieren un </tspan><tspan x="0" y="41">mínimo de viajeros) o </tspan><tspan x="0" y="65">grupales.</tspan></text>
+      <circle id="Elipse_6671" data-name="Elipse 6671" cx="3.5" cy="3.5" r="3.5" transform="translate(317 14998)" fill="#e89c21"/>
+    </g>
+    <g id="Grupo_750585" data-name="Grupo 750585" transform="translate(0 -11908.17)">
+      <text id="Marítimos_aéreos_terrestres_o_mixtos._" data-name="Marítimos, aéreos, terrestres o mixtos.
+" transform="translate(332 14991)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Marítimos, aéreos, terrestres </tspan><tspan x="0" y="41">o mixtos.</tspan></text>
+      <circle id="Elipse_6671-2" data-name="Elipse 6671" cx="3.5" cy="3.5" r="3.5" transform="translate(317 14998)" fill="#e89c21"/>
+    </g>
+    <g id="Grupo_750580" data-name="Grupo 750580" transform="translate(0 -12106.17)">
+      <text id="Playas_costas_montañas_etc._" data-name="Playas, costas, montañas, etc.
+" transform="translate(332 14991)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Playas, costas, montañas, </tspan><tspan x="0" y="41">etc.</tspan><tspan x="0" y="65"></tspan></text>
+      <circle id="Elipse_6671-3" data-name="Elipse 6671" cx="3.5" cy="3.5" r="3.5" transform="translate(317 14998)" fill="#5f914e"/>
+    </g>
+  </g>
+</svg>
